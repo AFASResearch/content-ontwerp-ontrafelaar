@@ -1,10 +1,10 @@
 ---
-name: bericht-en-documentsjablonen
-description: 'Breng de impact van een ontwerp op bericht- en documentsjablonen in kaart: nieuwe of gewijzigde e-mailberichten, brieven, documenten en correspondentiesjablonen in Profit, InSite of OutSite. Gebruik bij vragen als: welke sjablonen zijn nodig, moet er een berichtsjabloon aangepast, e-mailsjabloon, documentsjabloon, correspondentie, welke velden uit de gegevensverzameling als tag.'
+name: berichtsjabloon
+description: 'Breng de berichtsjabloon-impact van een ontwerp in kaart: welke e-mailberichten (berichtsjablonen) in Profit nieuw gebouwd, aangepast of gecontroleerd moeten worden, welke velden uit de gegevensverzameling als tag nodig zijn en welke tekst en onderwerp erin komen. Gebruik bij vragen als: welke berichtsjablonen zijn nodig, moet er een berichtsjabloon aangepast, e-mailsjabloon, mailsjabloon, welke tags in het bericht.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
-# Bericht- & documentsjablonen-analyse
+# Berichtsjabloon-analyse
 
 ## Doel
 
@@ -39,8 +39,6 @@ Staat het woord **berichtsjabloon** (of een variant) letterlijk in het ontwerp, 
 | Term | Varianten |
 |------|-----------|
 | **Berichtsjabloon** | berichtsjabloon, e-mailsjabloon, mailsjabloon |
-| **Documentsjabloon** | documentsjabloon, briefsjabloon, Word-sjabloon |
-| **Correspondentie** | correspondentie, brief, uitnodiging, bevestiging |
 
 ### B) Impliciete signalen
 
@@ -52,7 +50,6 @@ Ook zonder het woord "berichtsjabloon" kan er een sjabloon nodig zijn:
 | **Workflowbericht** | "bij afkeuring krijgt de aanvrager bericht" |
 | **Signaal met e-mail** | een signaaldefinitie die automatisch een e-mailbericht verstuurt |
 | **Nieuwe gegevens in een bericht** | "het bericht bevat voortaan ook veld X" |
-| **Document als uitkomst** | "er wordt een contract gegenereerd", "de gebruiker downloadt een pdf" |
 | **Anderstalige ontvanger** | "ook voor buitenlandse vestigingen" |
 
 Bij een impliciet signaal: markeer als `te weinig info` als het ontwerp niet expliciet om een berichtsjabloon vraagt, en zet het door als vraag aan de ontwerper.
@@ -68,7 +65,6 @@ Lever per sjabloon **drie blokken** op: eerst de kop, dan de velden, dan de teks
 | Veld | Inhoud |
 |------|--------|
 | **Omschrijving** | Naam van het sjabloon **inclusief `(Profit)`**, bijv. `Uitnodigen sollicitant (Profit)` |
-| **Type** | Berichtsjabloon (e-mail) / documentsjabloon |
 | **Gevraagde actie** | `nieuw bouwen + inchecken` / `aanpassen` / `controleren` |
 | **Aanleiding** | Welke gebeurtenis, processtap of signaal het bericht triggert |
 | **Ontvanger** | Wie de mail ontvangt |
@@ -119,6 +115,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 
 - Technische mailserver-/SMTP-instellingen
 - Huisstijl, beeldmateriaal en centrale opmaakrichtlijnen
+- Brieven, documenten en correspondentiesjablonen (valt onder skill `documentsjabloon`)
 - Het uitwerken van de vertalingen zelf (valt onder skill `vertalingen`)
 - Vertalingen van teksten buiten sjablonen (veldlabels, menunamen, meldingen)
 - De signaaldefinitie die het bericht aanroept (valt onder skill `signalen`)
@@ -170,5 +167,4 @@ Sluit af met een blok "Content" dat beantwoordt:
 - Exact menupad voor sjabloonbeheer in Profit
 - Werkwijze en voorwaarden voor het inchecken van een sjabloon
 - Standaardteksten en bouwstenen die hergebruikt kunnen worden (aanhef, ondertekening, links)
-- Documentsjablonen: eigen opbouw en velden, nu nog beknopt beschreven
 

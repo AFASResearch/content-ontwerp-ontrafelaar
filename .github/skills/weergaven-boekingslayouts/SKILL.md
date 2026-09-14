@@ -60,7 +60,7 @@ Volledig in kaart brengen welke **weergaven en boekingslayouts** een ontwerp raa
 - Klantspecifieke eigen weergaven
 - Technische performance van weergaven
 - Autorisatie op weergaven (valt onder skill `autorisatie`)
-- Rapporten en analyses (valt onder skill `documenten-rapporten-analyses`)
+- Rapporten (valt onder skill `rapporten`) en analyses (valt onder skill `analyses`)
 - Veldzichtbaarheid per profiel (valt onder skill `profielen-en-veldcontexten`)
 
 ---

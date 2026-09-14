@@ -101,21 +101,23 @@ Roep **alle** skills hieronder altijd aan. De skill bepaalt zelf of er impact is
 
 | # | Skill | Onderwerp |
 |---|-------|-----------|
-| 1 | `documenten-rapporten-analyses` | Documenten / rapporten / analyses |
-| 2 | `profielen-en-veldcontexten` | Profielen en veldcontexten |
-| 3 | `icoontjes` | Icoontjes |
-| 4 | `paginas-outsite` | Pagina's OutSite (inclusief vaste check op OutSite-profielen) |
-| 5 | `autorisatie` | Autorisatiegroep (Profit) **én** autorisatierollen (InSite/OutSite) |
-| 6 | `informatiebolletje` | Veldinfo content (informatiebolletje) |
-| 7 | `pocket` | Pocket |
-| 8 | `portalpagina-insite` | Portalpagina / opmaak standaardpagina's controleren (InSite) |
-| 9 | `weergaven-boekingslayouts` | Weergaven / boekingslayouts |
-| 10 | `workflow-condities` | Workflow / condities |
-| 11 | `bericht-en-documentsjablonen` | Bericht- & documentsjablonen |
-| 12 | `signalen` | Signalen |
-| 13 | `vertalingen` | Vertalingen — **alleen** voor teksten van berichtsjablonen en signalen |
+| 1 | `rapporten` | Rapporten en rapportlayouts |
+| 2 | `analyses` | Analyses en gegevensverzamelingen |
+| 3 | `documentsjabloon` | Documenten, brieven en correspondentie |
+| 4 | `profielen-en-veldcontexten` | Profielen en veldcontexten |
+| 5 | `icoontjes` | Icoontjes |
+| 6 | `paginas-outsite` | Pagina's OutSite (inclusief vaste check op OutSite-profielen) |
+| 7 | `autorisatie` | Autorisatiegroep (Profit) **én** autorisatierollen (InSite/OutSite) |
+| 8 | `informatiebolletje` | Veldinfo content (informatiebolletje) |
+| 9 | `pocket` | Pocket |
+| 10 | `portalpagina-insite` | Portalpagina / opmaak standaardpagina's controleren (InSite) |
+| 11 | `weergaven-boekingslayouts` | Weergaven / boekingslayouts |
+| 12 | `workflow-condities` | Workflow / condities |
+| 13 | `berichtsjabloon` | Berichtsjablonen (e-mail) |
+| 14 | `signalen` | Signalen |
+| 15 | `vertalingen` | Vertalingen — **alleen** voor teksten van berichtsjablonen en signalen |
 
-> **Volgorde is bindend voor `vertalingen`**: roep deze skill aan **na** `bericht-en-documentsjablonen` en `signalen`, want hij werkt op de teksten die die twee skills opleveren.
+> **Volgorde is bindend voor `vertalingen`**: roep deze skill aan **na** `berichtsjabloon` en `signalen`, want hij werkt op de teksten die die twee skills opleveren.
 
 > **`autorisatie` dekt bewust twee onderwerpen**: Profit-autorisatiegroepen en InSite/OutSite-autorisatierollen. De skill levert die als twee losse blokken op. Later kan dit gesplitst worden in twee skills.
 

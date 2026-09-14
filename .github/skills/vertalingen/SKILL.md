@@ -36,7 +36,7 @@ Deze skill werkt op de uitkomsten van twee andere skills:
 
 | Bron-skill | Wat je overneemt |
 |------------|------------------|
-| `bericht-en-documentsjablonen` | Per berichtsjabloon: de omschrijving, het onderwerp en de berichtinhoud |
+| `berichtsjabloon` | Per berichtsjabloon: de omschrijving, het onderwerp en de berichtinhoud |
 | `signalen` | Per signaal: de signaaltekst en de tekst van het automatische e-mailbericht |
 
 Let daarnaast in het ontwerp op expliciete aanwijzingen:

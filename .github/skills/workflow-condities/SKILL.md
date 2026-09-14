@@ -67,7 +67,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Technische implementatie van de workflow-engine
 - Klantspecifieke workflowvarianten
 - Autorisatie op workflowtaken (valt onder skill `autorisatie`)
-- Berichten die de workflow verstuurt (valt onder skill `bericht-en-documentsjablonen`)
+- Berichten die de workflow verstuurt (valt onder skill `berichtsjabloon`)
 - Signalen die een workflow starten (valt onder skill `signalen`)
 
 ---
