@@ -38,6 +38,7 @@ Lever per gevonden signaal een apart blok of een aparte tabelrij op met minimaal
 - **Bestemming:** wie het signaal moet ontvangen
 - **Workflow:** moet het signaal een workflow starten ja/nee
 - **Automatisch e-mailbericht:** moet het signaal automatisch een e-mailbericht versturen ja/nee
+- **Benodigde talen:** in welke talen de signaaltekst nodig is (NL / ENG / DUI / FR), of `te weinig info`. Lever altijd de NL-brontekst; de vertalingen zelf worden uitgewerkt door de skill `vertalingen`
 - **Bron (ontwerp):** hoofdstuk/§ + pagina + ankerzin/titel
 
 Gebruik 1 item per signaal. Als een ontwerp meerdere signalen noemt, rapporteer ze los van elkaar.
@@ -105,6 +106,7 @@ Gebruik bij voorkeur deze structuur:
 - Bestemming: ...
 - Workflow: ...
 - Automatisch e-mailbericht: ...
+- Benodigde talen: ...
 - Bron (ontwerp): Hoofdstuk/§ ... | Pagina ... | (anker: "...")
 
 ### Beslispunten

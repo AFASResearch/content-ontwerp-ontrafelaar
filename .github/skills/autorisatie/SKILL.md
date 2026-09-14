@@ -3,7 +3,7 @@ name: autorisatie
 description: 'Breng de autorisatie-impact van een ontwerp in kaart: Profit (autorisatiegroepen: menu-items, tabbladen, weergaven, acties) én InSite/OutSite (autorisatierollen: paginas, portals, paginaonderdelen, functionaliteit). Gebruik bij vragen als: welke autorisaties zijn nodig, wat zijn de autorisatiewijzigingen, maak de autorisatieparagraaf, InSite/OutSite rollen, Profit menu-autorisatie.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
-1234556
+
 # Autorisatie-analyse
 
 ## Doel
