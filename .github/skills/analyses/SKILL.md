@@ -64,7 +64,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Technische performance en query-optimalisatie
 - Klantspecifieke eigen analyses
 - Rapporten en rapportlayouts (valt onder skill `rapporten`)
-- Weergaven en boekingslayouts (valt onder skill `weergaven-boekingslayouts`)
+- Weergaven (valt onder skill `weergaven`) en boekingslayouts (valt onder skill `boekingslayouts`)
 
 ---
 

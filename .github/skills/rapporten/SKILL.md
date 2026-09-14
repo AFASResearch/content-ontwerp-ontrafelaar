@@ -64,7 +64,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Klantspecifieke maatwerkrapportages
 - Analyses en gegevensverzamelingen (valt onder skill `analyses`)
 - Documenten en brieven (valt onder skill `documentsjabloon`)
-- Weergaven en boekingslayouts (valt onder skill `weergaven-boekingslayouts`)
+- Weergaven (valt onder skill `weergaven`) en boekingslayouts (valt onder skill `boekingslayouts`)
 
 ---
 

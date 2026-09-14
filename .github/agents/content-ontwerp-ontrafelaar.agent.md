@@ -111,11 +111,12 @@ Roep **alle** skills hieronder altijd aan. De skill bepaalt zelf of er impact is
 | 8 | `informatiebolletje` | Veldinfo content (informatiebolletje) |
 | 9 | `pocket` | Pocket |
 | 10 | `portalpagina-insite` | Portalpagina / opmaak standaardpagina's controleren (InSite) |
-| 11 | `weergaven-boekingslayouts` | Weergaven / boekingslayouts |
-| 12 | `workflow-condities` | Workflow / condities |
-| 13 | `berichtsjabloon` | Berichtsjablonen (e-mail) |
-| 14 | `signalen` | Signalen |
-| 15 | `vertalingen` | Vertalingen — **alleen** voor teksten van berichtsjablonen en signalen |
+| 11 | `weergaven` | Weergaven |
+| 12 | `boekingslayouts` | Boekingslayouts |
+| 13 | `workflow-condities` | Workflow / condities |
+| 14 | `berichtsjabloon` | Berichtsjablonen (e-mail) |
+| 15 | `signalen` | Signalen |
+| 16 | `vertalingen` | Vertalingen — **alleen** voor teksten van berichtsjablonen en signalen |
 
 > **Volgorde is bindend voor `vertalingen`**: roep deze skill aan **na** `berichtsjabloon` en `signalen`, want hij werkt op de teksten die die twee skills opleveren.
 

@@ -1,16 +1,16 @@
 ---
-name: weergaven-boekingslayouts
-description: 'Breng in kaart welke weergaven en boekingslayouts een ontwerp raakt: nieuwe of gewijzigde kolommen, filters, sorteringen en invoerlayouts in Profit. Gebruik bij vragen als: welke weergaven zijn nodig, boekingslayout aanpassen, kolom toevoegen aan weergave, filter, invoerlayout.'
+name: weergaven
+description: 'Breng in kaart welke weergaven een ontwerp raakt: nieuwe of gewijzigde kolommen, filters en sorteringen in overzichten in Profit, InSite of OutSite. Gebruik bij vragen als: welke weergaven zijn nodig, kolom toevoegen aan weergave, filter, sortering, overzicht aanpassen.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
-# Weergaven / Boekingslayouts-analyse
+# Weergaven-analyse
 
-> **Status: skelet.** De scansignalen en outputvelden hieronder zijn een startpunt en worden nog verder uitgewerkt. Gok nooit: gebruik `te weinig info` als je iets niet zeker kunt vaststellen.
+> **Status: skelet.** De inhoud wordt nog samen uitgewerkt. Gok nooit: gebruik `te weinig info` als je iets niet zeker kunt vaststellen.
 
 ## Doel
 
-Volledig in kaart brengen welke **weergaven en boekingslayouts** een ontwerp raakt: welke kolommen, filters, sorteringen of invoerlayouts nieuw zijn, wijzigen of gecontroleerd moeten worden.
+Volledig in kaart brengen welke **weergaven** een ontwerp raakt: welke kolommen, filters of sorteringen nieuw zijn, wijzigen of gecontroleerd moeten worden.
 
 ---
 
@@ -20,8 +20,10 @@ Volledig in kaart brengen welke **weergaven en boekingslayouts** een ontwerp raa
 
 | Term | Varianten |
 |------|-----------|
-| **Weergave** | weergave, overzicht, kolom, filter, sortering |
-| **Boekingslayout** | boekingslayout, invoerlayout, layout |
+| **Weergave** | weergave, overzicht |
+| **Kolom** | kolom, kolommen |
+| **Filter** | filter, selectie |
+| **Sortering** | sortering, sorteren, volgorde |
 
 ### B) Impliciete signalen
 
@@ -29,8 +31,8 @@ Volledig in kaart brengen welke **weergaven en boekingslayouts** een ontwerp raa
 |---------|-------------|
 | **Nieuw veld dat zichtbaar moet zijn** | "veld X moet in het overzicht te zien zijn" |
 | **Zoeken of filteren** | "de gebruiker kan filteren op status" |
-| **Nieuwe invoervolgorde** | "de gebruiker vult eerst X in, dan Y" |
-| **Nieuwe boekingssoort of -regel** | "er komt een nieuw boekingstype" |
+| **Behoefte aan overzicht** | "de gebruiker ziet alle openstaande aanvragen" |
+| **Nieuwe status of kenmerk** | een nieuw kenmerk dat je in een lijst wilt herkennen |
 
 ---
 
@@ -38,12 +40,13 @@ Volledig in kaart brengen welke **weergaven en boekingslayouts** een ontwerp raa
 
 | Veld | Inhoud |
 |------|--------|
-| **Weergave/layout** | Naam van de weergave of boekingslayout |
-| **Type** | Weergave / boekingslayout |
+| **Weergave** | Naam van de weergave |
+| **Kanaal** | Profit / InSite / OutSite |
 | **Vindplaats** | Menupad of object waar de weergave hoort |
 | **Gevraagde actie** | `nieuw` / `aanpassen` / `controleren` |
-| **Kolommen/velden** | Welke kolommen of velden toegevoegd, verwijderd of verplaatst worden |
+| **Kolommen/velden** | Welke kolommen toegevoegd, verwijderd of verplaatst worden |
 | **Filter/sortering** | Standaardfilter of -sortering, of `nader te bepalen` |
+| **Doelgroep** | Voor wie de weergave bedoeld is |
 | **Status** | `komt voor in ontwerp` / `komt niet voor in ontwerp` / `te weinig info` (+ wat ontbreekt) |
 | **Bron** | `[ontwerp]` of `[six-pager]` + Hoofdstuk/§ \| Pagina \| (anker: "…") |
 
@@ -53,12 +56,15 @@ Volledig in kaart brengen welke **weergaven en boekingslayouts** een ontwerp raa
 
 > Hoofdstuk/§ … | Pagina … | (anker: "…")
 
+Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en gebruik sectietitel of tekstfragment als anker.
+
 ---
 
 ## Stap 4 — Buiten scope (altijd opnemen)
 
 - Klantspecifieke eigen weergaven
 - Technische performance van weergaven
+- Boekings- en invoerlayouts (valt onder skill `boekingslayouts`)
 - Autorisatie op weergaven (valt onder skill `autorisatie`)
 - Rapporten (valt onder skill `rapporten`) en analyses (valt onder skill `analyses`)
 - Veldzichtbaarheid per profiel (valt onder skill `profielen-en-veldcontexten`)
@@ -71,7 +77,7 @@ Bijvoorbeeld:
 
 - Wordt een bestaande weergave uitgebreid of komt er een nieuwe standaardweergave?
 - Welke kolommen staan standaard aan?
-- Welk filter is standaard actief?
+- Welk filter of welke sortering is standaard actief?
 
 ---
 
@@ -85,7 +91,7 @@ Bijvoorbeeld:
 
 ## Kwaliteitscriteria
 
-- [ ] Elke weergave heeft type en vindplaats
+- [ ] Elke weergave heeft kanaal en vindplaats
 - [ ] Elk item heeft een bronverwijzing met herkomstlabel
 - [ ] Buiten-scope-blok aanwezig
 - [ ] Minimaal 1 beslispunt geformuleerd
@@ -96,6 +102,6 @@ Bijvoorbeeld:
 
 ## Nog uit te werken
 
-- Onderscheid tussen weergave, boekingslayout en invoerlayout
-- Menupaden voor weergavebeheer
+- Menupad voor weergavebeheer
 - Welke weergaven standaard worden uitgeleverd
+- Regels voor standaardkolommen en -filters
