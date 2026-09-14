@@ -101,22 +101,23 @@ Roep **alle** skills hieronder altijd aan. De skill bepaalt zelf of er impact is
 
 | # | Skill | Onderwerp |
 |---|-------|-----------|
-| 1 | `rapporten` | Rapporten en rapportlayouts |
-| 2 | `analyses` | Analyses en gegevensverzamelingen |
-| 3 | `documentsjabloon` | Documenten, brieven en correspondentie |
-| 4 | `profielen-en-veldcontexten` | Profielen en veldcontexten |
-| 5 | `icoontjes` | Icoontjes |
-| 6 | `paginas-outsite` | Pagina's OutSite (inclusief vaste check op OutSite-profielen) |
-| 7 | `autorisatie` | Autorisatiegroep (Profit) **én** autorisatierollen (InSite/OutSite) |
-| 8 | `informatiebolletje` | Veldinfo content (informatiebolletje) |
-| 9 | `pocket` | Pocket |
-| 10 | `portalpagina-insite` | Portalpagina / opmaak standaardpagina's controleren (InSite) |
-| 11 | `weergaven` | Weergaven |
-| 12 | `boekingslayouts` | Boekingslayouts |
-| 13 | `workflow-condities` | Workflow / condities |
-| 14 | `berichtsjabloon` | Berichtsjablonen (e-mail) |
-| 15 | `signalen` | Signalen |
-| 16 | `vertalingen` | Vertalingen — **alleen** voor teksten van berichtsjablonen en signalen |
+| 1 | `contenttaken` | Overzicht per skill: wel/niet relevant, concrete contenttaken en copy-paste output voor Word/OneNote |
+| 2 | `rapporten` | Rapporten en rapportlayouts |
+| 3 | `analyses` | Analyses en gegevensverzamelingen |
+| 4 | `documentsjabloon` | Documenten, brieven en correspondentie |
+| 5 | `profielen-en-veldcontexten` | Profielen en veldcontexten |
+| 6 | `icoontjes` | Icoontjes |
+| 7 | `paginas-outsite` | Pagina's OutSite (inclusief vaste check op OutSite-profielen) |
+| 8 | `autorisatie` | Autorisatiegroep (Profit) **én** autorisatierollen (InSite/OutSite) |
+| 9 | `informatiebolletje` | Veldinfo content (informatiebolletje) |
+| 10 | `pocket` | Pocket |
+| 11 | `portalpagina-insite` | Portalpagina / opmaak standaardpagina's controleren (InSite) |
+| 12 | `weergaven` | Weergaven |
+| 13 | `boekingslayouts` | Boekingslayouts |
+| 14 | `workflow-condities` | Workflow / condities |
+| 15 | `berichtsjabloon` | Berichtsjablonen (e-mail) |
+| 16 | `signalen` | Signalen |
+| 17 | `vertalingen` | Vertalingen — **alleen** voor teksten van berichtsjablonen en signalen |
 
 > **Volgorde is bindend voor `vertalingen`**: roep deze skill aan **na** `berichtsjabloon` en `signalen`, want hij werkt op de teksten die die twee skills opleveren.
 
