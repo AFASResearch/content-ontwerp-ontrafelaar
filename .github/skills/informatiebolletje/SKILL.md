@@ -113,8 +113,8 @@ Gebruik daarna de blokken `WEL DOEN`, `NIET DOEN` en `TWIJFEL`, in die volgorde.
 Lever per veld deze regels op:
 
 - **Veldnaam** als kop
-- **Bestand/scherm**: functiegroep / bestand / scherm / sjabloon waar het veld staat
-- **Kanaal**: Profit / InSite / OutSite / meerdere
+- **Bestand/scherm**: waar het veld staat, met het volledige pad in Profit. Noteer het als `Menu / submenu / scherm / tabblad`, bijvoorbeeld `HRM / Payroll / Cao / [cao] / Loonschaal / Eigenschappen loonschaal`. Ken je het pad niet zeker? Geef het beste pad en zet erachter `(pad controleren in de omgeving)`. Bij InSite of OutSite noteer je portal, pagina en paginaonderdeel.
+- **Kanaal**: alleen opnemen bij InSite, OutSite of meerdere kanalen. Laat deze regel weg als het ontwerp uitsluitend Profit raakt; meld dat dan één keer in de inleiding.
 - **Type signaal**: `expliciet` (term staat erin) of `impliciet` (veld heeft aantoonbaar toelichting nodig)
 - **Gevraagde actie**: `nieuw` / `aanpassen` / `verwijderen` / `geen actie`
 - **Gedeeld veld**: `nee` / `ja, tekst generiek houden` / `onbekend, controleren via weergave Alle velden`
@@ -126,7 +126,7 @@ Lever per veld deze regels op:
 
 In het blok `Niet doen` laat je `Gevraagde actie` op `geen actie` staan en sla je de concepttekst over.
 
-Gebruik één blok per veld. Heeft hetzelfde veld in meerdere kanalen een ander informatiebolletje nodig? Gebruik dan een apart blok per kanaal.
+Gebruik één blok per veld. Heeft hetzelfde veld in meerdere kanalen een ander informatiebolletje nodig? Gebruik dan een apart blok per kanaal en noem het kanaal dan wel.
 
 Sluit altijd af met de sectie **Waar vul je het informatiebolletje?**, zodat de lezer het pad en de vaste regels bij de hand heeft.
 
@@ -139,6 +139,84 @@ Pas de skill `schrijfwijzer` toe op elke concepttekst:
 - Licht keuzewaarden toe in een opsomming, één regel per waarde.
 - Gebruik de vraagvorm voor uitzonderingen: "Is de medewerker jonger? Dan …".
 - Houd de tekst kort; de maximale lengte is niet gedocumenteerd.
+
+### Voorbeeldopzet van de output
+
+Volg deze opzet letterlijk. Vervang de voorbeeldinhoud door de bevindingen uit het ontwerp.
+
+```markdown
+# Informatiebolletjes [projectnaam] — voorstel in drie delen
+
+Dit ontwerp raakt uitsluitend Profit; InSite en OutSite komen niet voor. De deelprojectdocumenten staan niet in de workspace, dus toets dit voorstel daar nog tegen. Paginanummers zijn niet betrouwbaar beschikbaar; ik gebruik hoofdstuk plus ankerzin. Bouw vier bolletjes, laat drie velden met rust en zoek vijf punten uit.
+
+Menupaden zijn gebaseerd op het ontwerp en de gangbare Profit-indeling. Controleer ze in de omgeving voordat je vult.
+
+---
+
+# WEL DOEN — [aantal] nieuwe bolletjes
+
+## 1. [Veldnaam]
+
+- Bestand/scherm: HRM / Payroll / Cao / [cao] / Loonschaal / Eigenschappen loonschaal (pad controleren in de omgeving)
+- Type signaal: impliciet (verplaatst veld, betekenis van waarden)
+- Gevraagde actie: nieuw
+- Gedeeld veld: onbekend, controleren via weergave Alle velden
+- Vertaalgevolg: ja, nieuw ResId
+- Status: `komt voor`
+- Bron (ontwerp): Hoofdstuk 4 | Pagina onbekend | (anker: "…")
+- Waarom wel: [één zin]
+
+Beoogde inhoud:
+
+> [concepttekst]
+
+---
+
+# NIET DOEN — laat deze velden met rust
+
+## 5. [Veldnaam]
+
+- Bestand/scherm: HRM / Medewerker / [medewerker] / Arbeidsvoorwaarde / Rooster (pad controleren in de omgeving)
+- Gevraagde actie: geen actie
+- Status: `komt voor`
+- Bron (ontwerp): Hoofdstuk 5 | Pagina onbekend | (anker: "…")
+- Waarom niet: [één zin]
+
+---
+
+# TWIJFEL — eerst uitzoeken
+
+## 8. [Veldnaam]
+
+- Bestand/scherm: HRM / Payroll / Cao / [cao] / Eigenschappen cao (pad controleren in de omgeving)
+- Type signaal: impliciet (gewijzigd gedrag)
+- Gevraagde actie: aanpassen, afhankelijk van de uitkomst
+- Gedeeld veld: onbekend, controleren via weergave Alle velden
+- Vertaalgevolg: ja, nieuw ResId
+- Status: `te weinig info`
+- Bron (ontwerp): Hoofdstuk 7 | Pagina onbekend | (anker: "…")
+- Uit te zoeken: [vraag] Vraag dit aan [team].
+
+Beoogde inhoud bij aanpassing:
+
+> [concepttekst]
+
+---
+
+## Waar vul je het informatiebolletje?
+
+[vaste sectie]
+
+## Buiten scope
+
+[vaste sectie]
+```
+
+Let op bij het invullen:
+
+- Nummer door over de drie blokken heen, zodat elk veld één uniek nummer heeft.
+- In het blok `Niet doen` laat je `Type signaal`, `Gedeeld veld` en `Vertaalgevolg` weg; die voegen daar niets toe.
+- Zet de concepttekst altijd als blockquote, zodat de bouwer hem los kan kopiëren.
 
 ---
 
