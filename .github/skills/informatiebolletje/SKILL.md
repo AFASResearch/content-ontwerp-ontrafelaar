@@ -12,6 +12,8 @@ Volledig in kaart brengen welke **informatiebolletjes** een ontwerp vereist — 
 
 Een informatiebolletje is een toelichting die verschijnt wanneer een gebruiker op het icoontje bij een veld klikt.
 
+Lever het resultaat altijd op in drie blokken: **Wel doen**, **Niet doen** en **Twijfel**. Niet elk geraakt veld krijgt een bolletje; de skill maakt die keuze expliciet en motiveert hem.
+
 ---
 
 ## Waar vul je het informatiebolletje?
@@ -63,30 +65,84 @@ Markeer ook als informatiebolletje-taak wanneer uit de tekst blijkt dat een veld
 
 ---
 
-## Stap 2 — Output samenstellen
+## Stap 2 — Deel elk gevonden veld in: wel doen, niet doen of twijfel
 
-Lever voor elk gevonden item een rij op in onderstaande tabel.
+Bepaal per veld in welk blok het hoort. Gebruik deze criteria.
 
-| Veld | Inhoud |
-|------|--------|
-| **Veldnaam** | Naam van het veld zoals in het ontwerp of de applicatie |
-| **Bestand/scherm** | Functiegroep / bestand / scherm / sjabloon waar het veld staat |
-| **Kanaal** | Profit / InSite / OutSite / meerdere |
-| **Type signaal** | `expliciet` (term staat erin) of `impliciet` (veld heeft aantoonbaar toelichting nodig) |
-| **Gevraagde actie** | `nieuw` / `aanpassen` / `verwijderen` |
-| **Gedeeld veld?** | `nee` / `ja, tekst generiek houden` / `onbekend, controleren via weergave Alle velden` |
-| **Beoogde inhoud** | Concrete concepttekst, of `nader te bepalen` als het ontwerp dit niet specificeert |
-| **Vertaalgevolg** | `ja, nieuw ResId` bij elke nieuwe of gewijzigde Nederlandse tekst |
-| **Status** | `komt voor` / `te weinig info` (+ wat ontbreekt) |
-| **Bron (ontwerp)** | Hoofdstuk/§ \| Pagina \| (anker: "ankerzin/titel") |
+### Wel doen
 
-Gebruik één rij per veld. Als hetzelfde veld in meerdere kanalen een ander informatiebolletje nodig heeft, gebruik dan een aparte rij per kanaal.
+Plaats het veld hier als minstens één punt geldt:
 
-Sluit de tabel altijd af met de sectie **Waar vul je het informatiebolletje?**, zodat de lezer het pad en de vaste regels bij de hand heeft.
+- Het veld is nieuw of staat nieuw op dit scherm.
+- Het veld heeft meerdere keuzewaarden met een verschillend effect.
+- Het gedrag of de betekenis van het veld wijzigt aantoonbaar door dit ontwerp.
+- Het ontwerp vraagt expliciet om een informatiebolletje.
+
+### Niet doen
+
+Plaats het veld hier als minstens één punt geldt:
+
+- Het veld is breed gedeeld en de betekenis blijft gelijk; alleen het gebruik verandert.
+- De uitleg gaat over een proces of uitkomst in plaats van over het veld zelf. Die hoort in de help.
+- Het gaat om zichtbaarheidsregels, validaties of conversiegevolgen.
+- Een specifieke tekst maakt het bolletje op een andere plek onjuist.
+
+Motiveer elk `niet doen` in één zin, zodat de keuze toetsbaar is.
+
+### Twijfel
+
+Plaats het veld hier als je een vraag moet beantwoorden voordat je bouwt, bijvoorbeeld:
+
+- Onduidelijk of het veld blijft bestaan of vervalt.
+- Onduidelijk of het veld een regel heeft in `Veldinfo content`.
+- Onduidelijk of de bestaande tekst nog klopt na de wijziging.
+- Het ontwerp noemt een groep velden zonder ze te benoemen.
+
+Formuleer de openstaande vraag, niet je vermoeden. Noem wie hem beantwoordt. Lever de concepttekst alvast mee voor het geval de twijfel de kant van `wel doen` op valt.
 
 ---
 
-## Stap 3 — Bronverwijzing (altijd toepassen)
+## Stap 3 — Output samenstellen
+
+Gebruik **geen tabellen**. Werk per veld met een kop en een opsomming, zodat de lezer blokken los kan kopiëren naar Word of OneNote.
+
+Begin met een korte inleiding van maximaal drie regels: ontbrekende bronbestanden, betrouwbaarheid van paginanummers en een telzin (bijvoorbeeld: "Bouw vier bolletjes, laat drie velden met rust en zoek vijf punten uit").
+
+Gebruik daarna de blokken `WEL DOEN`, `NIET DOEN` en `TWIJFEL`, in die volgorde. Nummer de velden doorlopend over de blokken heen.
+
+Lever per veld deze regels op:
+
+- **Veldnaam** als kop
+- **Bestand/scherm**: functiegroep / bestand / scherm / sjabloon waar het veld staat
+- **Kanaal**: Profit / InSite / OutSite / meerdere
+- **Type signaal**: `expliciet` (term staat erin) of `impliciet` (veld heeft aantoonbaar toelichting nodig)
+- **Gevraagde actie**: `nieuw` / `aanpassen` / `verwijderen` / `geen actie`
+- **Gedeeld veld**: `nee` / `ja, tekst generiek houden` / `onbekend, controleren via weergave Alle velden`
+- **Vertaalgevolg**: `ja, nieuw ResId` bij elke nieuwe of gewijzigde Nederlandse tekst
+- **Status**: `komt voor` / `te weinig info` (+ wat ontbreekt)
+- **Bron (ontwerp)**: Hoofdstuk/§ | Pagina | (anker: "ankerzin/titel")
+- **Waarom wel** (blok Wel doen), **Waarom niet** (blok Niet doen) of **Uit te zoeken** (blok Twijfel)
+- **Beoogde inhoud**: concrete concepttekst als blockquote, of `nader te bepalen` als het ontwerp dit niet specificeert
+
+In het blok `Niet doen` laat je `Gevraagde actie` op `geen actie` staan en sla je de concepttekst over.
+
+Gebruik één blok per veld. Heeft hetzelfde veld in meerdere kanalen een ander informatiebolletje nodig? Gebruik dan een apart blok per kanaal.
+
+Sluit altijd af met de sectie **Waar vul je het informatiebolletje?**, zodat de lezer het pad en de vaste regels bij de hand heeft.
+
+### Concepttekst schrijven
+
+Pas de skill `schrijfwijzer` toe op elke concepttekst:
+
+- Schrijf op B1-niveau, actief en in de tweede persoon (`je`).
+- Begin met de actie van de gebruiker, niet met de systeemwerking.
+- Licht keuzewaarden toe in een opsomming, één regel per waarde.
+- Gebruik de vraagvorm voor uitzonderingen: "Is de medewerker jonger? Dan …".
+- Houd de tekst kort; de maximale lengte is niet gedocumenteerd.
+
+---
+
+## Stap 4 — Bronverwijzing (altijd toepassen)
 
 Voeg bij **elk** item **Bron (ontwerp)** toe:
 
@@ -98,7 +154,7 @@ Als hoofdstuk/pagina **niet betrouwbaar beschikbaar** is:
 
 ---
 
-## Stap 4 — Buiten scope (altijd opnemen)
+## Stap 5 — Buiten scope (altijd opnemen)
 
 Sluit de volgende onderwerpen expliciet uit en benoem ze als "buiten scope":
 
