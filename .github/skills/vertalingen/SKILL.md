@@ -42,6 +42,7 @@ Vraag per berichtsjabloon om:
 |-----------|-------------|
 | **Omschrijving** | Naam van het sjabloon, inclusief `(Profit)` |
 | **Onderwerp (mail)** | Als losse regel |
+| **Titel** | De kop bovenaan in het bericht zelf, als die er is |
 | **Berichtinhoud** | Platte tekst, met de tags letterlijk op hun plek |
 | **Tags** | Welke velden uit de gegevensverzameling erin staan |
 
@@ -57,7 +58,7 @@ Deze skill werkt op de uitkomsten van twee andere skills:
 
 | Bron-skill | Wat je overneemt |
 |------------|------------------|
-| `berichtsjabloon` | Per berichtsjabloon: de omschrijving, het onderwerp en de berichtinhoud |
+| `berichtsjabloon` | Per berichtsjabloon: de omschrijving, het onderwerp, de titel en de berichtinhoud |
 | `signalen` | Per signaal: de signaaltekst en de tekst van het automatische e-mailbericht |
 
 Let daarnaast in het ontwerp op expliciete aanwijzingen:
@@ -126,45 +127,44 @@ Nederlands kent alleen *je* of *u*. Duits en Frans dwingen een keuze af:
 
 ## Stap 5 — Output samenstellen
 
-Lever per te vertalen **tekstonderdeel** één blok op: eerst de kop, dan de vertalingen.
+Lever **per berichtsjabloon of signaal** één kopblok op, gevolgd door **één blok per taal**.
 
-### Blok — Tekst (kop)
+> **Groepeer op taal, niet op tekstonderdeel.** De bouwer vult per taalregel in Profit één scherm: onderwerp én inhoud. Zet die dus bij elkaar. Een aparte tabel met alleen de onderwerpen dwingt de bouwer tot heen-en-weer scrollen.
+
+### Blok — Kop (éénmalig per sjabloon of signaal)
 
 | Veld | Inhoud |
 |------|--------|
 | **Herkomst** | `berichtsjabloon` of `signaal` |
 | **Naam** | Naam van het berichtsjabloon (incl. `(Profit)`) of van het signaal |
-| **Tekstonderdeel** | Onderwerp (mail) / berichtinhoud / signaaltekst / e-mailbericht bij signaal |
+| **Tekstonderdelen** | Welke onderdelen vertaald worden: onderwerp (mail), titel, bericht, signaaltekst |
 | **Benodigde talen** | Welke van NL / ENG / DUI / FR, of `te weinig info` |
 | **Gevraagde actie** | `nieuw vertalen` / `bestaande vertaling aanpassen` / `controleren` |
 | **Tags ongewijzigd** | Opsomming van de tags die in elke taal gelijk blijven |
 | **Status** | `komt voor in ontwerp` / `komt niet voor in ontwerp` / `te weinig info` (+ wat ontbreekt) |
-| **Bron** | `[ontwerp]` of `[six-pager]` + Hoofdstuk/§ \| Pagina \| (anker: "…") |
+| **Bron** | `[ontwerp]`, `[six-pager]` of `[aangeleverd sjabloon]` + Hoofdstuk/§ \| Pagina \| (anker: "…") |
 
-### Blok — Vertaling: kies het juiste format
+### Blok — Per taal (NL eerst, daarna ENG, DUI, FR)
 
-| Lengte tekst | Format |
-|--------------|--------|
-| **Kort** (onderwerp, signaaltekst, één regel) | Vertaaltabel: kolom **Taal** + kolom **Tekst** |
-| **Lang** (volledige berichtinhoud) | Eén **apart tekstblok per taal** onder een kop `### ENG`, `### DUI`, `### FR`, zodat de tekst direct te kopiëren is naar de editor |
+Gebruik per taal een kop (`## NL (brontekst)`, `## ENG`, `## DUI`, `## FR`) met daaronder **altijd deze drie onderdelen in deze volgorde**:
 
-Gebruik nooit een tabelcel voor een tekst van meerdere alinea's: die is niet te kopiëren en de opmaak gaat verloren.
+| # | Onderdeel | Toelichting |
+|---|-----------|-------------|
+| 1 | **Onderwerp** | Het veld *Onderwerp (mail)*, één regel |
+| 2 | **Titel** | De kop bovenaan in het bericht zelf |
+| 3 | **Bericht** | De volledige berichtinhoud: aanhef, body, afsluiting en ondertekening |
 
-Vertaaltabel voor korte teksten:
+Staat een onderdeel niet in het sjabloon (bijvoorbeeld geen titel)? Noteer dan `niet van toepassing`; sla het niet stilzwijgend over.
 
-| Taal | Tekst |
-|------|-------|
-| NL | … |
-| ENG | … |
-| DUI | … |
-| FR | … |
+Bij een **signaal** vervang je onderwerp/titel/bericht door: **Signaaltekst** en, als die er is, **E-mailbericht**.
 
 Regels:
 
-- **NL is altijd de brontekst** en wordt altijd ingevuld.
+- **NL is altijd de brontekst** en staat altijd bovenaan.
 - Vul alleen de talen in die daadwerkelijk nodig zijn; markeer de rest als `niet nodig` of `te weinig info`.
 - Is de brontekst nog niet vastgesteld: zet `nader te bepalen` en beschrijf wat de tekst moet overbrengen.
-- Lever de vertaling **copy-pasteklaar** op: zonder toelichting door de tekst heen. Opmerkingen horen in de beslispunten.
+- Zet **geen** meerregelige tekst in een tabelcel: die is niet te kopiëren en de opmaak gaat verloren. Gebruik alleen een tabel voor éénregelige teksten.
+- Lever elk blok **copy-pasteklaar** op: geen toelichting door de tekst heen. Opmerkingen horen in de beslispunten.
 
 ---
 
@@ -219,47 +219,75 @@ Aanvullend, waar van toepassing:
 
 Verkorte uitwerking die het opleverformat laat zien.
 
-### Blok — Tekst 1: Onderwerp (mail)
+### Kop
 
 | Veld | Inhoud |
 |------|--------|
 | **Herkomst** | `berichtsjabloon` |
 | **Naam** | Medewerkerbericht UPN (Profit) |
-| **Tekstonderdeel** | Onderwerp (mail) |
+| **Tekstonderdelen** | Onderwerp (mail), titel, bericht |
 | **Benodigde talen** | NL (bron) + ENG, DUI, FR |
 | **Gevraagde actie** | nieuw vertalen |
-| **Tags ongewijzigd** | {Naam werkgever} |
+| **Tags ongewijzigd** | {Naam werkgever}, {Roepnaam}, {UPN} |
 | **Status** | komt voor in ontwerp |
 | **Bron** | `[aangeleverd sjabloon]` Medewerkerbericht UPN (Profit) |
 
-| Taal | Tekst |
-|------|-------|
-| NL | Welkom bij {Naam werkgever} - je inlognaam staat voor je klaar |
-| ENG | Welcome to {Naam werkgever} - your username is ready for you |
-| DUI | Willkommen bei {Naam werkgever} - dein Benutzername steht für dich bereit |
-| FR | Bienvenue chez {Naam werkgever} - ton nom d'utilisateur est prêt |
+### NL (brontekst)
 
-### Blok — Tekst 2: Berichtinhoud
+**Onderwerp**
+Welkom bij {Naam werkgever} - je inlognaam staat voor je klaar
 
-Lange tekst, dus **per taal een apart blok**. Tags ongewijzigd: `{Naam werkgever}`, `{Roepnaam}`, `{UPN}`.
+**Titel**
+Welkom bij {Naam werkgever}, fijn dat je er bent!
 
-> **DUI**
->
-> **Willkommen bei {Naam werkgever}, schön, dass du da bist!**
->
-> **Hallo {Roepnaam},**
->
-> Heute ist dein erster Arbeitstag bei {Naam werkgever}. Herzlich willkommen! …
->
-> **Dein Benutzername:**
-> **{UPN}**
+**Bericht**
+
+**Beste {Roepnaam},**
+
+Vandaag is je eerste werkdag bij {Naam werkgever}. …
+
+**Jouw inlognaam:**
+**{UPN}**
+
+### DUI
+
+**Onderwerp**
+Willkommen bei {Naam werkgever} - dein Benutzername steht für dich bereit
+
+**Titel**
+Willkommen bei {Naam werkgever}, schön, dass du da bist!
+
+**Bericht**
+
+**Hallo {Roepnaam},**
+
+Heute ist dein erster Arbeitstag bei {Naam werkgever}. …
+
+**Dein Benutzername:**
+**{UPN}**
 
 ### Beslispunten bij dit voorbeeld
 
 1. Aanspreekvorm DUI en FR: informeel (*du* / *tu*) aangehouden, passend bij het NL *je*. Formeel gewenst? Dan alle blokken aanpassen.
-2. Term "inlognaam" vertaald als *username* / *Benutzername* / *nom d'utilisateur*. Check consistentie met Profit en InSite.
-3. Nog geen native review op ENG, DUI en FR.
-4. Afbeelding en footer vallen buiten scope: blijven die in alle talen gelijk?
+2. Aanhef: NL *Beste* wordt DUI *Hallo* en FR *Bonjour*. *Liebe/Lieber* en *Cher/Chère* vragen om het geslacht van de ontvanger, en dat zit niet in de tags.
+3. Term "inlognaam" vertaald als *username* / *Benutzername* / *nom d'utilisateur*. Check consistentie met Profit en InSite.
+4. Nog geen native review op ENG, DUI en FR.
+5. Afbeelding en footer vallen buiten scope: blijven die in alle talen gelijk?
+
+---
+
+## Valkuilen bij vertalen
+
+Let extra op nederlandismen: letterlijke vertalingen die in de doeltaal net niet natuurlijk klinken.
+
+| Nederlands | Fout | Goed | Waarom |
+|------------|------|------|--------|
+| veel plezier in je nieuwe functie | ENG: lots of fun in your new job | hope you enjoy your new role | *fun* klinkt kinderlijk in zakelijk Engels |
+| veel succes | ENG: good luck | all the best | *good luck* suggereert dat de lezer geluk nódig heeft |
+| functie | DUI: Funktion | Position of Rolle | *Funktion* is in het Duits een nederlandisme |
+| veel succes | FR: bonne chance | nous te souhaitons une excellente… | zelfde bezwaar als bij *good luck* |
+
+Let ook op herhaling die in de doeltaal storender is dan in het Nederlands, bijvoorbeeld twee keer *Damit* achter elkaar in het Duits.
 
 ---
 
@@ -268,12 +296,14 @@ Lange tekst, dus **per taal een apart blok**. Tags ongewijzigd: `{Naam werkgever
 - [ ] De brontekst is als platte tekst of HTML aangeleverd (geen `.emt`)
 - [ ] Elke tekst is herleidbaar naar een berichtsjabloon of signaal
 - [ ] De NL-brontekst is getoetst aan de skill `schrijfwijzer`
-- [ ] NL is altijd ingevuld
+- [ ] NL staat bovenaan en is volledig ingevuld
+- [ ] Per taal staan **onderwerp, titel en bericht** in deze volgorde onder elkaar
 - [ ] Per tekst is expliciet beantwoord welke talen nodig zijn
 - [ ] Tags staan ongewijzigd in elke taal, en elke taal bevat dezelfde tags als NL
-- [ ] De aanspreekvorm is per taal bewust gekozen en consistent toegepast
-- [ ] Vaktermen zijn binnen het sjabloon consistent vertaald
-- [ ] Lange teksten staan per taal in een apart, copy-pasteklaar blok
+- [ ] De aanspreekvorm is per taal bewust gekozen en consistent toegepast in onderwerp, titel, bericht en ondertekening
+- [ ] Vaktermen zijn binnen het sjabloon consistent vertaald, ook in het onderwerp
+- [ ] De vertaling is gecontroleerd op nederlandismen
+- [ ] Elk taalblok is copy-pasteklaar; geen meerregelige tekst in tabelcellen
 - [ ] Elk item heeft een bronverwijzing met herkomstlabel
 - [ ] Buiten-scope-blok aanwezig
 - [ ] Minimaal 1 beslispunt geformuleerd, inclusief aanspreekvorm en review
