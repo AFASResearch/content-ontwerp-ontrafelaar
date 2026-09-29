@@ -1,6 +1,6 @@
 ---
 name: contenttaken
-description: 'Maak een overzichtelijke samenvatting van alle relevante contenttaken in een ontwerp. Controleer per geregistreerde skill of die voorkomt, wat er concreet nodig is bij het project en geef een copy-pasteklare output voor Word en OneNote.' Toon deze samenvatting voordat je de gedetailleerde uitwerking per skill maakt. Als eenn skill de status Komt niet voor in ontwerp heeft dan geef je dit alleen aan in de samenvatting en mag je de uitwerking van de taak overslaan. Het woord Skill hoeft niet in de samenvatting te worden opgenomen
+description: 'Maak een overzichtelijke samenvatting van alle relevante contenttaken in een ontwerp. Controleer per geregistreerde skill of die voorkomt, wat er concreet nodig is bij het project en geef een copy-pasteklare output voor Word en OneNote. Toon deze samenvatting voordat je de gedetailleerde uitwerking per skill maakt. Als eenn skill de status Komt niet voor in ontwerp heeft dan geef je dit alleen aan in de samenvatting en mag je de uitwerking van de taak overslaan. Het woord Skill hoeft niet in de samenvatting te worden opgenomen'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
