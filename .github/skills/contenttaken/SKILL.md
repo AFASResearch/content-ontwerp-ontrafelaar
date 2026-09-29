@@ -1,6 +1,6 @@
 ---
 name: contenttaken
-description: 'Maak een overzichtelijke samenvatting van alle relevante contenttaken in een ontwerp. Controleer per geregistreerde skill of die voorkomt, wat er concreet nodig is bij het project en geef een copy-pasteklare output voor Word en OneNote.'
+description: 'Maak een overzichtelijke samenvatting van alle relevante contenttaken in een ontwerp. Controleer per geregistreerde skill of die voorkomt, wat er concreet nodig is bij het project en geef een copy-pasteklare output voor Word en OneNote.' Toon deze samenvatting voordat je de gedetailleerde uitwerking per skill maakt. Als eenn skill de status Komt niet voor in ontwerp heeft dan geef je dit alleen aan in de samenvatting en mag je de uitwerking van de taak overslaan. Het woord Skill hoeft niet in de samenvatting te worden opgenomen
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
@@ -17,9 +17,9 @@ De output is geschreven om direct te kunnen worden geplakt in Word of OneNote. G
 ## Gedrag van deze skill
 
 1. Lees het ontwerp volledig en controleer per geregistreerde skill of die relevant is.
-2. Geef voor elke skill een eigen samenvatting.
+2. Geef eerst voor alle skills een samenvatting met alleen de status.
 3. Als een skill voorkomt in het ontwerp, beschrijf je concreet welke content- of inrichtingstaken nodig zijn bij dit project.
-4. Als een skill niet voorkomt, vermeld je dat expliciet en noteer je dat er voor deze skill geen contenttaken zijn vastgesteld.
+4. Als een skill niet voorkomt, vermeld je dat expliciet en noteer je dat er voor deze skill geen contenttaken zijn vastgesteld. Je werkt deze skill dan niet verder uit.
 5. Als de informatie ontbreekt, noteer je dat expliciet als `te weinig info` en noem je wat ontbreekt.
 6. Gebruik altijd een bronverwijzing naar het ontwerp, bij voorkeur met hoofdstuk/§ | pagina | anker.
 7. Houd de tekst kort, concreet en direct kopieerbaar.
@@ -66,6 +66,9 @@ Gebruik GEEN markdown-tabel. Gebruik deze strak geplakte structuur:
 
 Skill: [naam van de skill]
 Status: [komt voor in ontwerp / komt niet voor in ontwerp / te weinig info]
+
+Als de status `komt niet voor in ontwerp` is, vermeld dan geen Samenvatting, Concrete contenttaken of Bronvermelding. Ga direct door naar de volgende skill.
+
 Samenvatting:
 [1 tot 3 zinnen over wat er in het ontwerp relevant is of niet is]
 Concrete contenttaken:
@@ -112,16 +115,7 @@ Bronvermelding:
 
 ### 2. Als een skill niet voorkomt in het ontwerp
 
-Gebruik deze formulering:
-
-Samenvatting:
-Deze skill komt niet voor in het ontwerp. Er is geen relevante content-, inrichting- of verificatietaak voor dit project vastgesteld.
-
-Concrete contenttaken:
-- Geen relevante taken vastgesteld
-
-Bronvermelding:
-[hoofdstuk/§ | pagina | (anker: "...")]
+Vermeld alleen de skill en status en ga daarna direct door naar de volgende skill. Vermeld geen Samenvatting, Concrete contenttaken of Bronvermelding.
 
 ### 3. Als de informatie onvoldoende is
 
@@ -167,13 +161,8 @@ Hoofdstuk 3 | Pagina 12 | (anker: "Veldtoelichting bij invoervelden")
 
 Skill: pocket
 Status: komt niet voor in ontwerp
-Samenvatting:
-Deze skill komt niet voor in het ontwerp. Er is geen relevante Pocket-functionaliteit of mobiele contenttaak vastgesteld.
-Concrete contenttaken:
-- Geen relevante taken vastgesteld
-Bronvermelding:
-Hoofdstuk 5 | Pagina 18 | (anker: "Mobiele app impact")
 
+Maak eerst een lijst van alle contentaken per skill met alleen de status. Maak daarna pas de gedetailleerde uitwerken van de skills die relevant zijn.
 ---
 
 ## Belangrijk
