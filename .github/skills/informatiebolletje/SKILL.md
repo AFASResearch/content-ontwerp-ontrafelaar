@@ -1,6 +1,6 @@
 ---
 name: informatiebolletje
-description: 'Breng de informatiebolletje-impact van een ontwerp in kaart: welke velden in Profit, InSite of OutSite een informatiebolletje (veldtoelichting) nodig hebben of moeten worden aangepast. Gebruik bij vragen als: welke informatiebolletjes zijn nodig, wat zijn de veldinfo-wijzigingen, maak de informatiebolletje-paragraaf, veldinfo content, veldtoelichting.'
+description: 'Breng de informatiebolletje-impact van een ontwerp in kaart: welke velden in Profit, InSite of OutSite een informatiebolletje (veldtoelichting) nodig hebben of moeten worden aangepast. Een tooltiptekst in een ontwerp is hetzelfde als een informatiebolletje en valt altijd onder deze skill. Gebruik bij vragen als: welke informatiebolletjes zijn nodig, tooltiptekst, tooltipteksten herschrijven, wat zijn de veldinfo-wijzigingen, maak de informatiebolletje-paragraaf, veldinfo content, veldtoelichting.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
@@ -12,7 +12,11 @@ Volledig in kaart brengen welke **informatiebolletjes** een ontwerp vereist — 
 
 Een informatiebolletje is een toelichting die verschijnt wanneer een gebruiker op het icoontje bij een veld klikt.
 
+> **Let op: tooltiptekst = informatiebolletje.** Noemt een ontwerp een "tooltiptekst", "tooltipteksten", "tooltip", "veldhelp" of "veldinfo"? Dan gaat het over het informatiebolletje en valt het onder deze skill. Behandel die teksten altijd als concepttekst die je toetst en herschrijft.
+
 Lever het resultaat altijd op in drie blokken: **Wel doen**, **Niet doen** en **Twijfel**. Niet elk geraakt veld krijgt een bolletje; de skill maakt die keuze expliciet en motiveert hem.
+
+De output bevat **uitsluitend** die drie blokken, met per veld alleen de veldnaam, de plek en de tekst. Zie Stap 3.
 
 ---
 
@@ -45,7 +49,9 @@ Markeer altijd als informatiebolletje-taak wanneer een van de volgende termen le
 | **Veldhelp** | veldhelp, veld-help |
 | **Veldinfo** | veldinfo, veld-info |
 | **Veldinfo content** | veldinfo content, veldinformatie |
-| **Tooltip** | tooltip |
+| **Tooltip** | tooltip, tooltiptekst, tooltipteksten, tooltiptekstje, hovertekst |
+
+Staat er in het ontwerp een paragraaf of tabel met tooltipteksten? Neem dan **elk** daarin genoemd veld op in de analyse. Die teksten zijn een concept van de ontwerper, geen eindtekst: toets ze en herschrijf ze volgens de skill `schrijfwijzer`.
 
 ### B) Impliciete signalen
 
@@ -104,31 +110,28 @@ Formuleer de openstaande vraag, niet je vermoeden. Noem wie hem beantwoordt. Lev
 
 ## Stap 3 — Output samenstellen
 
-Gebruik **geen tabellen**. Werk per veld met een kop en een opsomming, zodat de lezer blokken los kan kopiëren naar Word of OneNote.
+De output is **altijd** dezelfde drie blokken, in deze volgorde: `WEL DOEN`, `NIET DOEN`, `TWIJFEL`. Niets ervoor, niets ertussen, niets erna.
 
-Begin met een korte inleiding van maximaal drie regels: ontbrekende bronbestanden, betrouwbaarheid van paginanummers en een telzin (bijvoorbeeld: "Bouw vier bolletjes, laat drie velden met rust en zoek vijf punten uit").
+Per veld lever je precies drie regels op, zonder tabel en zonder nummering:
 
-Gebruik daarna de blokken `WEL DOEN`, `NIET DOEN` en `TWIJFEL`, in die volgorde. Nummer de velden doorlopend over de blokken heen.
+1. **Veldnaam** — vet, exact zoals in het ontwerp.
+2. **Waar** — kanaal plus plek, op één regel. In Profit: `Profit — scherm, tabblad, veldgroep`. In InSite of OutSite: portal, pagina en paginaonderdeel. Geldt hetzelfde veld in meerdere kanalen met dezelfde tekst? Noem ze dan samen op die ene regel.
+3. **Tekst** — de informatiebolletjetekst als blockquote.
 
-Lever per veld deze regels op:
+In het blok `NIET DOEN` vervang je de blockquote door één zin met de reden. In het blok `TWIJFEL` vervang je de blockquote door de openstaande vraag plus wie hem beantwoordt.
 
-- **Veldnaam** als kop
-- **Bestand/scherm**: waar het veld staat, met het volledige pad in Profit. Noteer het als `Menu / submenu / scherm / tabblad`, bijvoorbeeld `HRM / Payroll / Cao / [cao] / Loonschaal / Eigenschappen loonschaal`. Ken je het pad niet zeker? Geef het beste pad en zet erachter `(pad controleren in de omgeving)`. Bij InSite of OutSite noteer je portal, pagina en paginaonderdeel.
-- **Kanaal**: alleen opnemen bij InSite, OutSite of meerdere kanalen. Laat deze regel weg als het ontwerp uitsluitend Profit raakt; meld dat dan één keer in de inleiding.
-- **Type signaal**: `expliciet` (term staat erin) of `impliciet` (veld heeft aantoonbaar toelichting nodig)
-- **Gevraagde actie**: `nieuw` / `aanpassen` / `verwijderen` / `geen actie`
-- **Gedeeld veld**: `nee` / `ja, tekst generiek houden` / `onbekend, controleren via weergave Alle velden`
-- **Vertaalgevolg**: `ja, nieuw ResId` bij elke nieuwe of gewijzigde Nederlandse tekst
-- **Status**: `komt voor` / `te weinig info` (+ wat ontbreekt)
-- **Bron (ontwerp)**: Hoofdstuk/§ | Pagina | (anker: "ankerzin/titel")
-- **Waarom wel** (blok Wel doen), **Waarom niet** (blok Niet doen) of **Uit te zoeken** (blok Twijfel)
-- **Beoogde inhoud**: concrete concepttekst als blockquote, of `nader te bepalen` als het ontwerp dit niet specificeert
+Scheid de drie blokken met een horizontale lijn. Gebruik één blok per veld; heeft hetzelfde veld per kanaal een andere tekst nodig, maak dan twee blokken.
 
-In het blok `Niet doen` laat je `Gevraagde actie` op `geen actie` staan en sla je de concepttekst over.
+### Wat je weglaat uit de output
 
-Gebruik één blok per veld. Heeft hetzelfde veld in meerdere kanalen een ander informatiebolletje nodig? Gebruik dan een apart blok per kanaal en noem het kanaal dan wel.
+Deze skill gebruikt onderstaande informatie wél om tot een oordeel te komen, maar zet die **niet** in de output:
 
-Sluit altijd af met de sectie **Waar vul je het informatiebolletje?**, zodat de lezer het pad en de vaste regels bij de hand heeft.
+- inleiding, telzin, samenvatting of toelichting op de werkwijze
+- bronverwijzing, status, type signaal, gevraagde actie, gedeeld veld, vertaalgevolg
+- de secties `Waar vul je het informatiebolletje?` en `Buiten scope`
+- een verantwoording van de herschrijving of schrijftips
+
+Vraagt de gebruiker expliciet om onderbouwing, bronverwijzing of schrijftips? Lever die dan pas ná de drie blokken.
 
 ### Concepttekst schrijven
 
@@ -145,99 +148,71 @@ Pas de skill `schrijfwijzer` toe op elke concepttekst:
 Volg deze opzet letterlijk. Vervang de voorbeeldinhoud door de bevindingen uit het ontwerp.
 
 ```markdown
-# Informatiebolletjes [projectnaam] — voorstel in drie delen
+# WEL DOEN
 
-Dit ontwerp raakt uitsluitend Profit; InSite en OutSite komen niet voor. De deelprojectdocumenten staan niet in de workspace, dus toets dit voorstel daar nog tegen. Paginanummers zijn niet betrouwbaar beschikbaar; ik gebruik hoofdstuk plus ankerzin. Bouw vier bolletjes, laat drie velden met rust en zoek vijf punten uit.
+**[Veldnaam]**
+Profit — [scherm], [tabblad], veldgroep [naam]
+> [tekst van het informatiebolletje]
 
-Menupaden zijn gebaseerd op het ontwerp en de gangbare Profit-indeling. Controleer ze in de omgeving voordat je vult.
-
----
-
-# WEL DOEN — [aantal] nieuwe bolletjes
-
-## 1. [Veldnaam]
-
-- Bestand/scherm: HRM / Payroll / Cao / [cao] / Loonschaal / Eigenschappen loonschaal (pad controleren in de omgeving)
-- Type signaal: impliciet (verplaatst veld, betekenis van waarden)
-- Gevraagde actie: nieuw
-- Gedeeld veld: onbekend, controleren via weergave Alle velden
-- Vertaalgevolg: ja, nieuw ResId
-- Status: `komt voor`
-- Bron (ontwerp): Hoofdstuk 4 | Pagina onbekend | (anker: "…")
-- Waarom wel: [één zin]
-
-Beoogde inhoud:
-
-> [concepttekst]
+**[Veldnaam]**
+Profit en InSite — [scherm], [tabblad], veldgroep [naam]
+> [tekst van het informatiebolletje]
 
 ---
 
-# NIET DOEN — laat deze velden met rust
+# NIET DOEN
 
-## 5. [Veldnaam]
-
-- Bestand/scherm: HRM / Medewerker / [medewerker] / Arbeidsvoorwaarde / Rooster (pad controleren in de omgeving)
-- Gevraagde actie: geen actie
-- Status: `komt voor`
-- Bron (ontwerp): Hoofdstuk 5 | Pagina onbekend | (anker: "…")
-- Waarom niet: [één zin]
+**[Veldnaam of onderwerp]**
+InSite — [portal / pagina / paginaonderdeel]
+Geen bolletje. [Reden in één zin.]
 
 ---
 
-# TWIJFEL — eerst uitzoeken
+# TWIJFEL
 
-## 8. [Veldnaam]
-
-- Bestand/scherm: HRM / Payroll / Cao / [cao] / Eigenschappen cao (pad controleren in de omgeving)
-- Type signaal: impliciet (gewijzigd gedrag)
-- Gevraagde actie: aanpassen, afhankelijk van de uitkomst
-- Gedeeld veld: onbekend, controleren via weergave Alle velden
-- Vertaalgevolg: ja, nieuw ResId
-- Status: `te weinig info`
-- Bron (ontwerp): Hoofdstuk 7 | Pagina onbekend | (anker: "…")
-- Uit te zoeken: [vraag] Vraag dit aan [team].
-
-Beoogde inhoud bij aanpassing:
-
-> [concepttekst]
-
----
-
-## Waar vul je het informatiebolletje?
-
-[vaste sectie]
-
-## Buiten scope
-
-[vaste sectie]
+**[Veldnaam]**
+Profit — [scherm], [tabblad]
+[Openstaande vraag in één of twee zinnen.] Vraag dit aan [team].
 ```
 
 Let op bij het invullen:
 
-- Nummer door over de drie blokken heen, zodat elk veld één uniek nummer heeft.
-- In het blok `Niet doen` laat je `Type signaal`, `Gedeeld veld` en `Vertaalgevolg` weg; die voegen daar niets toe.
-- Zet de concepttekst altijd als blockquote, zodat de bouwer hem los kan kopiëren.
+- Geen koppen per veld, geen nummering, geen opsommingstekens met metadata.
+- Ken je het Profit-pad niet zeker? Zet `(pad controleren in de omgeving)` achter de plek.
+- Zet de tekst altijd als blockquote, zodat de bouwer hem los kan kopiëren naar `Veldinfo content`.
+- Staan de drie blokken leeg? Lever dan alleen het blok dat gevuld is; laat lege blokken weg.
 
 ---
 
-## Stap 4 — Bronverwijzing (altijd toepassen)
+## Stap 4 — Bronverwijzing (bijhouden, niet tonen)
 
-Voeg bij **elk** item **Bron (ontwerp)** toe:
+Houd per veld bij waar je het vandaan hebt, in dit format:
 
 > Hoofdstuk/§ … | Pagina … | (anker: "…")
 
-Als hoofdstuk/pagina **niet betrouwbaar beschikbaar** is:
-- Vermeld dat expliciet.
-- Gebruik **sectietitel of tekstfragment** als anker.
+Is hoofdstuk of pagina niet betrouwbaar beschikbaar, gebruik dan sectietitel of tekstfragment als anker.
+
+Deze verwijzing staat **niet** in de standaardoutput. Lever hem alleen als de gebruiker erom vraagt of een bevinding betwist.
 
 ---
 
-## Stap 5 — Buiten scope (altijd opnemen)
+## Stap 5 — Buiten scope (bewaken, niet tonen)
 
-Sluit de volgende onderwerpen expliciet uit en benoem ze als "buiten scope":
+Deze onderwerpen vallen buiten de skill. Neem velden die hieronder vallen niet op in `WEL DOEN`; hoort een veld thuis in `NIET DOEN`, benoem dan kort de reden.
 
 - Helptext of documentatie buiten velden (bijv. procesbeschrijvingen, handleidingen)
 - Verplichte veldvalidaties of foutmeldingen (die worden elders beheerd)
 - Vrije tekstvelden op InSite-pagina's die geen veldkoppeling hebben
 - Tooltips of popups die via maatwerk/custom code worden getoond en niet via `Veldinfo content` worden gevuld
 - De vertaling naar ENG, DUI en FR — die loopt automatisch via de Vertaaltool en valt niet onder de skill `vertalingen`
+
+---
+
+## Kwaliteitscriteria
+
+- [ ] De output bestaat uitsluitend uit de blokken `WEL DOEN`, `NIET DOEN` en `TWIJFEL`
+- [ ] Elk veld heeft precies drie regels: veldnaam, waar, tekst
+- [ ] Elke tekst staat als blockquote en is geschreven volgens de skill `schrijfwijzer`
+- [ ] Tooltipteksten uit het ontwerp zijn allemaal opgepakt en herschreven, niet overgenomen
+- [ ] Procesuitleg staat niet in het bolletje maar in de help
+- [ ] Geen inleiding, geen samenvatting, geen metadata en geen schrijftips, tenzij gevraagd
