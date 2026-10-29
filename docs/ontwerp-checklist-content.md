@@ -34,25 +34,25 @@ Per onderwerp staat steeds hetzelfde:
 
 **Wij leveren:** kolommen, filters en sorteringen in overzichten.
 
-**Benoem in het ontwerp:** welke bestaande weergave een kolom erbij krijgt, en of er een nieuwe weergave komt. Noem ook expliciet als een weergave juist **niet** wordt uitgebreid.
+**Benoem in het ontwerp:** welke bestaande weergave een kolom erbij krijgt en of er een nieuwe weergave komt, en per kolom of het veld al in de gegevensverzameling zit of dat de programmeur het nog moet toevoegen. Noem ook expliciet als een weergave juist **niet** wordt uitgebreid.
 
-**Vaak gemist:** het nummer of de exacte naam van de weergave, waardoor wij niet weten welke van de varianten we moeten aanpassen.
+**Vaak gemist:** drie dingen. Het nummer of de exacte naam van de weergave, waardoor wij niet weten welke variant we moeten aanpassen. Of het veld al in de gegevensverzameling zit: zit het er niet in, dan kunnen wij pas inrichten nadat de programmeur het heeft toegevoegd. En de standaardstand: welke kolommen staan aan, op welk veld sorteren we, en welk filter is standaard actief.
 
 ### Boekingslayouts
 
 **Wij leveren:** de indeling en volgorde van invoervelden bij het boeken.
 
-**Benoem in het ontwerp:** welke boekingssoort het raakt en waar het nieuwe veld in de invoervolgorde komt.
+**Benoem in het ontwerp:** welke boekingssoort of welk dagboek het raakt, waar het nieuwe veld in de invoervolgorde komt, of het veld verplicht is, en of het alleen bij een bepaalde soort zichtbaar is.
 
-**Vaak gemist:** het ontwerp beschrijft het veld wel, maar niet of het ook in de boekingsgang hoort.
+**Vaak gemist:** het ontwerp beschrijft het veld wel, maar niet of het ook in de boekingsgang hoort. En of het veld al in het boekingsscherm bestaat: zo niet, dan moet de programmeur het eerst toevoegen voordat wij de layout kunnen inrichten.
 
 ### Icoontjes
 
-**Wij leveren:** iconen bij menu-items, knoppen, tegels en processtappen.
+**Wij leveren:** de aanvraag voor een icoon bij een menu-item, knop, tegel of processtap: de plek en de betekenis. Het icoon zelf maakt de afdeling **Media**, niet wij.
 
-**Benoem in het ontwerp:** elk nieuw menu-item, tabblad, knop of tegel. Een icoon hoort erbij, ook als je het niet noemt.
+**Benoem in het ontwerp:** elk nieuw menu-item, tabblad, knop of tegel, en wat het icoon moet uitdrukken. Meestal is er geen nieuw icoon nodig; benoem het dus vooral als dat wél zo is.
 
-**Vaak gemist:** nieuwe tabbladen en acties worden beschreven zonder dat duidelijk is of er een bestaand icoon hergebruikt kan worden.
+**Vaak gemist:** nieuwe tabbladen en acties worden beschreven zonder dat duidelijk is of een bestaand icoon hergebruikt kan worden. Een nieuw icoon is bovendien een taak bij een andere afdeling: hoe later dat op tafel komt, hoe meer het de release in de weg zit.
 
 ---
 
@@ -93,11 +93,11 @@ Per onderwerp staat steeds hetzelfde:
 
 ### Pocket
 
-**Wij leveren:** de inrichting die nodig is om functionaliteit in de Pocket-app te tonen.
+**Wij leveren:** de vaststelling wat er in Pocket beschikbaar komt, de autorisatie daarop (op rollen of gebruikers) en de uitleg erover. De app zelf bouwen wij **niet**.
 
-**Benoem in het ontwerp:** of Pocket geraakt wordt, en zo ja welke schermen en welke velden. Benoem het ook als Pocket **niet** geraakt wordt.
+**Benoem in het ontwerp:** of Pocket geraakt wordt, en zo ja welke functionaliteit de gebruiker in de app krijgt, wie die mag gebruiken en of er een pushmelding bij hoort. Benoem het ook als Pocket **niet** geraakt wordt.
 
-**Vaak gemist:** Pocket wordt stilzwijgend overgeslagen, terwijl hetzelfde proces in InSite wel is uitgewerkt.
+**Vaak gemist:** Pocket wordt stilzwijgend overgeslagen, terwijl hetzelfde proces in InSite wel is uitgewerkt. En als Pocket wél wordt genoemd, ontbreekt op welke rollen of gebruikers de functionaliteit geautoriseerd moet worden.
 
 ---
 
@@ -129,11 +129,11 @@ Per onderwerp staat steeds hetzelfde:
 
 ### Documentsjabloon
 
-**Wij leveren:** brieven en correspondentiesjablonen.
+**Wij leveren:** brieven en correspondentiesjablonen: de tekst en de tags die uit de gegevensverzameling komen.
 
-**Benoem in het ontwerp:** welk document, voor wie, en met welke gegevens.
+**Benoem in het ontwerp:** welk document, voor wie, met welke gegevens, en hoe het bij de ontvanger komt — als download, als afdruk of als **bijlage bij een mail**. Gaat het als bijlage mee, dan hoort er ook een berichtsjabloon bij: op het tabblad E-mail leggen wij de titel, de bijlage en de inhoud van het bericht vast.
 
-**Vaak gemist:** het onderscheid tussen een document en een rapport. Dat bepaalt of er wel of geen type document nodig is.
+**Vaak gemist:** drie dingen. Het onderscheid tussen een document en een rapport, dat bepaalt of er een type document nodig is. Het onderscheid tussen een document en een mail, waardoor de helft van de taak blijft liggen. En of de velden die als tag nodig zijn al in de gegevensverzameling zitten.
 
 ### Vertalingen
 
@@ -157,17 +157,17 @@ Per onderwerp staat steeds hetzelfde:
 
 ### Analyses en gegevensverzamelingen
 
-**Wij leveren:** de gegevensverzamelingen waarmee weergaven, rapporten en dashboards worden gevoed.
+**Wij leveren:** de gegevensverzamelingen waarmee weergaven, rapporten en dashboards worden gevoed, en de analyses die daarop draaien.
 
-**Benoem in het ontwerp:** welke verzameling nieuw is of wordt uitgebreid, met welke velden en welke filters, en welke afnemer hem gebruikt.
+**Benoem in het ontwerp:** welke verzameling nieuw is of wordt uitgebreid, met welke velden en welke filters, welke afnemer hem gebruikt, en waarvoor elk veld dient: groeperen, optellen, filteren of alleen tonen.
 
-**Vaak gemist:** of een bestaande verzameling wordt uitgebreid of dat er een nieuwe bijkomt, en welke filters standaard meegaan.
+**Vaak gemist:** of een bestaande verzameling wordt uitgebreid of dat er een nieuwe bijkomt, en welke filters standaard meegaan. Daarnaast ontbreekt welke velden de programmeur nog moet toevoegen; juist die regels bepalen wanneer wij kunnen beginnen.
 
 ---
 
 ## Checklist per nieuw object
 
-Loop dit af voor elk nieuw scherm, veld, pagina, proces of rapport. Vier vragen, elk één zin.
+Loop dit af voor elk nieuw scherm, veld, pagina, proces of rapport. Vijf vragen, elk één zin.
 
 | Vraag | Voorbeeld van een bruikbaar antwoord |
 |---|---|
@@ -175,5 +175,6 @@ Loop dit af voor elk nieuw scherm, veld, pagina, proces of rapport. Vier vragen,
 | **Waar** zit het? | InSite, stamkaart medewerker, onderaan de groep Salaris |
 | **Wie** ziet het? | Rol Medewerker (Profit); MSS-variant voor HR-adviseur en Management |
 | **Hoe** krijgen we het werkend? | Pagina-onderdeel `KPI's voor Loontransparantie (ESS)` koppelen als onderdeel van die functionaliteit |
+| **Bestaat het al?** | De gegevensverzameling bestaat; het veld Peildatum moet de programmeur nog toevoegen |
 
 Kun je er één niet beantwoorden? Zet hem dan als open punt in het ontwerp. Een open punt met eigenaar is voor ons bruikbaarder dan een aanname.
