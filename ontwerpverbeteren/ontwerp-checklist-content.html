@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Wat de content-afdeling uit een ontwerp haalt</title>
+<style>
+body { font-family: Calibri, Arial, sans-serif; font-size: 11pt; line-height: 1.4; color: #000; max-width: 20cm; }
+h1 { font-size: 20pt; }
+h2 { font-size: 15pt; margin-top: 24pt; border-bottom: 1pt solid #999; padding-bottom: 4pt; }
+h3 { font-size: 12pt; margin-top: 18pt; }
+table { border-collapse: collapse; width: 100%; margin: 10pt 0; }
+th, td { border: 1pt solid #999; padding: 5pt 7pt; text-align: left; vertical-align: top; font-size: 10pt; }
+th { background: #eeeeee; }
+code { font-family: Consolas, monospace; font-size: 10pt; }
+</style>
+</head>
+<body>
+
+<h1>Wat de content-afdeling uit een ontwerp haalt</h1>
+
+<p>Dit document beschrijft per onderwerp wat wij na jouw ontwerp inrichten en meeleveren, en welke informatie we daarvoor uit het ontwerp moeten kunnen halen. Het is geen eisenlijst voor elk ontwerp: alleen de onderwerpen die jouw ontwerp raakt, zijn van toepassing.</p>
+
+<p>Per onderwerp staat steeds hetzelfde:</p>
+
+<table>
+<tr><th>Kop</th><th>Betekenis</th></tr>
+<tr><td><strong>Wij leveren</strong></td><td>Wat wij bouwen of inrichten en wat de klant krijgt</td></tr>
+<tr><td><strong>Benoem in het ontwerp</strong></td><td>De gegevens die wij nodig hebben om dat te kunnen doen</td></tr>
+<tr><td><strong>Vaak gemist</strong></td><td>Wat in de praktijk ontbreekt en ons een uitzoekvraag kost</td></tr>
+</table>
+
+<h2>Deel 1 &middot; Schermen en velden</h2>
+
+<h3>Informatiebolletje</h3>
+<p><strong>Wij leveren:</strong> de uitlegtekst achter het informatie-icoon bij een veld, in Profit, InSite en OutSite.</p>
+<p><strong>Benoem in het ontwerp:</strong> elk nieuw veld, elk verplaatst veld en elk veld waarvan de betekenis wijzigt. Heb je zelf al een tooltiptekst bedacht? Zet die erin &mdash; wij toetsen en herschrijven hem.</p>
+<p><strong>Vaak gemist:</strong> een ontwerp zet veldinfo buiten scope zonder te vermelden <em>welke</em> velden het raakt. Daardoor moeten wij de lijst alsnog zelf afleiden. Zet de velden erbij, ook als je ze buiten scope plaatst.</p>
+
+<h3>Profielen en contexten</h3>
+<p><strong>Wij leveren:</strong> aanmaakprofielen, beoordeelprofielen, afwijkende beoordeelprofielen per workflowtaak, en per profiel een context die bepaalt welke velden zichtbaar, wijzigbaar, verplicht of verborgen zijn.</p>
+<p><strong>Benoem in het ontwerp:</strong> per nieuw veld een rechtenmatrix: wat mag de instuurder, wat mag de beoordelaar, en wat geldt na afronding. Noem ook welke velden de klant niet mag verbergen.</p>
+<p><strong>Vaak gemist:</strong> drie dingen. Het <strong>afwijkende beoordeelprofiel</strong> per workflowtaak wordt niet benoemd. Een profielvariant met een <strong>vast gevuld veld</strong> wordt niet genoemd, of spreekt elders in het ontwerp zichzelf tegen. En een <strong>alleen-lezen-context</strong> ontbreekt in de matrix.</p>
+
+<h3>Weergaven</h3>
+<p><strong>Wij leveren:</strong> kolommen, filters en sorteringen in overzichten.</p>
+<p><strong>Benoem in het ontwerp:</strong> welke bestaande weergave een kolom erbij krijgt, en of er een nieuwe weergave komt. Noem ook expliciet als een weergave juist <strong>niet</strong> wordt uitgebreid.</p>
+<p><strong>Vaak gemist:</strong> het nummer of de exacte naam van de weergave, waardoor wij niet weten welke van de varianten we moeten aanpassen.</p>
+
+<h3>Boekingslayouts</h3>
+<p><strong>Wij leveren:</strong> de indeling en volgorde van invoervelden bij het boeken.</p>
+<p><strong>Benoem in het ontwerp:</strong> welke boekingssoort het raakt en waar het nieuwe veld in de invoervolgorde komt.</p>
+<p><strong>Vaak gemist:</strong> het ontwerp beschrijft het veld wel, maar niet of het ook in de boekingsgang hoort.</p>
+
+<h3>Icoontjes</h3>
+<p><strong>Wij leveren:</strong> iconen bij menu-items, knoppen, tegels en processtappen.</p>
+<p><strong>Benoem in het ontwerp:</strong> elk nieuw menu-item, tabblad, knop of tegel. Een icoon hoort erbij, ook als je het niet noemt.</p>
+<p><strong>Vaak gemist:</strong> nieuwe tabbladen en acties worden beschreven zonder dat duidelijk is of er een bestaand icoon hergebruikt kan worden.</p>
+
+<h2>Deel 2 &middot; Toegang</h2>
+
+<h3>Autorisatie</h3>
+<p><strong>Wij leveren:</strong> in Profit de autorisatieprocessen op menu-items, tabbladen, weergaven en acties. In InSite en OutSite de <strong>functionaliteiten</strong>, de <strong>rollen</strong> waaraan we ze koppelen, en de <strong>onderdelen</strong> die eronder hangen, zoals KPI-secties op een stamkaart.</p>
+<p><strong>Benoem in het ontwerp:</strong> per nieuw scherm of pagina-onderdeel vier dingen &mdash; de naam van de functionaliteit, welke onderdelen eronder vallen, aan welke rollen we koppelen, en of er een ESS-, MSS- en OutSite-variant komt.</p>
+<p><strong>Vaak gemist:</strong> dit is het onderwerp waar het meest ontbreekt.</p>
+<ul>
+<li>De <strong>functionaliteitsnamen</strong> staan er niet in, terwijl wij ze moeten aanmaken.</li>
+<li>De <strong>ESS/MSS-splitsing</strong> wordt niet gemaakt. E&eacute;n beschreven route levert bij ons bijna altijd twee of drie functionaliteiten op, zodat een klant &eacute;&eacute;n route kan uitzetten.</li>
+<li>KPI's en pagina-onderdelen worden beschreven als scherminhoud, niet als iets dat we onder een functionaliteit moeten hangen.</li>
+<li>De rolkeuze wordt doorgeschoven met "team Content bepaalt", zonder kader. Bij Loontransparantie ging dat om ongeveer 25 koppelingen.</li>
+</ul>
+
+<h2>Deel 3 &middot; Processen</h2>
+
+<h3>Workflow en condities</h3>
+<p><strong>Wij leveren:</strong> de workflows, de processtappen, de condities en per taak het profiel waarmee die taak wordt afgehandeld.</p>
+<p><strong>Benoem in het ontwerp:</strong> per stap wie de taak krijgt, welke actie hij heeft, welke conditie de route bepaalt, en welk profiel de stap gebruikt. Noem ook of er in een stap een rapport wordt gegenereerd.</p>
+<p><strong>Vaak gemist:</strong> het <strong>aantal workflows</strong>. Een ontwerp gaat uit van &eacute;&eacute;n workflow voor twee profielen, terwijl de stappen in de praktijk uiteenlopen en er twee workflows nodig zijn. En de koppeling van een taak aan een <strong>afwijkend beoordelingsprofiel</strong> staat er niet in.</p>
+
+<h3>Signalen</h3>
+<p><strong>Wij leveren:</strong> de signaaldefinitie: gegevensverzameling, filters, signaaltype, signaaltekst, gebruikerstoelichting, bestemming en autorisatie.</p>
+<p><strong>Benoem in het ontwerp:</strong> waarop het signaal afgaat, wie het ontvangt en welke velden erin moeten staan.</p>
+<p><strong>Vaak gemist:</strong> de signaaltekst zelf, en de velden die de gegevensverzameling moet bevatten om die tekst te kunnen vullen.</p>
+
+<h3>Pocket</h3>
+<p><strong>Wij leveren:</strong> de inrichting die nodig is om functionaliteit in de Pocket-app te tonen.</p>
+<p><strong>Benoem in het ontwerp:</strong> of Pocket geraakt wordt, en zo ja welke schermen en welke velden. Benoem het ook als Pocket <strong>niet</strong> geraakt wordt.</p>
+<p><strong>Vaak gemist:</strong> Pocket wordt stilzwijgend overgeslagen, terwijl hetzelfde proces in InSite wel is uitgewerkt.</p>
+
+<h2>Deel 4 &middot; Teksten naar de klant</h2>
+
+<h3>Opmaak InSite</h3>
+<p><strong>Wij leveren:</strong> de banner met afbeelding, titel en tekst op aanmaak-, profielkeuze- en medewerkerkeuzepagina's. De standaardpagina's zelf maken wij <strong>niet</strong> meer op; die komen uit de bouw.</p>
+<p><strong>Benoem in het ontwerp:</strong> welke sjablonen er komen, welke profielen daarop uitkomen, en voor welke doelgroep elke variant bedoeld is.</p>
+<p><strong>Vaak gemist:</strong> de <strong>aantallen</strong>. E&eacute;n sjabloon maal twee profielen maal ESS en MSS is zes teksten en twee afbeeldingen. Een zin als "toelichtende tekst, invulling door Content" maakt niet zichtbaar hoeveel teksten dat zijn, waar ze staan en wie ze leest.</p>
+
+<h3>Pagina's OutSite</h3>
+<p><strong>Wij leveren:</strong> de OutSite-pagina's, en bij sjablonen waarvoor <strong>geen standaardpagina</strong> bestaat ook de opmaak zelf, die wij maken en inchecken.</p>
+<p><strong>Benoem in het ontwerp:</strong> of er OutSite-functionaliteit komt, welke externe doelgroep die ziet, en of er een standaardpagina beschikbaar is.</p>
+<p><strong>Vaak gemist:</strong> het verschil tussen "bestaat al" en "maken wij". Een sjabloonlijst zonder die vermelding kost ons een hele taak, in beide richtingen.</p>
+
+<h3>Berichtsjabloon</h3>
+<p><strong>Wij leveren:</strong> de e-mailberichten: onderwerp, tekst en de tags die uit de gegevensverzameling komen.</p>
+<p><strong>Benoem in het ontwerp:</strong> welk bericht wanneer wordt verstuurd, aan wie, en welke gegevens erin moeten staan.</p>
+<p><strong>Vaak gemist:</strong> de velden die als tag nodig zijn, en daarmee of de gegevensverzameling die velden al bevat.</p>
+
+<h3>Documentsjabloon</h3>
+<p><strong>Wij leveren:</strong> brieven en correspondentiesjablonen.</p>
+<p><strong>Benoem in het ontwerp:</strong> welk document, voor wie, en met welke gegevens.</p>
+<p><strong>Vaak gemist:</strong> het onderscheid tussen een document en een rapport. Dat bepaalt of er wel of geen type document nodig is.</p>
+
+<h3>Vertalingen</h3>
+<p><strong>Wij leveren:</strong> de vertalingen van berichtsjablonen en signaalteksten naar Engels, Duits en Frans.</p>
+<p><strong>Benoem in het ontwerp:</strong> of de functionaliteit meertalig wordt uitgeleverd.</p>
+<p><strong>Vaak gemist:</strong> de vertaalvraag komt pas achteraf op tafel. Elke tekst die wij meeleveren &mdash; banner, profielkeuze, meldingstekst, rapport &mdash; heeft er een.</p>
+
+<h2>Deel 5 &middot; Output en analyse</h2>
+
+<h3>Rapporten</h3>
+<p><strong>Wij leveren:</strong> twee soorten. Een <strong>afdrukrapport</strong> dat de gebruiker uit een menu start, en een <strong>rapport in de workflow</strong> dat een behandelaar in een stap genereert en dat als bijlage bij het dossieritem komt.</p>
+<p><strong>Benoem in het ontwerp:</strong> welk soort het is, welke gegevensverzameling eronder ligt, welke velden erop staan en voor wie het bedoeld is.</p>
+<p><strong>Vaak gemist:</strong> de <strong>naam</strong>. De rapportkeuze in de workflow wordt niet gefilterd op de workflow waarin de behandelaar zit, dus hij kiest uit de volledige lijst. De naam moet op zichzelf herkenbaar zijn. Daarnaast ontbreekt vaak welke velden daadwerkelijk op het rapport komen.</p>
+
+<h3>Analyses en gegevensverzamelingen</h3>
+<p><strong>Wij leveren:</strong> de gegevensverzamelingen waarmee weergaven, rapporten en dashboards worden gevoed.</p>
+<p><strong>Benoem in het ontwerp:</strong> welke verzameling nieuw is of wordt uitgebreid, met welke velden en welke filters, en welke afnemer hem gebruikt.</p>
+<p><strong>Vaak gemist:</strong> of een bestaande verzameling wordt uitgebreid of dat er een nieuwe bijkomt, en welke filters standaard meegaan.</p>
+
+<h2>Checklist per nieuw object</h2>
+
+<p>Loop dit af voor elk nieuw scherm, veld, pagina, proces of rapport. Vier vragen, elk &eacute;&eacute;n zin.</p>
+
+<table>
+<tr><th>Vraag</th><th>Voorbeeld van een bruikbaar antwoord</th></tr>
+<tr><td><strong>Wat</strong> komt erbij?</td><td>Functionaliteit <code>ESS/Loontransparantie raadplegen</code></td></tr>
+<tr><td><strong>Waar</strong> zit het?</td><td>InSite, stamkaart medewerker, onderaan de groep Salaris</td></tr>
+<tr><td><strong>Wie</strong> ziet het?</td><td>Rol Medewerker (Profit); MSS-variant voor HR-adviseur en Management</td></tr>
+<tr><td><strong>Hoe</strong> krijgen we het werkend?</td><td>Pagina-onderdeel <code>KPI's voor Loontransparantie (ESS)</code> koppelen als onderdeel van die functionaliteit</td></tr>
+</table>
+
+<p>Kun je er &eacute;&eacute;n niet beantwoorden? Zet hem dan als open punt in het ontwerp. Een open punt met eigenaar is voor ons bruikbaarder dan een aanname.</p>
+
+</body>
+</html>
