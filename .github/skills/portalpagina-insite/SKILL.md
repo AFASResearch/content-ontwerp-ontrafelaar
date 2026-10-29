@@ -80,7 +80,7 @@ Komt er een pagina-onderdeel bij, zoals een KPI-sectie, lever dan per onderdeel:
 | **Portalpagina** | Op welke pagina het landt en op welke plek |
 | **Varianten** | ESS, MSS, en eventuele varianten per populatie, bijvoorbeeld per plaatsing |
 
-De **autorisatie** van zo'n onderdeel valt onder `autorisatie`, niet hier.
+De **autorisatie** van zo'n onderdeel valt onder `autorisatie-en-functionaliteiten`, niet hier.
 
 ---
 
@@ -95,7 +95,7 @@ De **autorisatie** van zo'n onderdeel valt onder `autorisatie`, niet hier.
 - De veldindeling en veldvolgorde van standaardpagina's; die komen uit de bouw
 - Huisstijl en centrale opmaakrichtlijnen
 - Klantspecifieke portalinrichting
-- Autorisatie op functionaliteit, rol of pagina-onderdeel (valt onder skill `autorisatie`)
+- Autorisatie op functionaliteit, rol of pagina-onderdeel (valt onder skill `autorisatie-en-functionaliteiten`)
 - Veldzichtbaarheid per context (valt onder skill `profielen-en-veldcontexten`)
 - OutSite-pagina's (valt onder skill `paginas-outsite`)
 - Icoontjes bij knoppen en menu-items (valt onder skill `icoontjes`); bannerafbeeldingen vallen wél hier

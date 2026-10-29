@@ -31,7 +31,7 @@ De output is geschreven om direct te kunnen worden geplakt in Word of OneNote. G
 Controleer deze skills altijd in deze volgorde:
 
 - analyses
-- autorisatie
+- autorisatie-en-functionaliteiten
 - berichtenjabloon
 - boekingslayouts
 - documentsjabloon

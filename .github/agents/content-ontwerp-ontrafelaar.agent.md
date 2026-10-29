@@ -112,7 +112,7 @@ Roep **alle** skills hieronder altijd aan. De skill bepaalt zelf of er impact is
 | 5 | `profielen-en-veldcontexten` | Profielen en veldcontexten |
 | 6 | `icoontjes` | Icoontjes |
 | 7 | `paginas-outsite` | Pagina's OutSite (inclusief vaste check op OutSite-profielen) |
-| 8 | `autorisatie` | Autorisatiegroep (Profit) **én** autorisatierollen (InSite/OutSite) |
+| 8 | `autorisatie-en-functionaliteiten` | Autorisatiegroep (Profit) **én** functionaliteiten en autorisatierollen (InSite/OutSite) |
 | 9 | `informatiebolletje` | Veldinfo content (informatiebolletje) |
 | 10 | `pocket` | Pocket |
 | 11 | `portalpagina-insite` | Portalpagina / opmaak standaardpagina's controleren (InSite) |
@@ -125,7 +125,7 @@ Roep **alle** skills hieronder altijd aan. De skill bepaalt zelf of er impact is
 
 > **Volgorde is bindend voor `vertalingen`**: roep deze skill aan **na** `berichtsjabloon` en `signalen`, want hij werkt op de teksten die die twee skills opleveren.
 
-> **`autorisatie` dekt bewust twee onderwerpen**: Profit-autorisatiegroepen en InSite/OutSite-autorisatierollen. De skill levert die als twee losse blokken op. Later kan dit gesplitst worden in twee skills.
+> **`autorisatie-en-functionaliteiten` dekt bewust twee onderwerpen**: Profit-autorisatiegroepen en InSite/OutSite-functionaliteiten met hun rollen. De skill levert die als twee losse blokken op. Later kan dit gesplitst worden in twee skills.
 
 ### Eindbewerking (levert geen eigen bevindingen)
 

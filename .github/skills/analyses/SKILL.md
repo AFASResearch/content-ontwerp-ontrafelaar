@@ -136,7 +136,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Het bouwen van de gegevensverzameling zelf als die nieuw is (programmeur)
 - Rapporten en rapportlayouts (valt onder skill `rapporten`)
 - Weergaven (valt onder skill `weergaven`) en boekingslayouts (valt onder skill `boekingslayouts`)
-- Autorisatie op de analyse (valt onder skill `autorisatie`)
+- Autorisatie op de analyse (valt onder skill `autorisatie-en-functionaliteiten`)
 
 ---
 

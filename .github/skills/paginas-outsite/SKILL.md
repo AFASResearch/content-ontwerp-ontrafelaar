@@ -85,7 +85,7 @@ Beantwoord per pagina of onderdeel:
 |-------|---------------------|
 | **Wie ziet dit?** | Bepaalt de aanspreekvorm en het woordgebruik in de teksten |
 | **Moet die inloggen?** | Anoniem of ingelogd verandert wat er getoond mag worden |
-| **Welke rol of profiel hoort erbij?** | Bepaalt de afscherming; de rol zelf valt onder skill `autorisatie` |
+| **Welke rol of profiel hoort erbij?** | Bepaalt de afscherming; de rol zelf valt onder skill `autorisatie-en-functionaliteiten` |
 | **Wat mag deze gebruiker níét zien?** | Externe gebruikers zien standaard minder dan interne |
 
 > Zegt het ontwerp niet wie de doelgroep is? Dan is dat `te weinig info` en een vraag aan de ontwerper. **Vul nooit zelf een doelgroep in**: of de sollicitant of de medewerker dit ziet, verandert de hele uitwerking.
@@ -153,7 +153,7 @@ Is het antwoord `nee` of `expliciet buiten scope`, dan ben je klaar; de tabel hi
 ## Stap 5 — Buiten scope (altijd opnemen)
 
 - Technische hosting, domeinen en certificaten
-- Autorisatierollen en functionaliteiten voor OutSite (valt onder skill `autorisatie`)
+- Autorisatierollen en functionaliteiten voor OutSite (valt onder skill `autorisatie-en-functionaliteiten`)
 - InSite-banners en profielkeuzepagina's (valt onder skill `portalpagina-insite`)
 - Profielen en contexten in algemene zin (valt onder skill `profielen-en-veldcontexten`)
 

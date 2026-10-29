@@ -1,10 +1,10 @@
 ---
-name: autorisatie
-description: 'Breng de autorisatie-impact van een ontwerp in kaart: Profit (autorisatiegroepen: menu-items, tabbladen, weergaven, acties) en InSite/OutSite (functionaliteiten, de rollen waaraan je ze koppelt en de pagina-onderdelen eronder). Gebruik bij vragen als: welke autorisaties zijn nodig, welke functionaliteit, aan welke rol koppelen, KPI autoriseren, ESS MSS splitsen, Profit menu-autorisatie.'
+name: autorisatie-en-functionaliteiten
+description: 'Breng de autorisatie- en functionaliteit-impact van een ontwerp in kaart: Profit (autorisatiegroepen: menu-items, tabbladen, weergaven, acties) en InSite/OutSite (functionaliteiten, de rollen waaraan je ze koppelt en de pagina-onderdelen eronder). Gebruik bij vragen als: welke autorisaties zijn nodig, welke functionaliteit, aan welke rol koppelen, KPI autoriseren, ESS MSS splitsen, Profit menu-autorisatie.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
-# Autorisatie-analyse
+# Autorisatie- en functionaliteit-analyse
 
 ## Doel
 

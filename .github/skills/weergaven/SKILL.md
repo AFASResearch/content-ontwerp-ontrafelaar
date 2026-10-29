@@ -131,7 +131,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Technische performance van weergaven
 - Het bouwen van de gegevensverzameling zelf als die nieuw is (programmeur)
 - Boekings- en invoerlayouts (valt onder skill `boekingslayouts`)
-- Autorisatie op weergaven (valt onder skill `autorisatie`)
+- Autorisatie op weergaven (valt onder skill `autorisatie-en-functionaliteiten`)
 - Rapporten (valt onder skill `rapporten`) en analyses (valt onder skill `analyses`)
 - Veldzichtbaarheid per profiel (valt onder skill `profielen-en-veldcontexten`)
 

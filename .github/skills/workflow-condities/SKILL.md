@@ -73,7 +73,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 
 - Technische implementatie van de workflow-engine
 - Klantspecifieke workflowvarianten
-- Autorisatie op workflowtaken (valt onder skill `autorisatie`); de veldinstellingen per taak vallen onder `profielen-en-veldcontexten`
+- Autorisatie op workflowtaken (valt onder skill `autorisatie-en-functionaliteiten`); de veldinstellingen per taak vallen onder `profielen-en-veldcontexten`
 - Berichten die de workflow verstuurt (valt onder skill `berichtsjabloon`)
 - Signalen die een workflow starten (valt onder skill `signalen`)
 - De opmaak van het rapport dat in een stap wordt gegenereerd (valt onder skill `rapporten`)

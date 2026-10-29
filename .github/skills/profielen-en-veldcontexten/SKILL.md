@@ -129,7 +129,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 
 - Technische veldvalidaties en foutmeldingen
 - Het datamodel van de mutatie- en profieltabel
-- Functionaliteiten, rollen en pagina-onderdelen (valt onder skill `autorisatie`)
+- Functionaliteiten, rollen en pagina-onderdelen (valt onder skill `autorisatie-en-functionaliteiten`)
 - Informatiebolletjes bij velden (valt onder skill `informatiebolletje`)
 - De banner en de teksten op de profielkeuzepagina (valt onder skill `portalpagina-insite`)
 - De workflowstappen zelf (valt onder skill `workflow-condities`); alleen de koppeling taak → afwijkend beoordeelprofiel hoort hier

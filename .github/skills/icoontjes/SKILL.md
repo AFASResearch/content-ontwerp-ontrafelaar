@@ -82,7 +82,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Formaten, bestandstypen en technische levering van iconenbestanden
 - Huisstijl- en ontwerprichtlijnen die centraal vastliggen
 - Klantspecifieke logo's en branding
-- De naam en autorisatie van het menu-item of de knop (valt onder skill `autorisatie`)
+- De naam en autorisatie van het menu-item of de knop (valt onder skill `autorisatie-en-functionaliteiten`)
 
 ---
 

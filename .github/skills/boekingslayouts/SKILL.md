@@ -120,7 +120,7 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 - Technische veldvalidaties en foutmeldingen
 - Het toevoegen van een veld aan het boekingsscherm zelf (programmeur)
 - Weergaven en overzichten (valt onder skill `weergaven`)
-- Autorisatie op boeken (valt onder skill `autorisatie`)
+- Autorisatie op boeken (valt onder skill `autorisatie-en-functionaliteiten`)
 - Veldzichtbaarheid per profiel en context (valt onder skill `profielen-en-veldcontexten`)
 - Veldtoelichting bij de invoervelden (valt onder skill `informatiebolletje`)
 
