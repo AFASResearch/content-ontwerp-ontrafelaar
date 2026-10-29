@@ -1,6 +1,6 @@
 ---
 name: pocket
-description: 'Bepaal of een ontwerp Pocket benoemt en wat dat voor ons betekent: welke functionaliteit in de AFAS Pocket-app beschikbaar komt en of die geautoriseerd moet worden op rollen of gebruikers. Pocket zelf ontwikkelen wij niet. Gebruik bij vragen als: heeft dit impact op Pocket, Pocket-app, mobiele app, Pocket-functionaliteit, Pocket autoriseren.'
+description: 'Bepaal of een ontwerp daadwerkelijke Pocket-functionaliteit introduceert of wijzigt en of die geautoriseerd moet worden op rollen of gebruikersgroepen. Een simpele vermelding van Pocket is niet genoeg; alleen een echte wijziging van de app-functionaliteit telt mee. Pocket zelf ontwikkelen wij niet. Gebruik bij vragen als: heeft dit impact op Pocket, Pocket-app, mobiele app, Pocket-functionaliteit, Pocket autoriseren.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
@@ -10,17 +10,19 @@ argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 
 Deze skill beantwoordt drie vragen:
 
-1. **Wordt Pocket benoemd in het ontwerp?**
+1. **Wijzigt het ontwerp de Pocket-functionaliteit echt?**
 2. **Zo ja: welke functionaliteit komt er in Pocket?**
-3. **Moet die functionaliteit geautoriseerd worden op rollen of gebruikers?**
+3. **Moet die functionaliteit geautoriseerd worden op rollen of gebruikersgroepen?**
 
-> **Wij ontwikkelen Pocket niet.** Er is dus nooit een bouwtaak voor ons in de app zelf. Onze taak beperkt zich tot: vaststellen wat er in Pocket beschikbaar komt, de autorisatie daarop, en de uitleg erover.
+> **Alleen echte Pocket-functionaliteitswijzigingen tellen mee.** Een korte vermelding van Pocket, of een verwijzing zonder feitelijke app-impact, is geen contenttaak. Wij ontwikkelen Pocket niet. Onze taak beperkt zich tot: vaststellen of er nieuwe of gewijzigde functionaliteit in de app ontstaat, hoe die geautoriseerd wordt, en welke inrichting daarvoor nodig is.
 
 ---
 
-## Stap 1 — Wordt Pocket benoemd?
+## Stap 1 — Wijzigt de Pocket-functionaliteit?
 
-Begin bij `komt niet voor in ontwerp`. Wijk daar alleen van af als het ontwerp Pocket aantoonbaar noemt.
+Begin bij `komt niet voor in ontwerp`. Wijk daar alleen van af als het ontwerp aantoonbaar maakt dat Pocket een nieuwe of gewijzigde functionaliteit krijgt.
+
+Een vermelding van Pocket zonder feitelijke app-impact is geen werkitem. Als het ontwerp alleen zegt dat Pocket iets kan zien of dat het een raakvlak is, maar niet dat de app-functionaliteit verandert of uitgebreid wordt, blijft de uitkomst `komt niet voor in ontwerp`.
 
 ### A) Harde trigger
 
@@ -62,10 +64,11 @@ Bij alleen een impliciet signaal: `te weinig info` + vraag aan de ontwerper of d
 Regels:
 
 - **"Beschikbaar in Pocket" beantwoord je altijd expliciet.** Laat dit veld nooit leeg.
-- **Autorisatie is de kerntaak.** Komt er functionaliteit in Pocket, bepaal dan altijd of die op rollen of gebruikers geautoriseerd moet worden, en zet de uitwerking door naar de skill `autorisatie-en-functionaliteiten`.
-- **Noemt het ontwerp geen rollen**, dan is dat een beslispunt. Vul nooit zelf rollen in zonder dat te markeren.
+- **Autorisatie is de kerntaak.** Komt er functionaliteit in Pocket, bepaal dan altijd of die op rollen of gebruikersgroepen geautoriseerd moet worden, en zet de uitwerking door naar de skill `autorisatie-en-functionaliteiten`.
+- **Noemt het ontwerp geen rollen of gebruikersgroepen**, dan is dat een beslispunt. Vul nooit zelf rollen in zonder dat te markeren.
 - **Geen bouwtaak voor ons.** Schrijf nooit op dat wij een Pocket-scherm maken of wijzigen.
 - **Komt de functionaliteit in InSite én Pocket?** Benoem beide routes; ze kunnen verschillende rollen hebben.
+- **Alleen echte functionaliteitswijzigingen tellen.** Een vermelding van Pocket zonder wijziging van de app-functionaliteit is geen Ja.
 
 ---
 
@@ -90,8 +93,9 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 
 ## Stap 5 — Beslispunten (altijd opnemen, minimaal 1)
 
+- Verandert de app-functionaliteit echt, of is Pocket alleen ter mentionatie genoemd?
 - Komt de functionaliteit ook naar Pocket, of alleen naar InSite?
-- Moet de Pocket-functionaliteit geautoriseerd worden, en zo ja op welke rollen of gebruikers?
+- Moet de Pocket-functionaliteit geautoriseerd worden, en zo ja op welke rollen of gebruikersgroepen?
 - Is een pushmelding gewenst?
 - Welke inrichting moet de klant doen voordat het in Pocket werkt?
 
