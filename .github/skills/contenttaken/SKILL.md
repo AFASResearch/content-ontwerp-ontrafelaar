@@ -8,7 +8,7 @@ argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 
 ## Doel
 
-Maak een overkoepelend inhoudelijk overzicht van alle contenttaken die in een functioneel ontwerp relevant zijn. De analyse werkt per registrerende skill en bepaalt per skill of die wel of niet voorkomt in het ontwerp.
+Maak een overkoepelend inhoudelijk overzicht van alle contenttaken die in een functioneel ontwerp relevant zijn. De analyse werkt per registrerende skill en bepaalt per skill of die wel of niet voorkomt in het ontwerp. Als er meerdere ontwerpen bij één project horen, dan worden de relevante taken over die ontwerpen heen samengevoegd in één overzicht per skill.
 
 De output is geschreven om direct te kunnen worden geplakt in Word of OneNote. Gebruik dus geen tabellen, geen complexe markdown-structuur en geen afkortingen die alleen in het systeem werken. Gebruik duidelijke, platte koppen en bullets.
 
@@ -16,13 +16,15 @@ De output is geschreven om direct te kunnen worden geplakt in Word of OneNote. G
 
 ## Gedrag van deze skill
 
-1. Lees het ontwerp volledig en controleer per geregistreerde skill of die relevant is.
-2. Geef eerst voor alle skills een samenvatting met alleen de status.
-3. Als een skill voorkomt in het ontwerp, beschrijf je concreet welke content- of inrichtingstaken nodig zijn bij dit project.
-4. Als een skill niet voorkomt, vermeld je dat expliciet en noteer je dat er voor deze skill geen contenttaken zijn vastgesteld. Je werkt deze skill dan niet verder uit.
-5. Als de informatie ontbreekt, noteer je dat expliciet als `te weinig info` en noem je wat ontbreekt.
-6. Gebruik altijd een bronverwijzing naar het ontwerp, bij voorkeur met hoofdstuk/§ | pagina | anker.
-7. Houd de tekst kort, concreet en direct kopieerbaar.
+1. Lees alle gekoppelde ontwerpen van het project volledig en controleer per geregistreerde skill of die relevant is.
+2. Als er meerdere ontwerpen in één project staan, voeg je de relevante contenttaken samen per skill en behandel je het project als één totaaloverzicht.
+3. Maak eerst een compacte Ja/Nee-lijst voor alle skills: `Ja` = komt voor in het project, `Nee` = komt niet voor in het project. Gebruik deze lijst als eerste overzicht voordat je de gedetailleerde uitwerking maakt.
+4. Geef daarna voor alle skills een samenvatting met alleen de status.
+5. Als een skill voorkomt in het project, beschrijf je concreet welke content- of inrichtingstaken nodig zijn bij dit project.
+6. Als een skill niet voorkomt, vermeld je dat expliciet en noteer je dat er voor deze skill geen contenttaken zijn vastgesteld. Je werkt deze skill dan niet verder uit.
+7. Als de informatie ontbreekt, noteer je dat expliciet als `te weinig info` en noem je wat ontbreekt.
+8. Gebruik altijd een bronverwijzing naar het relevante ontwerp, bij voorkeur met hoofdstuk/§ | pagina | anker.
+9. Houd de tekst kort, concreet en direct kopieerbaar.
 
 ---
 
@@ -58,11 +60,21 @@ Gebruik exact deze statuslabels:
 - komt niet voor in ontwerp
 - te weinig info
 
+Maak in de eerste stap van de analyse ook een compacte Ja/Nee-lijst voor alle skills. Gebruik daarbij:
+
+- Ja = komt voor in ontwerp
+- Nee = komt niet voor in ontwerp
+
 ---
 
 ## Outputvorm voor Word en OneNote
 
-Gebruik GEEN markdown-tabel. Gebruik deze strak geplakte structuur:
+Gebruik GEEN markdown-tabel. Maak eerst een compacte Ja/Nee-overzicht voor alle skills, bijvoorbeeld:
+
+Skill: analyses
+Ja/Nee: Ja
+
+Dan pas ga je verder met de volledige uitgewerkte structuur per relevante skill:
 
 Skill: [naam van de skill]
 Status: [komt voor in ontwerp / komt niet voor in ontwerp / te weinig info]
