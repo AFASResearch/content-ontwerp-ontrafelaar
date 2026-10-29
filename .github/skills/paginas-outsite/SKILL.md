@@ -1,20 +1,18 @@
 ---
 name: paginas-outsite
-description: 'Breng de OutSite-impact van een ontwerp in kaart: wordt er functionaliteit uitgeleverd voor OutSite, welke OutSite-paginas zijn nieuw of wijzigen, en zijn er OutSite-profielen beschikbaar? Zoek altijd expliciet of het ontwerp OutSite-functionaliteit oplevert en controleer of er profielen zijn. Gebruik bij vragen als: welke OutSite-paginas zijn nodig, OutSite-impact, is er OutSite-functionaliteit, OutSite profielen, externe portal pagina.'
+description: 'Breng de OutSite-impact van een ontwerp in kaart: wordt er functionaliteit uitgeleverd voor OutSite, welke OutSite-paginas zijn nieuw of wijzigen, bestaat er een standaardpagina of maken wij de opmaak zelf, en zijn er OutSite-profielen beschikbaar? Gebruik bij vragen als: welke OutSite-paginas zijn nodig, OutSite-impact, is er OutSite-functionaliteit, OutSite profielen, OutSite opmaak, externe portal pagina.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
 # Pagina's OutSite-analyse
 
-> **Status: skelet.** De scansignalen en outputvelden hieronder zijn een startpunt en worden nog verder uitgewerkt. Gok nooit: gebruik `te weinig info` als je iets niet zeker kunt vaststellen.
-
 ## Doel
 
-Volledig in kaart brengen welke **OutSite-pagina's** een ontwerp raakt.
+Volledig in kaart brengen welke **OutSite-pagina's** een ontwerp raakt, en of wij de opmaak daarvan zelf moeten maken.
 
 > **Eerste vraag, altijd:** wordt er in dit ontwerp **functionaliteit uitgeleverd voor OutSite**? Zoek daar actief naar; beantwoord die vraag expliciet vóór je aan de pagina-analyse begint.
 
-> **Vaste controle:** ga altijd expliciet na of er **profielen beschikbaar zijn voor OutSite**. Rapporteer die uitkomst ook als het ontwerp er niets over zegt — dan met status `te weinig info`.
+> **Vaste controle:** ga altijd expliciet na of er **profielen beschikbaar zijn voor OutSite** en of er een **standaardpagina** bestaat. Rapporteer beide uitkomsten ook als het ontwerp er niets over zegt — dan met status `te weinig info`.
 
 ---
 
@@ -59,6 +57,11 @@ Benoem concreet wat de klant na de release in OutSite krijgt:
 | **Proces of actie** | Wat de externe gebruiker kan indienen, aanvragen, uploaden of goedkeuren |
 | **Profiel** | Het OutSite-profiel dat bepaalt welke velden zichtbaar en verplicht zijn |
 | **Veld of gegeven** | Welke gegevens er nieuw zichtbaar worden |
+| **Opmaak** | De pagina-opmaak zelf, als er voor dit sjabloon geen standaardpagina bestaat |
+
+> **Vaste controle: bestaat er een standaardpagina?** Voor veel OutSite-sjablonen is die er niet. Ontbreekt hij, dan is de opmaak een **contenttaak**: wij maken de pagina zelf op en checken hem in. Dat is het verschil met InSite, waar de standaardpagina uit de bouw komt en wij alleen de banner doen (zie `portalpagina-insite`).
+>
+> Zegt het ontwerp hier niets over — en dat is de regel, niet de uitzondering — zet de opmaak dan op `te weinig info` en stel de vraag: bestaat er een standaardpagina voor dit sjabloon, of maken wij hem op?
 
 Wordt het **standaard uitgeleverd** of moet de klant het zelf inrichten? Noteer dat erbij; dat bepaalt of er content nodig is voor de inrichting of alleen voor het gebruik.
 
@@ -97,6 +100,8 @@ Beantwoord per pagina of onderdeel:
 |------|-----------|
 | **OutSite** | OutSite, OutSite-pagina, OutSite-portal |
 | **Profiel** | OutSite-profiel, profiel |
+| **Sjabloon** | sjabloon, Aanmaken …, Beoordelen …, Aanpassen … |
+| **Payroll Cloud** | Payroll Cloud, accountancyportal |
 
 ### B) Impliciete signalen
 
@@ -105,6 +110,7 @@ Beantwoord per pagina of onderdeel:
 | **Externe gebruiker** | "de sollicitant", "de klant", "de leverancier" |
 | **Publiek toegankelijk proces** | "zonder inloggen", "via de website" |
 | **Aanmelding of aanvraag van buitenaf** | "extern indienen van een aanvraag" |
+| **InSite-sjabloon met OutSite-variant** | "een aantal sjablonen wordt ook beschikbaar in OutSite" |
 
 ---
 
@@ -115,7 +121,7 @@ Begin de output **altijd** met de uitkomst van stap 1:
 | Veld | Inhoud |
 |------|--------|
 | **Wordt er OutSite-functionaliteit uitgeleverd?** | `ja` / `nee` / `expliciet buiten scope` / `te weinig info` (+ wat ontbreekt) |
-| **Wat wordt er uitgeleverd?** | Concreet: pagina, paginaonderdeel, portal, proces, profiel of veld (stap 1b) |
+| **Wat wordt er uitgeleverd?** | Concreet: pagina, paginaonderdeel, portal, proces, profiel, veld of opmaak (stap 1b) |
 | **Standaard of zelf inrichten?** | `standaard uitgeleverd` / `klant richt zelf in` / `te weinig info` |
 | **Wie ziet dit?** | De externe doelgroep: sollicitant, medewerker, klant, leverancier, cursist, anoniem bezoeker … of `te weinig info` |
 | **Inloggen nodig?** | ja / nee / `te weinig info` |
@@ -128,7 +134,8 @@ Is het antwoord `nee` of `expliciet buiten scope`, dan ben je klaar; de tabel hi
 |------|--------|
 | **Pagina/onderdeel** | Naam van de OutSite-pagina of het paginaonderdeel |
 | **Portal/sjabloon** | Bijbehorend portal of sjabloon |
-| **Gevraagde actie** | `nieuw` / `aanpassen` / `controleren` |
+| **Standaardpagina beschikbaar** | `ja` / `nee, wij maken de opmaak` / `te weinig info` |
+| **Gevraagde actie** | `nieuw` / `aanpassen` / `opmaken en inchecken` / `controleren` |
 | **Profiel aanwezig** | ja (welk profiel) / nee / `te weinig info` |
 | **Doelgroep** | Welke externe gebruiker dit ziet, per pagina |
 | **Wat mag deze gebruiker niét zien** | Gegevens die bewust afgeschermd blijven, of `te weinig info` |
@@ -146,9 +153,9 @@ Is het antwoord `nee` of `expliciet buiten scope`, dan ben je klaar; de tabel hi
 ## Stap 5 — Buiten scope (altijd opnemen)
 
 - Technische hosting, domeinen en certificaten
-- Autorisatierollen voor OutSite (valt onder skill `autorisatie`)
-- InSite-portalpagina's (valt onder skill `portalpagina-insite`)
-- Profielen en veldcontexten in algemene zin (valt onder skill `profielen-en-veldcontexten`)
+- Autorisatierollen en functionaliteiten voor OutSite (valt onder skill `autorisatie`)
+- InSite-banners en profielkeuzepagina's (valt onder skill `portalpagina-insite`)
+- Profielen en contexten in algemene zin (valt onder skill `profielen-en-veldcontexten`)
 
 ---
 
@@ -157,6 +164,7 @@ Is het antwoord `nee` of `expliciet buiten scope`, dan ben je klaar; de tabel hi
 Bijvoorbeeld:
 
 - Levert dit ontwerp OutSite-functionaliteit op, of loopt het externe deel via een ander kanaal?
+- Bestaat er een standaardpagina voor dit sjabloon, of maken en checken wij de opmaak zelf in?
 - Welke externe doelgroep krijgt dit te zien: de sollicitant, de medewerker, de klant of nog iemand anders?
 - Moet de gebruiker inloggen, of is de pagina anoniem toegankelijk?
 - Is er al een OutSite-profiel, of moet er een nieuw profiel komen?
@@ -179,6 +187,8 @@ Bijvoorbeeld:
 - [ ] De vraag "wordt er functionaliteit uitgeleverd voor OutSite?" is expliciet beantwoord, ook als het antwoord `nee` is
 - [ ] Bij een `ja` is concreet benoemd **wát** er wordt uitgeleverd
 - [ ] Bij een `ja` is benoemd **wie** het te zien krijgt, met de doelgroep bij naam
+- [ ] Per sjabloon is vastgesteld of er een standaardpagina bestaat
+- [ ] Sjablonen zonder standaardpagina staan als eigen opmaaktaak in de output
 - [ ] Er staat nergens "de gebruiker" waar een specifieke doelgroep bedoeld wordt
 - [ ] Voor elke pagina is de profielcheck expliciet beantwoord
 - [ ] Elk item heeft een bronverwijzing met herkomstlabel

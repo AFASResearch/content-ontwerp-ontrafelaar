@@ -1,16 +1,14 @@
 ---
 name: workflow-condities
-description: 'Breng de workflow-impact van een ontwerp in kaart: welke workflows, processtappen, acties en condities nieuw zijn, wijzigen of gecontroleerd moeten worden in Profit, InSite of OutSite. Gebruik bij vragen als: welke workflow is nodig, workflow-impact, conditie, processtap, goedkeuringsstroom, InSite-workflow.'
+description: 'Breng de workflow-impact van een ontwerp in kaart: welke workflows, processtappen, acties, condities en profielen per taak nieuw zijn, wijzigen of gecontroleerd moeten worden in Profit, InSite of OutSite. Gebruik bij vragen als: welke workflow is nodig, workflow-impact, conditie, processtap, goedkeuringsstroom, afwijkend beoordelingsprofiel, rapport in de workflow.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
 # Workflow / condities-analyse
 
-> **Status: skelet.** De scansignalen en outputvelden hieronder zijn een startpunt en worden nog verder uitgewerkt. Gok nooit: gebruik `te weinig info` als je iets niet zeker kunt vaststellen.
-
 ## Doel
 
-Volledig in kaart brengen welke **workflows en condities** een ontwerp raakt: nieuwe of gewijzigde processtappen, acties, bestemmingen en voorwaarden.
+Volledig in kaart brengen welke **workflows en condities** een ontwerp raakt: nieuwe of gewijzigde processtappen, acties, bestemmingen, voorwaarden en het profiel waarmee elke stap wordt afgehandeld.
 
 ---
 
@@ -22,7 +20,8 @@ Volledig in kaart brengen welke **workflows en condities** een ontwerp raakt: ni
 |------|-----------|
 | **Workflow** | workflow, workflowdefinitie, processtroom |
 | **Conditie** | conditie, voorwaarde, regel |
-| **Processtap** | processtap, stap, actie, bestemming |
+| **Processtap** | processtap, stap, actie, bestemming, taak |
+| **Profiel in de workflow** | afwijkend profiel, beoordelingsprofiel, starten in aanpassen |
 
 ### B) Impliciete signalen
 
@@ -33,6 +32,10 @@ Volledig in kaart brengen welke **workflows en condities** een ontwerp raakt: ni
 | **Voorwaardelijke route** | "bij een bedrag boven € 500 gaat het naar…" |
 | **Terugkoppeling naar indiener** | "bij afkeuring kan de medewerker aanpassen" |
 | **Automatische afhandeling** | "als aan X is voldaan, wordt het automatisch goedgekeurd" |
+| **Taak met andere velden dan de vorige** | "HR legt het antwoord vast" → die taak heeft een eigen beoordeelprofiel nodig |
+| **Terugloopstap** | "bij afkeuring kan de medewerker aanpassen" → eigen context voor de instuurder |
+| **Stuk genereren in de stap** | "de behandelaar genereert een rapport en voegt het als bijlage toe" |
+| **Meerdere profielen, één workflow** | controleer of één workflow volstaat of dat er per profiel een eigen workflow komt |
 
 ---
 
@@ -47,10 +50,14 @@ Volledig in kaart brengen welke **workflows en condities** een ontwerp raakt: ni
 | **Conditie** | De voorwaarde waaronder een stap of route geldt, of `nader te bepalen` |
 | **Bestemming** | Wie de taak krijgt (rol, functie, persoon) |
 | **Acties** | Welke acties de gebruiker heeft (goedkeuren, afkeuren, terugsturen) |
+| **Profiel per taak** | Per processtap: welk aanmaak-, beoordeel- of **afwijkend beoordeelprofiel** die taak gebruikt. Zie `profielen-en-veldcontexten` |
+| **Rapport of document** | Wordt er in een stap een rapport gegenereerd? Zo ja: welk rapport en wat er met het resultaat gebeurt. Zie `rapporten` |
 | **Status** | `komt voor in ontwerp` / `komt niet voor in ontwerp` / `te weinig info` (+ wat ontbreekt) |
 | **Bron** | `[ontwerp]` of `[six-pager]` + Hoofdstuk/§ \| Pagina \| (anker: "…") |
 
 Gebruik één blok per workflow. Noem de stappen in volgorde.
+
+> **Tel de workflows expliciet.** Een ontwerp dat één workflow noemt voor twee profielen, levert in de praktijk vaak twee workflows op zodra de stappen of de bestemmingen verschillen. Benoem dat als beslispunt in plaats van het ontwerp te volgen.
 
 ---
 
@@ -66,9 +73,10 @@ Is hoofdstuk of pagina niet betrouwbaar beschikbaar, vermeld dat expliciet en ge
 
 - Technische implementatie van de workflow-engine
 - Klantspecifieke workflowvarianten
-- Autorisatie op workflowtaken (valt onder skill `autorisatie`)
+- Autorisatie op workflowtaken (valt onder skill `autorisatie`); de veldinstellingen per taak vallen onder `profielen-en-veldcontexten`
 - Berichten die de workflow verstuurt (valt onder skill `berichtsjabloon`)
 - Signalen die een workflow starten (valt onder skill `signalen`)
+- De opmaak van het rapport dat in een stap wordt gegenereerd (valt onder skill `rapporten`)
 
 ---
 
@@ -79,6 +87,8 @@ Bijvoorbeeld:
 - Wie is de bestemming van elke stap als het ontwerp dit niet benoemt?
 - Welke conditie bepaalt de route, en welke grenswaarde geldt?
 - Wordt een bestaande workflow uitgebreid of komt er een nieuwe workflow?
+- Volstaat één workflow voor alle profielen, of komt er per profiel een eigen workflow?
+- Welke taak gebruikt welk afwijkend beoordelingsprofiel?
 - Wat gebeurt er bij afkeuring of bij uitblijven van actie?
 
 ---
@@ -95,6 +105,8 @@ Bijvoorbeeld:
 ## Kwaliteitscriteria
 
 - [ ] Elke workflow heeft stappen, bestemming en acties
+- [ ] Elke processtap heeft een benoemd profiel, of staat op `te weinig info`
+- [ ] Het aantal workflows is expliciet vastgesteld en niet klakkeloos uit het ontwerp overgenomen
 - [ ] Elke conditie is concreet benoemd of gemarkeerd als `te weinig info`
 - [ ] Elk item heeft een bronverwijzing met herkomstlabel
 - [ ] Buiten-scope-blok aanwezig

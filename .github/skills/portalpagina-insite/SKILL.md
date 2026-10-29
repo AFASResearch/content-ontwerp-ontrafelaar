@@ -1,16 +1,26 @@
 ---
 name: portalpagina-insite
-description: 'Breng de InSite-impact van een ontwerp in kaart op portalpaginas en de opmaak van standaardpaginas: welke InSite-paginas, paginaonderdelen of portals nieuw zijn, wijzigen of gecontroleerd moeten worden. Gebruik bij vragen als: welke InSite-paginas zijn nodig, portalpagina, standaardpagina controleren, InSite-opmaak.'
+description: 'Breng de InSite-opmaak-impact van een ontwerp in kaart: welke banners (afbeelding, titel, tekst), profielkeuzepaginas en medewerkerkeuzepaginas opgemaakt moeten worden, en welke pagina-onderdelen op een portalpagina komen. Gebruik bij vragen als: welke InSite-opmaak is nodig, banner, profielkeuzepagina, bannertekst, afbeelding bij profiel, pagina-onderdeel op de stamkaart.'
 argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 ---
 
-# Portalpagina / opmaak standaardpagina's (InSite)-analyse
-
-> **Status: skelet.** De scansignalen en outputvelden hieronder zijn een startpunt en worden nog verder uitgewerkt. Gok nooit: gebruik `te weinig info` als je iets niet zeker kunt vaststellen.
+# InSite-opmaak-analyse
 
 ## Doel
 
-Volledig in kaart brengen welke **InSite-portalpagina's en standaardpagina's** een ontwerp raakt, inclusief de opmaak die gecontroleerd moet worden.
+Vaststellen welke **InSite-opmaak** de content-afdeling moet maken: de banner op aanmaak-, profielkeuze- en medewerkerkeuzepagina's, en de plaatsing van pagina-onderdelen op portalpagina's.
+
+## Wat valt hier wél onder
+
+- **Banner** per sjabloon: afbeelding, titel en tekst.
+- **Profielkeuzepagina** en **medewerkerkeuzepagina**: tekst per profiel.
+- **Pagina-onderdelen** die op een portalpagina of standaard stamkaart landen: plaats en titel.
+
+## Wat valt hier niet onder
+
+Wij maken de standaardpagina's van InSite **niet meer zelf op**. Die komen uit de bouw. Staat er in het ontwerp een nieuw sjabloon, dan is de contenttaak uitsluitend de banner en de teksten erop — niet de veldindeling en niet de veldvolgorde.
+
+Bestaat er voor een pagina **geen** standaardpagina (dat komt voor bij OutSite), dan moet die wél zelf opgemaakt en ingecheckt worden. Meld dat als apart item en verwijs naar `paginas-outsite`.
 
 ---
 
@@ -20,32 +30,57 @@ Volledig in kaart brengen welke **InSite-portalpagina's en standaardpagina's** e
 
 | Term | Varianten |
 |------|-----------|
-| **InSite** | InSite, InSite-pagina, InSite-sjabloon |
-| **Portal** | portal, portalpagina, portaaltoegang |
-| **Standaardpagina** | standaardpagina, startpagina, opmaak |
+| **Sjabloon** | sjabloon, InSite-sjabloon, Aanmaken …, Beoordelen …, Aanpassen … |
+| **Profielkeuze** | profielkeuze, profiel-medewerkerkeuze, medewerkerkeuze |
+| **Banner** | banner, afbeelding, koptekst, toelichtende tekst |
+| **Pagina-onderdeel** | pagina-onderdeel, tegel, KPI, sectie op de stamkaart |
 
 ### B) Impliciete signalen
 
 | Signaal | Voorbeelden |
 |---------|-------------|
-| **Interne gebruiker voert iets uit** | "de medewerker dient in", "de manager keurt goed" |
-| **Nieuw paginaonderdeel of tegel** | "op de startpagina komt een blok" |
-| **Nieuwe processtap** | "de gebruiker doorloopt drie stappen" |
-| **Wijziging in bestaande pagina-indeling** | "het veld verschuift naar tabblad X" |
+| **Meerdere profielen op één sjabloon** | "de medewerker kiest bij het starten een profiel" → per profiel een eigen tekst |
+| **Nieuwe sectie op een stamkaart** | "op de stamkaart komt een sectie X" |
+| **ESS- en MSS-variant** | "de leidinggevende start namens de medewerker" → twee teksten, je-vorm tegenover de-medewerkervorm |
+| **Toelichtende tekst zonder inhoud** | "invulling door team Content" → altijd een contenttaak |
+
+> **Let op de vermenigvuldiging.** Eén sjabloon maal twee profielen maal ESS/MSS levert zes teksten op. Tel ze expliciet; het ontwerp doet dat zelden.
 
 ---
 
 ## Stap 2 — Output samenstellen
 
+Eén rij per combinatie van **sjabloon × profiel**.
+
 | Veld | Inhoud |
 |------|--------|
-| **Pagina/onderdeel** | Naam van de pagina, het paginaonderdeel of de processtap |
-| **Portal/sjabloon** | Bijbehorend portal of InSite-sjabloon |
-| **Gevraagde actie** | `nieuw` / `aanpassen` / `opmaak controleren` |
-| **Opmaakwijziging** | Wat er visueel of qua indeling wijzigt, of `nader te bepalen` |
-| **Doelgroep** | Welke gebruikersrol |
+| **Sjabloon** | Exacte sjabloonnaam, bijv. `Aanmaken vraag aan HR (ESS)` |
+| **Profiel** | Het profiel waarvoor deze opmaak geldt, of `alle profielen` |
+| **Kanaal** | InSite ESS / InSite MSS |
+| **Afbeelding** | Bestandsnaam, of `te bepalen` |
+| **Titel en tekst** | Concepttekst, geschreven volgens `schrijfwijzer` |
+| **Gevraagde actie** | `nieuw` / `aanpassen` / `controleren` |
 | **Status** | `komt voor in ontwerp` / `komt niet voor in ontwerp` / `te weinig info` (+ wat ontbreekt) |
 | **Bron** | `[ontwerp]` of `[six-pager]` + Hoofdstuk/§ \| Pagina \| (anker: "…") |
+
+### Regels voor de bannertekst
+
+- Eén zin, imperatief, gericht op wat de gebruiker hier gaat doen.
+- **ESS in de je-vorm**, **MSS over de medewerker**. Voorbeeld: `Stel je vraag aan HR.` tegenover `Stel een vraag aan HR voor je medewerker.`
+- De profielkeuze- en medewerkerkeuzepagina beschrijven de **keuze**, niet het doel: `Kies de medewerker voor wie je een vraag aan HR wilt stellen.`
+- Wijkt een profiel inhoudelijk af, dan krijgt dat profiel een eigen tekst én een eigen afbeelding.
+
+### Pagina-onderdelen
+
+Komt er een pagina-onderdeel bij, zoals een KPI-sectie, lever dan per onderdeel:
+
+| Veld | Inhoud |
+|------|--------|
+| **Onderdeel** | Naam zoals die in de inrichting staat, bijv. `KPI's voor Loontransparantie (ESS)` |
+| **Portalpagina** | Op welke pagina het landt en op welke plek |
+| **Varianten** | ESS, MSS, en eventuele varianten per populatie, bijvoorbeeld per plaatsing |
+
+De **autorisatie** van zo'n onderdeel valt onder `autorisatie`, niet hier.
 
 ---
 
@@ -57,10 +92,13 @@ Volledig in kaart brengen welke **InSite-portalpagina's en standaardpagina's** e
 
 ## Stap 4 — Buiten scope (altijd opnemen)
 
+- De veldindeling en veldvolgorde van standaardpagina's; die komen uit de bouw
 - Huisstijl en centrale opmaakrichtlijnen
 - Klantspecifieke portalinrichting
-- Autorisatierollen voor InSite (valt onder skill `autorisatie`)
+- Autorisatie op functionaliteit, rol of pagina-onderdeel (valt onder skill `autorisatie`)
+- Veldzichtbaarheid per context (valt onder skill `profielen-en-veldcontexten`)
 - OutSite-pagina's (valt onder skill `paginas-outsite`)
+- Icoontjes bij knoppen en menu-items (valt onder skill `icoontjes`); bannerafbeeldingen vallen wél hier
 
 ---
 
@@ -68,9 +106,9 @@ Volledig in kaart brengen welke **InSite-portalpagina's en standaardpagina's** e
 
 Bijvoorbeeld:
 
-- Komt er een nieuwe pagina of wordt een bestaande standaardpagina uitgebreid?
-- Op welke portalpagina landt de gebruiker?
-- Welke onderdelen tonen we standaard?
+- Welke afbeelding hoort bij welk profiel, en bestaat die al?
+- Krijgt elk profiel een eigen tekst, of volstaat één tekst per sjabloon?
+- Landt het pagina-onderdeel boven of onder de bestaande onderdelen?
 
 ---
 
@@ -78,13 +116,16 @@ Bijvoorbeeld:
 
 - **"Wat ziet de gebruiker op deze pagina?"**
 - **"Waar vind je de pagina?"**
-- **"Welke stappen doorloop je?"**
+- **"Welk profiel kies je waarvoor?"**
 
 ---
 
 ## Kwaliteitscriteria
 
-- [ ] Elke pagina heeft portal/sjabloon en doelgroep
+- [ ] Elke combinatie sjabloon × profiel heeft een eigen rij
+- [ ] ESS- en MSS-teksten staan beide in de output en verschillen in aanspreekvorm
+- [ ] Elke afbeelding is benoemd of expliciet `te bepalen`
+- [ ] Pagina's zonder standaardpagina zijn apart gemeld
 - [ ] Elk item heeft een bronverwijzing met herkomstlabel
 - [ ] Buiten-scope-blok aanwezig
 - [ ] Minimaal 1 beslispunt geformuleerd
@@ -95,6 +136,6 @@ Bijvoorbeeld:
 
 ## Nog uit te werken
 
-- Overzicht van bestaande InSite-sjablonen en standaardpagina's
+- Overzicht van beschikbare bannerafbeeldingen
 - Menupaden voor InSite-paginabeheer
-- Vaste controlepunten voor opmaak
+- Vaste controlepunten voor de opmaak
