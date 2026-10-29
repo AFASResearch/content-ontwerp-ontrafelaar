@@ -2,7 +2,7 @@
 
 > Functionele uitwerking van de brainstorm van 1 september 2026, aangevuld met de uitkomsten van de PM-terugkoppeling van 3 september 2026. Dit document voedt het latere FO `01_FO_Recht_op_informatie.md`.
 >
-> Onderdeel van het [Programma Loontransparantie](../00_Programma_Loontransparantie.md). Scope en afbakening van het deelproject staan in [00_Scope.md](00_Scope.md). Laatste bijwerking: 2026-10-19.
+> Onderdeel van het [Programma Loontransparantie](../00_Programma_Loontransparantie.md). Scope en afbakening van het deelproject staan in [00_Scope.md](00_Scope.md). Laatste bijwerking: 2026-10-07.
 >
 > Alle keuzes uit de brainstorm en de PM-terugkoppeling zijn besloten. Hoofdstuk 12 bevat de besluiten, de herzieningen en de punten die nog buiten dit document worden afgehandeld.
 >
@@ -20,7 +20,7 @@
 >
 > **De verkooprelatie op laag 3 is niet fase-afhankelijk.** Op 22 september 2026 is gecorrigeerd dat §5.4 en §5.5 de fase-as en de populatie-as door elkaar haalden. De verkooprelatie is gevuld bij populatie Ter beschikking gestelde arbeidskrachten én soort Recht op informatie — dus juist in fase 1. Zie blok Z.
 >
-> **De uitzendkrachten aan uitlenerzijde komen erbij.** Op 22 september 2026 is besloten dat dit deelproject de brontabel voor uitzendkrachten zelf vult en daarmee ook laag 2 en laag 3 met populatie *Ter beschikking gestelde arbeidskrachten*. Dat hoorde bij DP3, maar het dient het recht op informatie en dus dit ontwerp. Het populatiefilter is vastgelegd — aard 11, 22 en 82, *sinds blok AN bepaalt de aard niet meer de populatie* — en een plaatsingmutatie krijgt geen eigen triggerregel. Verder komt er een deelproject **DP5 – Functiecategorie en flex** bij. Dat raakt §1.4, §3.2, §3.3, §5.3, §5.4, §5.5, §7.2, §7.4, hoofdstuk 10 en hoofdstuk 11. Zie blok AA.
+> **De uitzendkrachten aan uitlenerzijde komen erbij.** Op 22 september 2026 is besloten dat dit deelproject de brontabel voor uitzendkrachten zelf vult en daarmee ook laag 2 en laag 3 met populatie *Ter beschikking gestelde arbeidskrachten*. Dat hoorde bij DP3, maar het dient het recht op informatie en dus dit ontwerp. Het populatiefilter is vastgelegd — aard 11, 22 en 82 — en een plaatsingmutatie krijgt geen eigen triggerregel. Verder komt er een deelproject **DP5 – Functiecategorie en flex** bij. Dat raakt §1.4, §3.2, §3.3, §5.3, §5.4, §5.5, §7.2, §7.4, hoofdstuk 10 en hoofdstuk 11. Zie blok AA.
 >
 > **Twee punten uit de conflictronde van 23 september 2026.** Het nalopen van blok AA leverde vijf tegenstrijdigheden op; drie waren redactioneel. De twee inhoudelijke: de cijfers voor uitzendkrachten zijn pas bruikbaar **ná DP5** en dat wordt aanvaard, en de **rapportage** hoort in haar geheel bij DP2 in plaats van verdeeld over DP2 en DP3. Dat raakt hoofdstuk 10 en hoofdstuk 11. Zie blok AB.
 >
@@ -30,7 +30,7 @@
 >
 > **Pocket komt op 24 september 2026 in scope.** Wat tot dan een raakvlak was, is nu een op te leveren onderdeel: een **dataconnector** met vier modi waarmee de app per medewerker en dienstverband de KPI-gegevens en de functielijst ophaalt, en de pagina's *tonen* en *aanpassen* voor het type dossieritem **Vraag aan HR** — een technisch type waarvan Pocket de extra velden niet vanzelf toont. De schermen en de flow blijven bij team Pocket. Twee dingen springen eruit: de connector krijgt als eerste Pocket-connector een **dienstverband-parameter**, met de toets dat dat dienstverband bij de ingelogde medewerker hoort, en daardoor toont **Pocket méér dan de stamkaart** bij meerdere dienstverbanden. Dat raakt §1.3, §1.4, §8.8, §9.1 en hoofdstuk 11. Zie blok AD, punten AD8 en AD9.
 >
-> **Er komen op 28 september 2026 negen verklarende bedragen bij.** De brainstorm over het dashboard levert een set nieuwe lijstbegrippen op — langdurige ziekte, onbetaald verlof, ouderverlof, kopen en verkopen van uren, inhouding i.v.m. uitruil, incidentele uitkering, bijtelling vervoermiddel en een vrije rubriek — die op de twee eigen brontabellen en op laag 2 worden vastgelegd. Ze verklaren een deel van een loonverschil, zodat niet elk verschil tot een informatieverzoek leidt. Twee dingen wijken af van de bestaande loonbegrippen: het is **één set voor beide populaties**, per dienstverband (*sinds blok AN: per inkomstenverhouding*) én per plaatsing, en AFAS onderhoudt ze maar ze **staan open** voor eigen intellingen van de klant. Juist daarom blijven ze buiten elke formule en elk gemiddelde. Dat raakt §5.3, §5.4, §5.9, §6.1 en §6.2. Zie blok AE.
+> **Er komen op 28 september 2026 negen verklarende bedragen bij.** De brainstorm over het dashboard levert een set nieuwe lijstbegrippen op — langdurige ziekte, onbetaald verlof, ouderverlof, kopen en verkopen van uren, inhouding i.v.m. uitruil, incidentele uitkering, bijtelling vervoermiddel en een vrije rubriek — die op de twee eigen brontabellen en op laag 2 worden vastgelegd. Ze verklaren een deel van een loonverschil, zodat niet elk verschil tot een informatieverzoek leidt. Twee dingen wijken af van de bestaande loonbegrippen: het is **één set voor beide populaties**, per dienstverband én per plaatsing, en AFAS onderhoudt ze maar ze **staan open** voor eigen intellingen van de klant. Juist daarom blijven ze buiten elke formule en elk gemiddelde. Dat raakt §5.3, §5.4, §5.9, §6.1 en §6.2. Zie blok AE.
 >
 > **De lijstbegrippen voor uitzendkrachten zijn er.** Op 29 september 2026 heeft het cao-team de set opgeleverd: **zeven** begrippen met Profit Id **6.782 tot en met 6.788**, beschikbaar per plaatsing en — net als bij medewerkers — door AFAS meegeleverd en dichtgezet (*sinds blok AL staat die set juist open voor eigen intellingen*). Daarmee vervalt de laatste blokkerende afhankelijkheid van dit deelproject en gaat punt W1 dicht. Twee dingen liggen er nu expliciet in vast: medewerkers en uitzendkrachten houden **elk een eigen set**, zodat de looninrichting van beide populaties gescheiden blijft, en de set telt er **zeven en geen acht**, omdat WrdLn niet naar een plaatsing te herleiden is. Het datamodel, de formules en het vulproces wijzigen niet. Dat raakt §1.4, hoofdstuk 2, §5.3, §6.1 en §6.2. Zie blok AF.
 >
@@ -44,15 +44,9 @@
 >
 > **Ook bij medewerkers klopte het loonbegrip niet.** Op 7 oktober 2026 is in de Profit-repository geverifieerd dat **LnLbPh het totale loon LB/PH is, inclusief het deel onder bijzonder tarief**, en dat LnTabBB daarvan een deelverzameling is: hetzelfde lijstbegrip, één keer zonder en één keer met een filter op het tarief. Een begrip dat alleen het normale tarief oplevert bestaat niet. Het veld *Loon LB/PH normaal tarief* heet daarom voortaan **Loon LB/PH** en bevat het totaal, met *Loon LB/PH bijzonder tarief* als deelverzameling ernaast. De twee mogen dus **nooit bij elkaar worden opgeteld**. Dat raakt §5.3, §6.1 en §6.2. Of de bouw dit goed heeft staan is nog niet vastgesteld; dat is urgent punt AK-a. Zie blok AK.
 >
-> **Ook medewerkers krijgen een eigen set lijstbegrippen.** Op 7 oktober 2026 is besloten de bestaande begrippen van de loonaangifte te vervangen door een eigen set, **Profit Id 6.821 tot en met 6.827**, per dienstverband (*sinds blok AN: per inkomstenverhouding*). Zeven begrippen voor acht grootheden: 6.822 levert zowel LnLbPh als LnTabBB, zonder en met een filter op het tarief. De reden is dat die set **openstaat voor eigen intellingen**, zodat de klant correctie-looncomponenten kan laten meetellen die in de loonaangifterubriek niet op de juiste plek landen. Diezelfde dag is besloten dat ook de set voor **uitzendkrachten** opengaat, daar als **uitwijkmogelijkheid** voor een looninrichting die niet in de standaarddefinitie past. Daarmee staat er in dit ontwerp geen lijstbegrip meer dicht. Dat herziet de eerdere eis dat de kerngrootheden dichtstaan, en daarmee ook de redenering over de jaargrens in §4.4: volledigheid weegt zwaarder dan gegarandeerde uniformiteit, omdat het vergelijken binnen één omgeving gebeurt. De formules en het datamodel wijzigen niet. Dat raakt §1.4, hoofdstuk 2, §4.4, §5.3, §6.2 en hoofdstuk 10. De set voor medewerkers moet nog worden opgeleverd — blokkerend punt AL-a. Zie blok AL.
+> **Ook medewerkers krijgen een eigen set lijstbegrippen.** Op 7 oktober 2026 is besloten de bestaande begrippen van de loonaangifte te vervangen door een eigen set, **Profit Id 6.821 tot en met 6.827**, per dienstverband. Zeven begrippen voor acht grootheden: 6.822 levert zowel LnLbPh als LnTabBB, zonder en met een filter op het tarief. De reden is dat die set **openstaat voor eigen intellingen**, zodat de klant correctie-looncomponenten kan laten meetellen die in de loonaangifterubriek niet op de juiste plek landen. Diezelfde dag is besloten dat ook de set voor **uitzendkrachten** opengaat, daar als **uitwijkmogelijkheid** voor een looninrichting die niet in de standaarddefinitie past. Daarmee staat er in dit ontwerp geen lijstbegrip meer dicht. Dat herziet de eerdere eis dat de kerngrootheden dichtstaan, en daarmee ook de redenering over de jaargrens in §4.4: volledigheid weegt zwaarder dan gegarandeerde uniformiteit, omdat het vergelijken binnen één omgeving gebeurt. De formules en het datamodel wijzigen niet. Dat raakt §1.4, hoofdstuk 2, §4.4, §5.3, §6.2 en hoofdstuk 10. De set voor medewerkers moet nog worden opgeleverd — blokkerend punt AL-a. Zie blok AL.
 >
 > **De percentages draaien op 7 oktober 2026 van teken.** Een positief loonverschil betekende tot nu toe dat vrouwen mínder verdienden, en een positief individueel verschil dat de medewerker mínder verdiende dan het gemiddelde van zijn functiecategorie. Voor de medewerker leest dat averechts. Bij soort rapportage **Recht op informatie** wisselt de teller daarom van volgorde: een **min** betekent voortaan dat vrouwen gemiddeld minder verdienen, en een **plus** dat de medewerker méér verdient dan het categoriegemiddelde. De noemer wijzigt niet en de formules blijven verder gelijk. Voor soort **Rapportage** blijft de wettelijke richting staan. Om te voorkomen dat die twee richtingen elkaar tegenkomen, tonen het dashboard en alle meegeleverde gegevensverzamelingen **uitsluitend** soort Recht op informatie. Bij het nalopen van de schermteksten zijn er drie punten bij gekomen: elk bijschrift krijgt een **derde variant** voor een uitkomst van nul, de aanspreekvorm ligt nu vast — **je** op de ESS-stamkaart en **de medewerker** op de MSS- en plaatsing-stamkaart — en tegel 4 blijft voortaan staan als een geslachtsgroep ontbreekt. Dat raakt hoofdstuk 2, §5.4, §5.5, §5.9, §6.5, §6.6, §6.9, §7.3, §8.2, §8.6, §8.7, §8.8, §9.2 en hoofdstuk 10 en 11. Zie blok AM.
->
-> **De indeling in medewerkers en uitzendkrachten volgt op 13 oktober 2026 de verloning, en niet langer de aard arbeidsverhouding.** Onderzoek ON-10 laat zien dat de aard in de praktijk niet consequent wordt vastgelegd: uitzendkrachten bij declaratieverwerking staan in hele omgevingen op aard 1, en aard 11, 22 en 82 komen veel voor bij periodeverwerking zonder loon per plaatsing. De aard bepaalt daarom **niet langer de populatie**. Ze blijft wel een filter: alleen de codes uit het begrippenkader tellen mee, voor beide populaties samen, zodat fictieve dienstbetrekkingen buiten de dataset blijven. De indeling wordt: **declaratieverwerking** gaat altijd naar *bron uitzendkrachten*, **periodeverwerking** naar *bron medewerkers*, en de nieuwe verloningsvariant **Plaatsingen verwerken in periodeverloning** (RHR02179) naar **beide**: bron medewerkers met het totale loon van de inkomstenverhouding, bron uitzendkrachten met het deel per plaatsing, inclusief projecttoeslag. Die twee worden nooit bij elkaar opgeteld. Daarnaast komt er een **filter op soort medewerker** bij het vullen van de brontabellen: stagiairs met salaris en nabetalingen na uitdienst vallen af. Alle drie de filters — soort inkomstenverhouding, aard en soort medewerker — passen we toe **bij het vullen van de brontabellen**, zodat daar alleen staat wat meetelt. Verder leggen we vast dat bron medewerkers **per inkomstenverhouding** wordt gevuld, zodat subdienstverbanden al in de brontabel zijn samengenomen, en dat de stamkaart één **generieke melding** toont als er geen loongegevens zijn. Dat raakt hoofdstuk 2, §3.1, §3.2, §3.3, §3.5, §5.3, §5.4, §5.6, §5.9, §6.1, §6.2, §6.3, §6.7, §7.3, §7.7, §8.1, §8.6, §8.7, §8.8 en hoofdstuk 10, 11 en 12. Zie blok AN.
->
-> **De teksten van de tegels liggen op 19 oktober 2026 vast.** De tegels krijgen een **vraag als titel**, met een eigen vorm op de ESS-stamkaart en op de MSS- en plaatsing-stamkaart bij de tegels 1 en 4. Tegel 1 krijgt het bijschrift *gemiddeld per uur*. Alle bedragen krijgen het **valutasymbool van de werkgever**, met de basisvaluta van de omgeving als terugval. De uitleg achter de info-iconen van tegel 1, 4 en 5 is vastgesteld; die van tegel 2 en 3 vervalt. De uitleg bij tegel 4 en 5 noemt het verschil als bedrag én als percentage, beide met teken, zodat één zin elke uitkomst dekt. De sectie krijgt een vaste **toelichting** per stamkaart, die met een script wordt geleverd. De periodeaanduiding *laatste 12 maanden* blijft ongewijzigd. Dat raakt §3.8, §5.9, §8.1, §8.2, §8.7, §8.8, §9.4 en hoofdstuk 12. Zie blok AO.
->
-> **Ook de meldingen liggen op 19 oktober 2026 vast.** Elke melding hoort bij een toestand (*state*) en een tegel, met een je-vorm en een de-medewerkervorm. Twee dingen wijzigen in het gedrag: is de medewerker de **enige** in zijn functiecategorie, dan blijft tegel 4 staan met een melding in plaats van te vervallen, en buiten Nederland toont **Pocket** een melding in plaats van de pagina te verbergen. De melding over een functiewissel binnen het jaar staat alleen in Pocket. Dat raakt §8.2, §8.6, §8.7, §8.8, §9.4 en §9.6. Zie blok AP.
 >
 > Laag 0 is op 16 september 2026 herzien: de tabel heet **Loontransparantie rapportage**, krijgt een surrogaatsleutel **Rapportage ID** met een unieke sleutel op RSIN, werkgever, soort rapportage, jaar en volgnummer, en een expliciet veld **Soort rapportage** in plaats van de conventie rapportagejaar 0. Begindatum, einddatum en status vervallen. Zie blok T.
 >
@@ -167,8 +161,8 @@ We richten dit ontwerp in op basis van zes uitgangspunten:
 | Uurwaarde variabele componenten | De jaarwaarde variabele componenten gedeeld door de jaaruren. |
 | Totaal uurloon | Het bruto uurloon plus de uurwaarde variabele componenten: het volledige loon per verloond uur. Het kerngetal op de stamkaart en de grondslag van de twee percentages die de medewerker ziet (§6.1, §6.5). |
 | Loonaangifte | De periodieke aangifte loonheffingen. In dit ontwerp geen bron meer voor de bedragen, maar wel de herkomst van de begrippen en van de lijstbegrippen voor medewerkers in §6.2. |
-| Lijstbegrip | De gestandaardiseerde ontsluiting van een berekend salarisgegeven. AFAS levert de lijstbegrippen die dit ontwerp gebruikt standaard mee en vult ze. Elke populatie heeft een eigen set: voor medewerkers Profit Id 6.821 t/m 6.827 per inkomstenverhouding, voor uitzendkrachten 6.782 t/m 6.788 per plaatsing. Beide sets staan open voor eigen intellingen van de klant (§5.3). |
-| Inkomstenverhouding (IKV) | De eenheid waarop de loonaangifte in Profit is opgebouwd. Een medewerker kan er meerdere hebben. Effectief is elk dienstverband een eigen inkomstenverhouding, behalve bij subdienstverbanden: die vallen samen met hun kapstokdienstverband onder één inkomstenverhouding. Dat doet zich vooral voor in het onderwijs. Ook de plaatsingsdienstverbanden van Plaatsingen verwerken in periodeverloning vallen onder de inkomstenverhouding van het hoofddienstverband. |
+| Lijstbegrip | De gestandaardiseerde ontsluiting van een berekend salarisgegeven. AFAS levert de lijstbegrippen die dit ontwerp gebruikt standaard mee en vult ze. Elke populatie heeft een eigen set: voor medewerkers Profit Id 6.821 t/m 6.827 per dienstverband, voor uitzendkrachten 6.782 t/m 6.788 per plaatsing. Beide sets staan open voor eigen intellingen van de klant (§5.3). |
+| Inkomstenverhouding (IKV) | De eenheid waarop de loonaangifte in Profit is opgebouwd. Een medewerker kan er meerdere hebben. Meerdere dienstverbanden kunnen onder hetzelfde inkomstenverhoudingnummer vallen; dat doet zich voor bij subdienstverbanden in het onderwijs. |
 | Kapstokdienstverband | Het dienstverband waaronder één of meer subdienstverbanden hangen. De loonaangifte wordt op het kapstokdienstverband gedaan, inclusief de loongegevens van de subdienstverbanden eronder. |
 | Subdienstverband | Een dienstverband dat onder een kapstokdienstverband hangt. Komt vooral voor in het onderwijs, waar een medewerker meerdere aanstellingen naast elkaar heeft binnen één inkomstenverhouding. |
 | Hoofddienstverband | Het dienstverband dat als hoofddienstverband is aangemerkt. Een medewerker heeft er altijd precies één. |
@@ -176,8 +170,7 @@ We richten dit ontwerp in op basis van zes uitgangspunten:
 | Functiecategorie | De groepering van functies waarbinnen we medewerkers met elkaar vergelijken. Ingericht door de klant, op basis van Profit 8. |
 | Toegekende functie | De functie die gold op de laatste dag van een loontijdvak. Het loon over dat hele tijdvak wordt aan die functie toegekend (§4.5). |
 | Arbeidsverhouding | De rekeneenheid voor de gemiddelden, afkomstig uit het begrippenkader. In Profit is dat de **inkomstenverhouding**: één arbeidsverhouding is één inkomstenverhouding, niet één persoon. Een medewerker met twee inkomstenverhoudingen telt dus twee keer mee. Wisselt een arbeidsverhouding binnen de rapportageperiode van functie, dan levert dat per functie een eigen regel op die elk als volwaardige arbeidsverhouding meetelt (§6.3). Niet te verwarren met het loonaangiftekenmerk aard arbeidsverhouding. |
-| Aard arbeidsverhouding | Het loonaangiftekenmerk dat aangeeft om wélk soort dienstbetrekking het gaat, zoals een arbeidsovereenkomst of een publiekrechtelijke aanstelling. Een filter bij het vullen van de brontabellen: alleen de codes uit het begrippenkader tellen mee (§3.2). Sinds 13 oktober 2026 bepaalt het **niet meer de populatie**, omdat het in de praktijk niet consequent wordt vastgelegd (§3.3). En evenmin de rekeneenheid hierboven. |
-| Soort medewerker | Het kenmerk van het dienstverband dat aangeeft wat voor medewerker het is, zoals personeelslid, stagiair of nabetaling na uitdienst. Een filter bij het vullen van de brontabellen; het wordt zelf niet opgeslagen (§3.2). |
+| Aard arbeidsverhouding | Het loonaangiftekenmerk dat aangeeft om wélk soort dienstbetrekking het gaat, zoals een arbeidsovereenkomst of een publiekrechtelijke aanstelling (§3.3). Een populatiefilter dus, en niet de rekeneenheid hierboven. |
 | Vergelijkingsgroep | De arbeidsverhoudingen waarmee het loonniveau van de medewerker wordt vergeleken: alle arbeidsverhoudingen in dezelfde functiecategorie, uitgesplitst naar geslacht. |
 | Geslacht | Het geslacht zoals vastgelegd in de administratie van de werkgever. Het begrippenkader kent vier waarden: man, vrouw, X en niet ingevuld. Alleen man en vrouw gaan de vergelijkingscijfers in (§3.8). |
 | Rapportageperiode | De afbakening waarover een complete set cijfers is berekend, vastgelegd als één regel in de tabel Loontransparantie rapportage. Het veld **Soort rapportage** bepaalt welke: *Recht op informatie* is het voortschrijdende venster, *Rapportage* is een afgesloten kalenderjaar voor de wettelijke rapportage (§5.2). |
@@ -187,20 +180,15 @@ We richten dit ontwerp in op basis van zes uitgangspunten:
 | Land van wetgeving | Het land onder wiens wetgeving een medewerker valt. Profit legt dat per medewerker vast in het veld `AfasKnCountryByLaw`. Bepaalt of de medewerker meetelt in de berekening en of de sectie Loontransparantie wordt getoond (§9.6). |
 | Klaargezette loonaangifte | Een aangiftetijdvak waarvoor de werkgever de loonaangifte heeft klaargezet. In eerdere versies van dit ontwerp het vulmoment en het eindpunt van het venster; sinds 15 september 2026 vervangen door de geaccordeerde salarisverwerking. Het **aangiftetijdvak** zelf speelt sinds 17 september 2026 helemaal geen rol meer: de brontabellen zijn opgebouwd per loontijdvak. |
 | Geaccordeerde salarisverwerking | Een tijdvak waarvoor de werkgever de salarisverwerking heeft geaccordeerd. Dit is het moment waarop er triggerregels worden weggeschreven; het vullen gebeurt daarna in de dagovergang (§7.1). |
-| Uitzendkracht | Een medewerker die via een plaatsing bij een inlener werkt en van wie het loon **per plaatsing** wordt berekend: bij declaratieverwerking of bij Plaatsingen verwerken in periodeverloning. Valt in dit ontwerp in een eigen brontabel en in een eigen populatie (§3.3, §5.3). |
+| Uitzendkracht | Een medewerker die via een plaatsing bij een inlener werkt. Valt in dit ontwerp in een eigen brontabel en in een eigen populatie (§5.3). |
 | Plaatsing | De koppeling van een uitzendkracht aan een inlener, met een eigen functie en periode. Sleutelveld in de brontabel voor uitzendkrachten. |
 | Verkooprelatie | De inlener bij wie een uitzendkracht via een plaatsing werkt. Het kenmerk waarop het recht op informatie van een uitzendkracht wordt afgebakend (§5.3). |
-| Verloningsvariant | De manier waarop Profit het loon berekent: per medewerker, per dienstverband of per plaatsing. Bepaalt in welke brontabel de gegevens komen (§3.3). |
-| Declaratieverwerking | De verloningsvariant waarin elke berekening uitgaat van een declaratie, en elke declaratie aan een plaatsing hangt. Gaat altijd naar de brontabel voor uitzendkrachten (§3.3). |
-| Plaatsingen verwerken in periodeverloning | De verloningsvariant uit RHR02179, vanaf loonjaar 2027. Het vaste periodeloon staat op het hoofddienstverband; daarnaast is er per plaatsing een technische berekening op een plaatsingsdienstverband. Gaat naar beide brontabellen (§3.3). |
-| Plaatsingsdienstverband | Het technische dienstverband waarop Profit bij Plaatsingen verwerken in periodeverloning het loon van één plaatsing berekent. Valt onder dezelfde inkomstenverhouding als het hoofddienstverband en is voor de gebruiker niet zichtbaar als dienstverband. |
-| Projecttoeslag | Een toeslag die een gedetacheerde voor de duur van een plaatsing krijgt, bovenop het vaste periodeloon. Telt mee in het loon per plaatsing én in het totaal van de inkomstenverhouding (§3.3). |
 | Kenmerk arbeidskracht | Het gepseudonimiseerde kenmerk waarmee de uitlener één arbeidskracht aanduidt in de gegevens die hij aan de inlener levert. Niet herleidbaar tot een persoon, maar wel stabiel over de tijdvakken heen, zodat de regels van één arbeidsverhouding bij elkaar horen (§5.3). |
 | Triggertabel | De technische tabel waarin wordt bijgehouden welke combinatie van werkgever, periodetabel, jaar en periode is geraakt en dus moet worden bijgewerkt (§7.2). |
 | Triggerregel | Één regel in die tabel. Wordt weggeschreven bij het accorderen of terugdraaien van een salarisverwerking, bij een functiewijziging, bij een wijziging in de functiecategorie-inrichting en bij een wijziging van de functiecategorie op de functie van de klantovereenkomst of van de afwijkende functiecategorie op de plaatsing (§7.2). |
 | Soort trigger | Het kenmerk op een triggerregel dat vastlegt of er bedragen zijn gewijzigd (*Salarisgegevens*) of alleen de indeling (*Stamgegevens*). Bepaalt of de taak één tijdvak of het hele venster aan bronregels opnieuw wegschrijft (§7.2, §7.3). |
 | Wachtrijtaak | De taak **Bijwerken gegevens loontransparantie**, die de brontabellen vult en de lagen 2 en 3 opnieuw samenstelt. Wordt uitsluitend vanuit de dagovergang Vernieuwen actuele gegevens gestart; er is geen knop om hem handmatig te starten (§7.3). |
-| Populatie | Het onderscheid tussen eigen medewerkers en ter beschikking gestelde arbeidskrachten. Welke populatie een regel krijgt, volgt uit de verloningsvariant (§3.3). Vastgelegd in de codetabel **Populatie loontransparantie** en sleutelonderdeel van laag 3 (§5.4). |
+| Populatie | Het onderscheid tussen eigen medewerkers en ter beschikking gestelde arbeidskrachten. Vastgelegd in de codetabel **Populatie loontransparantie** en sleutelonderdeel van laag 3 (§5.4). |
 | Dagovergang | De geplande taak Vernieuwen actuele gegevens, die de klant doorgaans elke nacht laat draaien. |
 | Correctieperiode | Een periode waarmee achteraf een eerdere periode wordt gecorrigeerd, mogelijk over de jaargrens heen. |
 | RSIN | Het Rechtspersonen en Samenwerkingsverbanden Informatienummer, toegekend door de Kamer van Koophandel. Het nummer waarop de wettelijke rapportage plaatsvindt. Meerdere werkgevers kunnen onder hetzelfde nummer vallen. We leiden het af uit de eerste negen posities van het loonheffingsnummer (§5.2). |
@@ -226,21 +214,19 @@ We leggen per medewerker elke relevante arbeidsverhouding apart vast. Heeft een 
 
 De inkomstenverhouding is ook de rekeneenheid voor de gemiddelden. Het begrippenkader definieert de arbeidsverhouding als de inkomstenverhouding, dus een medewerker met twee inkomstenverhoudingen telt twee keer mee in het aantal arbeidsverhoudingen. Dat is bovendien inhoudelijk juist: functie en standplaats kunnen per arbeidsverhouding verschillen, en de vergelijking gaat over de functiecategorie waarin het loon is verdiend.
 
-De brontabel voor medewerkers legt de gegevens vast **per inkomstenverhouding**, omdat de lijstbegrippen hun waarde per inkomstenverhouding leveren. Effectief is elk dienstverband een eigen inkomstenverhouding, behalve bij subdienstverbanden: die vallen samen met hun kapstokdienstverband onder één inkomstenverhouding, en zijn daardoor al in de brontabel gegroepeerd (§5.3). Dat speelt vooral in het onderwijs, waar subdienstverbanden onder één kapstokdienstverband hangen. Hoofdstuk 6 werkt dit uit. Wat de medewerker vervolgens op de KPI ziet, is een presentatiekeuze; die staat in hoofdstuk 8.
+De brontabel legt de gegevens vast per dienstverband. Meerdere dienstverbanden kunnen onder hetzelfde inkomstenverhoudingnummer vallen; de taak telt die bij het samenstellen van de regel per inkomstenverhouding bij elkaar op (§5.4). Dat speelt vooral in het onderwijs, waar subdienstverbanden onder één kapstokdienstverband hangen. Hoofdstuk 6 werkt dit uit. Wat de medewerker vervolgens op de KPI ziet, is een presentatiekeuze; die staat in hoofdstuk 8.
 
-**Het kapstokdienstverband is leidend voor de kenmerken.** De loonaangifte wordt op het kapstokdienstverband gedaan, inclusief de loongegevens van de subdienstverbanden eronder. Wij volgen dat: de functie, de functiecategorie en de overige kenmerken op de regel per inkomstenverhouding komen van het kapstokdienstverband, en de loonbedragen en uren van alle dienstverbanden onder dezelfde inkomstenverhouding staan samen op de bronregel.
+**Het kapstokdienstverband is leidend voor de kenmerken.** De loonaangifte wordt op het kapstokdienstverband gedaan, inclusief de loongegevens van de subdienstverbanden eronder. Wij volgen dat: de functie, de functiecategorie en de overige kenmerken op de regel per inkomstenverhouding komen van het kapstokdienstverband, en de loonbedragen en uren van alle dienstverbanden onder dezelfde inkomstenverhouding worden opgeteld.
 
 Dat is bewust. De subdienstverbanden vormen samen één arbeidsverhouding in de zin van het begrippenkader; ze apart meetellen zou de medewerker meerdere keren in dezelfde vergelijkingsgroep zetten en het gemiddelde omlaag trekken, omdat elk deel op zichzelf een klein loon heeft. De keerzijde is dat een medewerker met sterk verschillende aanstellingen onder één kapstok in de functiecategorie van de kapstok valt. Dat is de indeling die de werkgever zelf heeft gemaakt.
 
-### 3.2 De filters op soort inkomstenverhouding, aard arbeidsverhouding en soort medewerker
+### 3.2 Het filter op soort inkomstenverhouding
 
 We nemen niet iedereen op die in de verloning voorkomt. In de loonadministratie zitten ook personen die wel worden verloond, maar die geen eigen medewerker zijn in de zin van de richtlijn.
 
-We filteren daarom op drie kenmerken: de **soort inkomstenverhouding**, de **aard arbeidsverhouding** en de **soort medewerker**. Alle drie liggen in Profit altijd vast en zijn per dienstverband eenduidig. Ze bepalen **wie** meetelt, niet in welke populatie; dat volgt uit de verloningsvariant (§3.3). Er komt geen handmatige aanvinkmogelijkheid voor de klant.
+We filteren op de **soort inkomstenverhouding**. Dat kenmerk wordt ook in de loonaangifte gebruikt, ligt dus altijd vast en is per dienstverband eenduidig. Er komt geen handmatige aanvinkmogelijkheid voor de klant.
 
-**Soort inkomstenverhouding**
-
-Deze soorten tellen mee, voor beide populaties:
+Voor eigen medewerkers tellen deze soorten mee:
 
 | Soort | Omschrijving |
 | --- | --- |
@@ -249,137 +235,52 @@ Deze soorten tellen mee, voor beide populaties:
 | 15 | Loon/salaris niet hiervoor genoemde medewerkers |
 | 17 | Loon/salaris directeuren NV/BV niet verzekerd voor de werknemersverzekeringen |
 
-Alle andere soorten vallen af. Daarmee blijven onder meer uitkeringen, pensioenen, wachtgeld, transitievergoedingen en flexmedewerkers buiten de dataset.
+Alle andere soorten vallen af. Daarmee blijven onder meer uitkeringen, pensioenen, wachtgeld en flexmedewerkers buiten de dataset.
 
 Twee dingen zijn hierbij het opmerken waard:
 
 - **Directeuren tellen wel mee**, zowel verzekerd (13) als niet verzekerd voor de werknemersverzekeringen (17). Een directeur-grootaandeelhouder valt daarmee binnen de populatie.
-- **Dit filter geldt voor beide populaties.** Het begrippenkader maakt bij dit kenmerk geen onderscheid tussen eigen medewerkers en uitzendkrachten: §3.7.3 schrijft voor alle arbeidsverhoudingen dezelfde vier soorten voor, met dezelfde eisen dat loon en verloonde uren groter dan nul zijn. In welke populatie een arbeidsverhouding valt, volgt uit de **verloningsvariant** (§3.3).
+- **Dit filter geldt voor beide populaties.** Het begrippenkader maakt bij dit kenmerk geen onderscheid tussen eigen medewerkers en uitzendkrachten: §3.7.3 schrijft voor alle arbeidsverhoudingen dezelfde vier soorten voor, met dezelfde eisen dat loon en verloonde uren groter dan nul zijn. Het onderscheid tussen de twee populaties zit in de **aard** van de arbeidsverhouding (§3.3).
 
 Deze selectie sluit aan bij het begrippenkader loontransparantie, dat bij hetzelfde kenmerk dezelfde vier soorten inkomen noemt. Het kader spreekt daar van *soort arbeidsverhouding*; wij houden de Profit-term **soort inkomstenverhouding** aan (zie de opmerking bij hoofdstuk 2).
 
-Van dit filter is één uitzondering nog niet uitgezocht. Een UMC heeft mogelijk afwijkende afspraken met de Belastingdienst, waardoor het een andere soort inkomstenverhouding gebruikt (vermoedelijk 35). Die medewerkers zouden dan buiten de populatie vallen terwijl ze er inhoudelijk wel in horen (hoofdstuk 12, punt AN-a).
+### 3.3 Het filter op aard arbeidsverhouding
 
-**Aard arbeidsverhouding**
+De soort inkomstenverhouding alleen is niet genoeg. Soort 15 is breed en laat ook fictieve dienstbetrekkingen door, zoals musicus, deelvisser, thuiswerker en uitzendkracht. Die horen niet tot de eigen medewerkers in de zin van de richtlijn.
 
-De soort inkomstenverhouding alleen is niet genoeg. Soort 15 is breed en laat ook fictieve dienstbetrekkingen door, zoals musicus, deelvisser en thuiswerker. Die horen niet tot de arbeidsverhoudingen in de zin van de richtlijn. We filteren daarom ook op de aard arbeidsverhouding, en nemen alleen de codes mee die het begrippenkader noemt (§3.7.2):
+We filteren daarom ook op de **aard van de arbeidsverhouding**. Alleen arbeidsovereenkomsten naar burgerlijk recht tellen mee, aangevuld met de publiekrechtelijke aanstelling. Voor eigen medewerkers zijn dat deze codes:
 
 | Aard | Omschrijving |
 | --- | --- |
 | 1 | Arbeidsovereenkomst, exclusief BBL |
-| 11 | Uitzendkracht |
 | 18 | Publiekrechtelijke aanstelling |
 | 21 | WSW beschut werk |
-| 22 | WSW detachering bij een reguliere werkgever |
 | 23 | WSW begeleid werk |
 | 24 | Participatiewet beschut werk |
-| 82 | Payrolling |
 | 83 | Beroepspraktijkopleiding van de beroepsbegeleidende leerweg (BBL) |
 
-Alle andere aarden vallen af. Daarmee verdwijnen onder meer deelvisser (4), musicus of artiest (6), stagiair (7), thuiswerker (8) en de overige fictieve dienstbetrekkingen (81) uit de dataset.
+Alle andere aarden vallen af. Daarmee verdwijnen onder meer musicus of artiest (6), stagiair (7), deelvisser (4), thuiswerker (8), uitzendkracht (11), payrolling (82) en de overige fictieve dienstbetrekkingen (81) uit de dataset.
 
-**Dit is één filter voor beide populaties.** Het begrippenkader verdeelt deze codes over eigen werknemers (1, 18, 21, 23, 24 en 83) en de uitzendketen (11, 22 en 82). Die verdeling nemen we **niet** over voor de indeling: de aard wordt in de praktijk niet consequent vastgelegd, en uitzendkrachten bij declaratieverwerking staan in hele omgevingen op aard 1 (§3.3). Welke van de negen codes iemand heeft, maakt voor de populatie dus niet uit; dát hij er één heeft, wel.
+De codes 11 (uitzendkracht), 22 (WSW detachering bij een reguliere werkgever) en 82 (payrolling) horen bij de uitzendketen. Ze vallen buiten de populatie **eigen medewerkers** en vormen samen het filter voor de populatie **uitzendkracht**, met een eigen brontabel (§5.3).
 
-**Soort medewerker**
+**Het filter voor uitzendkrachten**
 
-Het derde filter werkt op de soort medewerker van het dienstverband. Alleen de soorten die Profit verloont komen in aanmerking, en daarvan tellen er drie mee:
-
-| Telt mee | Valt af |
+| Aard | Omschrijving |
 | --- | --- |
-| Personeelslid | Stagiair - met salaris/stagevergoeding |
-| Ondernemer - met salaris | Nabetaling na uitdienst |
-| Expat | |
+| 11 | Uitzendkracht |
+| 22 | WSW detachering bij een reguliere werkgever |
+| 82 | Payrolling |
 
-De soorten die Profit niet verloont — zoals interimmer, uitzendkracht, van ander bedrijf of filiaal ingeleend, stagiair zonder salaris en ondernemer zonder salaris — leveren geen berekende salarisgegevens op en komen dus vanzelf niet in de brontabellen.
-
-**Stagiairs met salaris vallen af.** In de praktijk krijgt een stagiair vaak de functie waarin hij meeloopt, zodat hij de juiste rechten krijgt. Telt hij mee, dan drukt zijn stagevergoeding het gemiddelde van die functiecategorie. Hem uitsluiten via de inrichting — een eigen functie zonder categorie — is foutgevoelig; een filter op de soort medewerker is eenduidig.
-
-**Nabetalingen na uitdienst vallen af**, voor zowel witte als groene nabetalingen. Wat daar wordt uitbetaald — een eindafrekening, uitbetaald verlof, een bedrag uit een vaststellingsovereenkomst — zegt niets meer over het loonniveau in een functie. In een kleine groep kan één zo'n bedrag het gemiddelde flink scheeftrekken.
-
-**Alle drie de filters werken bij het vullen van de brontabellen** (§7.3, stap 3). Een tijdvak met een soort inkomstenverhouding, aard arbeidsverhouding of soort medewerker die niet meetelt, levert geen bronregel op. In de brontabellen staat dus alleen wat meetelt.
-
-Dat heeft twee redenen. Het **Power BI-dashboard** leest de brontabellen rechtstreeks uit (§5.9). Zou daar ook staan wat niet meetelt, dan moet het dashboard de filters zelf nabouwen, en dan ontstaat er een tweede waarheid naast de taak (hoofdstuk 10). En **één regel voor alle drie** is eenvoudiger uit te leggen dan twee filters op de ene plek en één op de andere.
-
-De soort inkomstenverhouding en de aard blijven wél als veld op de bronregel staan, als kenmerk: welke van de toegestane codes iemand heeft. De soort medewerker leggen we **niet** vast; die voegt als kenmerk niets toe.
-
-De keerzijde is dat een **verruiming** van een filter niet vanzelf over het verleden doorwerkt. Arbeidsverhoudingen die eerder afvielen hebben geen bronregel, en de brontabellen worden buiten het venster niet opnieuw opgebouwd. Wordt een filter later verruimd — bijvoorbeeld voor punt AN-a —, dan is een eenmalige vulling van de triggertabel nodig, zoals bij de conversie (§7.7). Datzelfde geldt voor DP2: de brontabellen bevatten geen arbeidsverhoudingen buiten deze filters (hoofdstuk 12, punt AN-g).
-
-### 3.3 Medewerker of uitzendkracht: de indeling in brontabellen
-
-Elke arbeidsverhouding die door de filters uit §3.2 komt, valt in één van twee populaties — *Medewerkers* of *Ter beschikking gestelde arbeidskrachten* — en daarmee in één van twee brontabellen (§5.3). In de lopende tekst noemen we die twee ook wel het bakje medewerkers en het bakje uitzendkrachten.
-
-**De regel**
-
-De indeling volgt de **verloningsvariant**: wordt het loon per plaatsing berekend, dan hoort het bij de uitzendkrachten; anders bij de medewerkers.
-
-| Verloningsvariant | Wat de loonberekening doet | Brontabel |
-| --- | --- | --- |
-| Periodeverwerking | Eén berekening per medewerker | Bron medewerkers |
-| Periodeverwerking met meerdere dienstverbanden | Een berekening per zichtbaar dienstverband | Bron medewerkers |
-| Periodeverwerking met Flex | Eén berekening per medewerker; een plaatsing bestaat alleen administratief en wordt niet apart berekend | Bron medewerkers |
-| Plaatsingen verwerken in periodeverloning (RHR02179, vanaf loonjaar 2027) | Het vaste periodeloon op het hoofddienstverband, plus een berekening per plaatsing op een plaatsingsdienstverband | **Beide**: bron medewerkers met het totaal, bron uitzendkrachten per plaatsing |
-| Declaratieverwerking | Een berekening per declaratie, die altijd aan een plaatsing hangt | Bron uitzendkrachten |
-
-Dat komt neer op drie zinnen. **Declaratieverwerking is altijd uitzenden** en komt nooit bij de medewerkers. **Periodeverwerking is altijd medewerker.** En wie in de periodeverloning **óók op de plaatsing wordt verloond**, staat in beide.
-
-**Waarom niet indelen op aard arbeidsverhouding**
-
-Een eerdere versie van dit ontwerp deelde de populaties in op de aard arbeidsverhouding uit de loonaangifte: aard 1, 18, 21, 23, 24 en 83 als eigen medewerker, aard 11, 22 en 82 als uitzendkracht. Dat volgde het begrippenkader (§3.7.2). Onderzoek ON-10 heeft die aard op AFAS Online naast de verloningsvariant gelegd, en de aard blijkt in de praktijk niet consequent te worden vastgelegd — ook niet binnen één werkgever met dezelfde cao en hetzelfde proces. Als indeling faalt de aard daardoor in twee richtingen tegelijk:
-
-- **Echte uitzendkrachten komen bij de medewerkers.** Bij declaratieverwerking staan in hele omgevingen de uitzendkrachten op aard 1, alleen al in twee omgevingen ruim 4.700.
-- **Medewerkers zonder plaatsing komen in een bakje dat niet te vullen is.** Aard 22 is vrijwel altijd sociale werkvoorziening op periodeverwerking zonder plaatsing, en aard 11 en 82 komen veel voor op periodeverwerking zonder loon per plaatsing. De brontabel voor uitzendkrachten heeft plaatsing en verkooprelatie in de sleutel, dus voor hen is er geen regel te maken.
-
-De verloningsvariant heeft dat probleem niet. Of het loon per plaatsing wordt berekend, is een feit in de salarisverwerking en geen registratiekeuze. En het sluit aan op de randvoorwaarde die er toch al is: wie in het bakje uitzendkrachten komt, moet een plaatsing hebben waaraan het loon is toegerekend.
-
-**De aard arbeidsverhouding blijft wel een filter** (§3.2), op de negen codes uit het begrippenkader samen. Ze bepaalt alleen niet meer in welke populatie iemand valt. Het veld staat op de brontabellen en op laag 2 (§5.3, §5.4), en blijft daarmee ook beschikbaar voor analyse in het dashboard en voor DP2, als de rapportage de verdeling uit het begrippenkader alsnog nodig heeft.
-
-**Wat dat betekent voor bijzondere groepen**
-
-| Groep | Waar ze landen | Toelichting |
-| --- | --- | --- |
-| Uitzendkrachten bij declaratieverwerking, ongeacht welke van de negen aardcodes ze hebben | Uitzendkrachten | Precies waar ze horen; het loon is per plaatsing beschikbaar |
-| Sociale werkvoorziening (aard 21, 22, 23) | Medewerkers | Altijd periodeverwerking, vrijwel altijd zonder plaatsing |
-| Payrolling en detacheren op gewone periodeverwerking | Medewerkers | Wel een plaatsing, maar geen loon per plaatsing. Dat is technisch het enige wat kan, en het is nu een bewuste keuze. De weg naar een vergelijking per inlener is het aanzetten van de nieuwe variant |
-| Detacheerders met Plaatsingen verwerken in periodeverloning | Beide | Zie hieronder |
-| Fictieve dienstbetrekkingen met soort 15, zoals musicus, deelvisser of thuiswerker | Geen van beide | Vallen af via het filter op aard arbeidsverhouding (§3.2) |
-
-**Detacheerders: eerst eigen organisatie, daarnaast per plaatsing**
-
-Bij uitzenden in de zuivere vorm is er geen vast eigen loon: alles hangt aan de plaatsing, en de uitzendkracht wordt vergeleken met de andere uitzendkrachten bij dezelfde inlener. Bij detacheren ligt dat anders. Een gedetacheerde heeft een vast loon bij zijn eigen werkgever, dat ook doorloopt als hij tijdelijk niet geplaatst is, en een functie in het functiehuis van die werkgever. Hij wil zich in de eerste plaats vergelijken met de collega's in zijn eigen functiecategorie; bij een opdracht is hij vaak de enige vanuit zijn werkgever.
-
-Daarom staat een detacheerder in de nieuwe variant in **beide** bakjes:
-
-- **Bron medewerkers bevat altijd het totaal.** De lijstbegrippen voor medewerkers leveren hun waarde per inkomstenverhouding, en de plaatsingsdienstverbanden vallen onder dezelfde inkomstenverhouding als het hoofddienstverband. Daarmee zitten het vaste loon én de projecttoeslagen van de plaatsingen in dit bedrag, met de functie van het hoofddienstverband.
-- **Bron uitzendkrachten bevat per plaatsing het toegerekende deel.** Dat is het deel van het vaste loon dat de looninrichting aan de plaatsing toerekent, plus de projecttoeslag. De projecttoeslag laten we bewust niet weg: die is onderdeel van wat de gedetacheerde voor zijn werk bij die inlener ontvangt, en een vergelijking zonder dat deel zegt niets over gelijkwaardig belonen.
-
-Een voorbeeld, met bedragen ter illustratie:
-
-| | Bron medewerkers | Bron uitzendkrachten |
-| --- | --- | --- |
-| Vast periodeloon € 3.000, waarvan € 2.400 toegerekend aan plaatsing A | € 3.000 | € 2.400 |
-| Projecttoeslag plaatsing A € 250 | € 250 | € 250 |
-| **Totaal** | **€ 3.250** | **€ 2.650** |
-
-**De twee bedragen worden nooit bij elkaar opgeteld.** Het bedrag in bron uitzendkrachten is een deel van het bedrag in bron medewerkers, geen bedrag ernaast. Binnen het recht op informatie gaat dat goed, omdat de twee populaties nergens samen worden genomen: elke vergelijking blijft binnen één populatie en één functiecategorie (§6.3). Voor de wettelijke rapportage ligt dat anders; daar moet DP2 voorkomen dat deze persoon twee keer meetelt (hoofdstuk 11).
-
-**Uitgangspunt is dat de toerekening er komt.** Het cao-team levert een aanvullende looninrichting waarmee een deel van het vaste loon aan de plaatsing wordt toegerekend, met een rekencomponent die het salaris terugverdeelt naar het plaatsingsdienstverband (hoofdstuk 10). Zonder die toerekening zou het loon per plaatsing vrijwel alleen uit de projecttoeslag bestaan.
-
-Op de stamkaart betekent dit dat dezelfde persoon twee sets cijfers kan hebben: op de stamkaart van de medewerker die van zijn eigen functiecategorie, op de stamkaart van de plaatsing die van zijn werk bij die inlener (§8.1).
-
-**Een bewust uitlegbare regel**
-
-Wet- en regelgeving zeggen niet hoe een gedetacheerde met een gewone arbeidsovereenkomst moet worden ingedeeld, en ook niet waar het loon bij leegloop of intern werk thuishoort. Dat is bij het ministerie aangekaart, maar duidelijkheid op korte termijn wordt niet verwacht. We kiezen daarom voor de regel die in één zin uit te leggen is en die aansluit op wat Profit werkelijk berekent. Komt er later duidelijkheid, dan is de indeling bij te sturen zonder dat het datamodel verandert (hoofdstuk 12, punt AN-d).
-
-**Wie waarover gaat: recht op informatie en rapportage**
-
-Het begrippenkader noemt bij uitzendarbeid de toevoeging dat die **alleen bij de inlener** moet worden meegenomen en niet bij de uitlener (§3.7.2). Dat gaat over de **rapportage**, niet over de brontabel.
+Deze drie codes komen uit §3.7.2 van het begrippenkader. Daar staat bij code 11 de toevoeging dat die **alleen bij de inlener** moet worden meegenomen en niet bij de uitlener. Dat gaat over de **rapportage**, niet over de brontabel.
 
 Dat onderscheid is belangrijk, want het bepaalt wie waarover gaat:
 
-- De **uitlener** heeft de loongegevens van zijn uitzendkrachten wél — ze staan in zijn eigen salarisverwerking — en heeft ze nodig om die uitzendkrachten hun **recht op informatie** te kunnen geven. Zijn brontabel voor uitzendkrachten wordt dus gewoon gevuld.
+- De **uitlener** heeft de loongegevens van zijn uitzendkrachten wél — ze staan in zijn eigen loonaangifte — en heeft ze nodig om die uitzendkrachten hun **recht op informatie** te kunnen geven. Zijn brontabel wordt dus gewoon gevuld met alle drie de codes.
 - De **rapportage** over uitzendkrachten ligt bij de **inlener**. Het begrippenkader is daar expliciet over: de uitlener rapporteert alleen over zijn eigen werknemers en over de uitzendkrachten die hij zélf heeft ingeleend, niet over degenen die hij uitleent (§3.7.13). De inlener doet dat op basis van gegevens die de uitlener aanlevert; die komen in de brontabel *Loontransparantie bron extern* terecht en horen bij DP2.
 
 De beperking uit het begrippenkader passen we dus pas toe bij het samenstellen van de rapportageregels, en niet bij het vullen van de brontabel.
+
+Ook deze selectie volgt het begrippenkader loontransparantie.
 
 ### 3.4 Aanvullende selectiecriteria
 
@@ -389,19 +290,15 @@ We passen deze eisen toe op het venster als geheel, niet per tijdvak. Een medewe
 
 ### 3.5 Wanneer we het filter toepassen
 
-De twee filters uit §3.2 werken op een ander niveau dan de twee eisen hierboven.
+De twee filters uit §3.2 en §3.3 werken op een ander niveau dan de twee eisen hierboven.
 
-**Soort inkomstenverhouding, aard arbeidsverhouding en soort medewerker toetsen we per tijdvak.** Een medewerker kan er binnen het venster van wisselen — bijvoorbeeld van een stage met salaris naar een dienstverband als personeelslid. Alleen de tijdvakken waarin de arbeidsverhouding kwalificeert tellen mee in de bedragen en de uren.
-
-De taak toetst alle drie bij het **vullen van de brontabellen**: een tijdvak dat niet kwalificeert levert geen bronregel op (§7.3, stap 3). Laag 2 leest daarna alleen tijdvakken die al meetellen.
-
-Wijzigt een van de drie kenmerken met terugwerkende kracht, dan werkt dat door zodra stap 3 die tijdvakken opnieuw wegschrijft: bij een salarisgegevens-trigger op dat tijdvak, of bij een stamgegeven-trigger voor het hele venster. Kwalificeert een tijdvak dan niet meer, dan **verwijdert** stap 3 de bestaande bronregel; kwalificeert het juist wél, dan ontstaat er een nieuwe.
+**Soort inkomstenverhouding en aard arbeidsverhouding toetsen we per tijdvak.** De brontabel legt beide vast per loontijdvak, en een medewerker kan er binnen het venster van wisselen — bijvoorbeeld van een BBL-overeenkomst naar een gewone arbeidsovereenkomst. Alleen de tijdvakken waarin de arbeidsverhouding kwalificeert tellen mee in de bedragen en de uren.
 
 Dat is nauwkeuriger dan één keer toetsen op de stand aan het einde van het venster. Zouden we dat doen, dan telt bij een wisseling loon mee uit tijdvakken waarin de medewerker niet onder de regeling viel, of valt loon weg uit tijdvakken waarin dat juist wel zo was.
 
 **Loon en uren toetsen we over het venster als geheel**, zoals hierboven beschreven. Die twee eisen gaan over de vraag of er een zinvol loonniveau te berekenen valt, en dat is een eigenschap van het totaal.
 
-Op de regel per inkomstenverhouding leggen we de soort inkomstenverhouding en de aard arbeidsverhouding vast zoals ze aan het einde van het venster golden (§5.4). Dat zijn kenmerken voor herleidbaarheid en niet de waarden waarop is gefilterd. Wisselde iemand binnen het venster, dan kan de vastgelegde waarde dus afwijken van de waarde waarmee een deel van de tijdvakken is meegeteld.
+Op de regel per inkomstenverhouding leggen we de soort en de aard vast zoals ze aan het einde van het venster golden (§5.4). Dat is een kenmerk voor herleidbaarheid en niet de waarde waarop is gefilterd. Wisselde iemand binnen het venster, dan kan de vastgelegde waarde dus afwijken van de waarde waarmee een deel van de tijdvakken is meegeteld.
 
 ### 3.6 Medewerkers die niet het hele jaar meetellen
 
@@ -430,8 +327,8 @@ Dat is een bewuste keuze van de wetgever. De memorie van toelichting stelt dat d
 Wij volgen dat zo:
 
 - Deze medewerkers komen gewoon in de tabellen en zien hun eigen loongegevens: jaaruren, bruto jaarloon, bruto uurloon, de jaar- en uurwaarde variabele componenten en het totaal uurloon.
-- De tegels *Hoeveel verdien ik per uur?*, *Gemiddeld uurloon binnen functiecategorie*, *Samenstelling functiecategorie* en *Wat is het verschil tussen mannen en vrouwen?* zijn voor hen gewoon zichtbaar. Ze krijgen daarmee ongevraagd de vergelijking met beide groepen, precies wat de toelichting als recht beschrijft. Er is dus geen keuze te maken en niets extra's aan te vragen.
-- **De tegel *Verdien ik meer of minder dan mijn collega's?* is voor hen gewoon zichtbaar.** Die zet de medewerker af tegen het gemiddelde van de **hele** functiecategorie, en daar tellen zij volwaardig in mee (§6.5). Ze zien dus hetzelfde als iedereen.
+- De tegels *Gemiddeld uurloon*, *Gemiddeld uurloon binnen functiecategorie*, *Samenstelling functiecategorie* en *Verschil uurloon mannen/vrouwen* zijn voor hen gewoon zichtbaar. Ze krijgen daarmee ongevraagd de vergelijking met beide groepen, precies wat de toelichting als recht beschrijft. Er is dus geen keuze te maken en niets extra's aan te vragen.
+- **De tegel *Individueel verschil uurloon* is voor hen gewoon zichtbaar.** Die zet de medewerker af tegen het gemiddelde van de **hele** functiecategorie, en daar tellen zij volwaardig in mee (§6.5). Ze zien dus hetzelfde als iedereen.
 - Ze komen niet voor in de donut van *Samenstelling functiecategorie*, omdat die alleen mannen en vrouwen telt (§8.2).
 - Ze tellen niet mee in de gemiddelden per geslacht en niet in de loonverschilpercentages, omdat ze in geen van beide groepen vallen. Zo blijven die cijfers zuiver en sluiten ze aan op de wettelijke rapportage van DP2.
 - Ze tellen wél mee in het totale aantal arbeidsverhoudingen van de functiecategorie (§5.5). Dat totaal is daardoor niet de som van mannen en vrouwen.
@@ -691,22 +588,9 @@ Daarmee valt de loonaangifte als bron af en moeten de bedragen uit de **berekend
 
 Uitzendkrachten vragen extra sleutelvelden die een gewone medewerker niet heeft. Die in één tabel opnemen maakt het datamodel onnodig complex voor verreweg de grootste groep, terwijl de twee populaties in de rapportage toch al fysiek gescheiden zijn: er is geen inzicht nodig dat over de combinatie van beide bronnen gaat, en ook in het dashboard blijven ze uit elkaar. Laag 3 draagt het sleutelonderdeel populatie al mee (§5.5), dus de scheiding loopt door tot boven in het model.
 
-**Welke berekening in welke tabel komt**
-
-De indeling volgt de verloningsvariant (§3.3). Bij het vullen kijkt de taak naar de berekende salarisgegevens zelf:
-
-- **Hangt de berekening aan een plaatsing**, dan gaat ze naar *Loontransparantie bron uitzendkrachten*, met één regel per plaatsing. Dat geldt voor declaratieverwerking en voor de plaatsingsdienstverbanden van *Plaatsingen verwerken in periodeverloning*.
-- **Is het een periodeverwerking**, dan gaat ze naar *Loontransparantie bron medewerkers*. Dat geldt ook voor een periodeverwerking waarin plaatsingen alleen administratief zijn vastgelegd, en voor het hoofddienstverband van *Plaatsingen verwerken in periodeverloning*.
-
-Bij die laatste variant komt dezelfde inkomstenverhouding dus in **beide** tabellen. In bron medewerkers staat het **totaal**: de lijstbegrippen voor medewerkers leveren hun waarde per inkomstenverhouding, en de plaatsingsdienstverbanden vallen onder dezelfde inkomstenverhouding als het hoofddienstverband. Het vaste loon en de projecttoeslagen zitten daar dus allebei in. In bron uitzendkrachten staat per plaatsing het deel dat daaraan is toegerekend, inclusief de projecttoeslag van die plaatsing. Dat deel zit al in het totaal, en de twee tabellen mogen daarom **nooit bij elkaar worden opgeteld** (§3.3).
-
-Een declaratieverwerking komt nooit in bron medewerkers, en een periodeverwerking zonder loon per plaatsing nooit in bron uitzendkrachten.
-
-**Filters bij het vullen.** Alleen tijdvakken die voldoen aan de filters op soort inkomstenverhouding, aard arbeidsverhouding en soort medewerker leveren een bronregel op (§3.2). Wat in de brontabellen staat, telt dus mee; het dashboard hoeft niets na te filteren. De soort medewerker zelf staat niet in de tabellen.
-
 **Loontransparantie bron medewerkers**
 
-**Sleutel:** werkgever, periodetabel, jaar, periode, medewerker en volgnummer dienstverband. De bedragen komen per **inkomstenverhouding** uit de lijstbegrippen; het volgnummer is dat van het dienstverband waarop de inkomstenverhouding is vastgelegd.
+**Sleutel:** werkgever, periodetabel, jaar, periode, medewerker en volgnummer dienstverband.
 
 | Veld | Type | Fase | Toelichting |
 | --- | --- | --- | --- |
@@ -715,10 +599,10 @@ Een declaratieverwerking komt nooit in bron medewerkers, en een periodeverwerkin
 | Jaar | Getal | 1 | Sleutelonderdeel. Het kalenderjaar waarin het tijdvak valt. |
 | Periode | Getal | 1 | Sleutelonderdeel. Het volgnummer van het tijdvak binnen het jaar. |
 | Medewerker | Verwijzing | 1 | Sleutelonderdeel. |
-| Volgnummer dienstverband | Getal | 1 | Sleutelonderdeel. Per inkomstenverhouding en tijdvak is er precies één regel. Bij subdienstverbanden staat hier het kapstokdienstverband, bij Plaatsingen verwerken in periodeverloning het hoofddienstverband (§3.1). |
-| Nummer inkomstenverhouding | Getal | 1 | De rekeneenheid voor laag 2 en 3. Per nummer en tijdvak één regel, omdat de lijstbegrippen per inkomstenverhouding leveren (§3.1). |
-| Soort inkomstenverhouding | Code | 1 | Kenmerk. Het filter is bij het vullen al toegepast, dus alleen 11, 13, 15 of 17 komen voor (§3.2, §3.5). |
-| Aard arbeidsverhouding | Code | 1 | Kenmerk. Het filter is bij het vullen al toegepast, dus alleen de negen codes uit het begrippenkader komen voor (§3.2, §3.5). Bepaalt niet de populatie (§3.3). |
+| Volgnummer dienstverband | Getal | 1 | Sleutelonderdeel. Het fijnste niveau in de sleutel; per dienstverband en tijdvak is er precies één regel. |
+| Nummer inkomstenverhouding | Getal | 1 | De rekeneenheid voor laag 2 en 3. Meerdere dienstverbanden kunnen hetzelfde nummer voeren (§3.1). |
+| Soort inkomstenverhouding | Code | 1 | Populatiefilter, per tijdvak getoetst (§3.2, §3.5). |
+| Aard arbeidsverhouding | Code | 1 | Populatiefilter, per tijdvak getoetst (§3.3, §3.5). |
 | Functie | Verwijzing | 1 | De functie zoals die gold op de laatste dag van dit tijdvak (§4.5). Leeg als er geen functie was gekoppeld. |
 | Functiecategorie | Verwijzing | 1 | De categorie waarin die functie valt. Leeg als de functie niet gekoppeld is (§3.7). |
 | Geslacht | Code | 1 | Nodig voor de uitsplitsing in de vergelijkingscijfers (§3.8). |
@@ -744,9 +628,9 @@ Een declaratieverwerking komt nooit in bron medewerkers, en een periodeverwerkin
 
 Dat betekent ook dat de twee velden **niet bij elkaar mogen worden opgeteld**. Wie dat doet telt het bijzondere tarief twee keer mee in het loon, en de formule in §6.1 haalt het er maar één keer uit.
 
-De bedragen staan **per inkomstenverhouding** op de regel. De lijstbegrippen voor medewerkers leveren hun waarde per inkomstenverhouding, dus per inkomstenverhouding en tijdvak is er precies één regel. Het volgnummer dienstverband in de sleutel is dat van het dienstverband waarop de inkomstenverhouding is vastgelegd.
+Het **dienstverband** is het fijnste niveau in de sleutel; het nummer van de inkomstenverhouding staat als kenmerk op de regel. Per dienstverband en tijdvak is er precies één regel, en op die regel is dat nummer eenduidig.
 
-Effectief is elk dienstverband een eigen inkomstenverhouding. De uitzondering zijn **subdienstverbanden**, vooral in het onderwijs: die vallen samen met hun kapstokdienstverband onder één inkomstenverhouding, en de loonaangifte wordt op het kapstokdienstverband gedaan, inclusief de loongegevens eronder. Doordat we de lijstbegrippen per inkomstenverhouding ophalen, zijn de subdienstverbanden **al in de brontabel gegroepeerd**: er is één regel, met het kapstokdienstverband in de sleutel en de bedragen en uren van de hele groep. Voor de kenmerken — en dus voor de functie — volgt de regel het kapstokdienstverband (§3.1). Hetzelfde mechanisme neemt bij Plaatsingen verwerken in periodeverloning de plaatsingsdienstverbanden mee in het totaal (§3.3).
+Andersom kunnen meerdere dienstverbanden wél onder hetzelfde inkomstenverhoudingnummer vallen. Dat doet zich voor bij subdienstverbanden, vooral in het onderwijs: de loonaangifte wordt gedaan op het kapstokdienstverband, inclusief de loongegevens van de subdienstverbanden eronder. Laag 2 groepeert daarom op inkomstenverhouding en telt de dienstverbanden daarbinnen op (§5.4). Voor de kenmerken — en dus voor de functie — volgt laag 2 het kapstokdienstverband (§3.1).
 
 **De functie staat wél in deze laag.** Dat is anders dan in de opzet op de loonaangifte, waar de functie geen onderdeel van de bron was en laag 2 hem uit de functiehistorie moest afleiden. Nu we per salarisperiode wegschrijven, leggen we de functie meteen vast zoals die op de laatste dag van dat tijdvak gold (§4.5), samen met de functiecategorie waarin die functie valt. Dat scheelt een afleiding bij elke run en maakt achteraf navolgbaar aan welke functie een bedrag is toegekend.
 
@@ -766,8 +650,8 @@ Effectief is elk dienstverband een eigen inkomstenverhouding. De uitzondering zi
 | Volgnummer dienstverband | Getal | 1 | Sleutelonderdeel. |
 | Plaatsing | Verwijzing | 1 | Sleutelonderdeel, extra ten opzichte van de tabel voor medewerkers. Eén dienstverband kan binnen hetzelfde tijdvak meerdere plaatsingen hebben. |
 | Nummer inkomstenverhouding | Getal | 1 | De rekeneenheid voor laag 2 en 3. |
-| Soort inkomstenverhouding | Code | 1 | Kenmerk; net als bij eigen medewerkers komen alleen 11, 13, 15 of 17 voor (§3.2). |
-| Aard arbeidsverhouding | Code | 1 | Kenmerk; hetzelfde filter als bij medewerkers is bij het vullen al toegepast (§3.2). Bepaalt niet de populatie: bij declaratieverwerking komt in de praktijk ook aard 1 voor (§3.3). |
+| Soort inkomstenverhouding | Code | 1 | Populatiefilter: 11, 13, 15 of 17, net als bij eigen medewerkers (§3.2). |
+| Aard arbeidsverhouding | Code | 1 | Populatiefilter: 11, 22 of 82 (§3.3). |
 | Verkooprelatie | Verwijzing | 1 | De inlener die bij deze plaatsing hoort. Het kenmerk waarop het recht op informatie wordt afgebakend. |
 | Functie | Verwijzing | 1 | De functie **uit de plaatsing**, niet van het dienstverband. |
 | Functiecategorie | Verwijzing | 1 | De categorie **uit de plaatsing**. Kan afwijken van de categorie die bij de functie hoort, dus twee plaatsingen in dezelfde functie kunnen in verschillende categorieën vallen (§4.5). |
@@ -821,7 +705,7 @@ Ze komen uit dezelfde bron en langs dezelfde route als de overige bedragen: de b
 | Loontransparantie: bijtelling vervoermiddel | Bijtelling vervoermiddel | 6.780 |
 | Loontransparantie: vrije rubriek | Vrije rubriek | 6.781 |
 
-**Dit is één set voor beide populaties.** Anders dan bij de kerngrootheden hieronder gebruiken medewerkers en uitzendkrachten hier dezelfde lijstbegrippen. Ze zijn zowel per inkomstenverhouding als per plaatsing beschikbaar, dus beide brontabellen worden er langs dezelfde weg mee gevuld. Voor bron medewerkers halen we ze — net als de kerngrootheden — **per inkomstenverhouding** op, zodat ook deze bedragen van subdienstverbanden al in de bronregel zijn samengenomen.
+**Dit is één set voor beide populaties.** Anders dan bij de kerngrootheden hieronder gebruiken medewerkers en uitzendkrachten hier dezelfde lijstbegrippen. Ze zijn zowel per dienstverband als per plaatsing beschikbaar, dus beide brontabellen worden er langs dezelfde weg mee gevuld.
 
 **Drie begrippen zijn bewust gesplitst.** Onbetaald verlof, kopen van uren en verkopen van uren vielen tot nu toe onder één brede categorie incidentele inkomstenvermindering. Die is te grof: ze verklaren elk iets anders, en verkopen van uren werkt zelfs de andere kant op — dat verhoogt het inkomen in plaats van het te verlagen. **Ouderverlof** is juist samengevoegd tot één overkoepelend begrip, zodat het dashboard niet drie vrijwel gelijke rubrieken naast elkaar zet.
 
@@ -846,7 +730,7 @@ De indeling hieronder is een **richting** en geen vastgelegd ontwerp. De sleutel
 | Kenmerk arbeidskracht | Tekst | 2 | Sleutelonderdeel. Het gepseudonimiseerde kenmerk waarmee de uitlener één arbeidskracht aanduidt. Zie de toelichting hieronder. |
 | Nummer inkomstenverhouding | Getal | 2 | Sleutelonderdeel. Van de uitlener afkomstig. |
 | Soort inkomstenverhouding | Code | 2 | Sleutelonderdeel en populatiefilter. |
-| Aard arbeidsverhouding | Code | 2 | Sleutelonderdeel en filter. In de eigen brontabellen bepaalt de aard sinds 13 oktober 2026 niet meer de populatie (§3.3); of dat hier ook zo is, beslist DP2. |
+| Aard arbeidsverhouding | Code | 2 | Sleutelonderdeel en populatiefilter. |
 | Verkooprelatie | Verwijzing | 2 | Sleutelonderdeel. De inlener waarop de gegevens betrekking hebben. |
 | Functiecategorie | Verwijzing | 2 | Sleutelonderdeel. De categorie die de inlener heeft doorgegeven bij de plaatsing (hoofdstuk 12, punt Q1). |
 | Geslacht | Code | 2 | Sleutelonderdeel. |
@@ -876,7 +760,7 @@ De loongegevens komen uit de **berekende salarisgegevens**, ontsloten via **lijs
 
 | Populatie | Lijstbegrippen | Status |
 | --- | --- | --- |
-| Medewerkers | Een **eigen** set; acht grootheden per inkomstenverhouding uit zeven begrippen | Profit Id 6.821 t/m 6.827 |
+| Medewerkers | Een **eigen** set; acht grootheden per dienstverband uit zeven begrippen | Profit Id 6.821 t/m 6.827 |
 | Uitzendkrachten | Een **eigen** set; zeven grootheden per plaatsing | Profit Id 6.782 t/m 6.788 |
 
 Voor **eigen medewerkers** gebruikten we eerst de lijstbegrippen die er al waren voor de loonaangifte. Dat werkte, maar het bond de loontransparantie aan de inrichting van de aangifte. Er komt daarom ook voor deze populatie een eigen set:
@@ -941,7 +825,7 @@ De tabellen worden gevuld door de taak **Bijwerken gegevens loontransparantie**,
 - **Geen contracturen en kalenderdagen.** Die stonden in de oude brontabel voor de WAB en hebben in dit ontwerp geen functie.
 - **Geen correctie-indicatie en geen vastlegtijdstip.** Wat dat betekent voor correcties en voor het dashboard staat in §7.5.
 
-Fase 2 vraagt op de tabel voor medewerkers geen enkele uitbreiding. De populatie volgt uit de brontabel zelf (§3.3).
+Fase 2 vraagt op de tabel voor medewerkers geen enkele uitbreiding. De populatie is af te leiden uit de aard van de arbeidsverhouding.
 
 ### 5.4 Laag 2: Loontransparantie per inkomstenverhouding
 
@@ -972,11 +856,11 @@ Het **Rapportage ID** is de verwijzing naar de rapportageperiode op laag 0 (§5.
 
 **Werkgever zit niet in de sleutel en staat niet op de regel.** Het inkomstenverhoudingnummer wordt per medewerker uitgegeven, dus de combinatie van medewerker en nummer is binnen één rapportageperiode al eenduidig; werkgever zou daar niets aan toevoegen. Welke werkgever erbij hoort is bovendien af te leiden: de rapportage-eenheid staat op laag 0 en de werkgever per tijdvak staat op de bronregel (§5.3). Opslaan zou betekenen dat we hetzelfde gegeven op twee plekken bijhouden.
 
-De brontabel voor medewerkers levert al regels **per inkomstenverhouding**: subdienstverbanden onder één kapstok zijn daar samengenomen, met de kenmerken van het kapstokdienstverband (§5.3). De taak hoeft op deze laag dus geen dienstverbanden meer op te tellen; ze groepeert de tijdvakken op inkomstenverhouding, functie en functiecategorie, en bij uitzendkrachten daarnaast op verkooprelatie. Dat is inhoudelijk juist: de inkomstenverhouding is de arbeidsverhouding uit het begrippenkader en daarmee de rekeneenheid voor de gemiddelden.
+Hier vindt de vertaling van dienstverband naar inkomstenverhouding plaats. De brontabel levert regels per dienstverband; de taak groepeert die op het inkomstenverhoudingnummer en telt de bedragen en de uren van de onderliggende dienstverbanden op. Vallen twee dienstverbanden onder hetzelfde nummer — subdienstverbanden onder één kapstok — dan levert dat dus één regel op, met de kenmerken van het kapstokdienstverband. Dat is inhoudelijk juist: de inkomstenverhouding is de arbeidsverhouding uit het begrippenkader en daarmee de rekeneenheid voor de gemiddelden.
 
 **De functie zit wél in de sleutel.** Elk loontijdvak hoort bij de functie die op de laatste dag van dat tijdvak gold (§4.5) en die functie staat op de bronregel (§5.3). De taak groepeert daarop. Wisselde de arbeidsverhouding binnen de rapportageperiode van functie, dan levert dat dus meerdere regels op: per functie één, met alleen de tijdvakken die aan die functie zijn toegekend.
 
-Het loon telt daarbij niet dubbel. Elk tijdvak wordt aan precies één functie toegekend, dus de regels verdelen de rapportageperiode; ze overlappen niet. De som van de regels van één inkomstenverhouding **binnen één populatie** is nog steeds het totaal over die periode.
+Het loon telt daarbij niet dubbel. Elk tijdvak wordt aan precies één functie toegekend, dus de regels verdelen de rapportageperiode; ze overlappen niet. De som van de regels van één inkomstenverhouding is nog steeds het totaal over die periode.
 
 Is de medewerker in een tijdvak niet aan een functie gekoppeld, dan blijft de functie op die regel leeg. Die regel bestaat dus wel, maar valt in geen enkele functiecategorie (§3.7).
 
@@ -987,8 +871,6 @@ Dat mag niet gebeuren, want de functiecategorie bepaalt de vergelijkingsgroep (�
 Een functieregel en een categorieregel zijn daarmee hetzelfde soort regel: beide tellen als volwaardige arbeidsverhouding mee in hun eigen functiecategorie (§6.3).
 
 **De verkooprelatie zit ook in de sleutel, maar is alleen voor uitzendkrachten gevuld.** Bij een eigen medewerker blijft hij leeg en verandert er niets aan de regels. Bij een uitzendkracht is hij nodig: iemand kan binnen dezelfde rapportageperiode bij twee inleners werken, en het recht op informatie wordt per verkooprelatie afgebakend (§5.3). Zonder dat sleutelonderdeel zouden die twee plaatsingen op één regel samenvallen en zou het loon van de ene inlener in de vergelijking van de andere terechtkomen.
-
-**Eén inkomstenverhouding kan regels in beide populaties hebben.** Bij *Plaatsingen verwerken in periodeverloning* komt dezelfde inkomstenverhouding uit beide brontabellen (§5.3). Dat levert één regel met populatie *Medewerkers* op, met het totale loon en de functie van het hoofddienstverband, en per verkooprelatie en functiecategorie een regel met populatie *Ter beschikking gestelde arbeidskrachten*, met het deel dat aan die plaatsingen is toegerekend. De unieke sleutel blijft daarbij eenduidig: op de regel voor medewerkers is de verkooprelatie leeg, op de regels voor uitzendkrachten gevuld. De bedragen van de twee populaties overlappen elkaar wél, en worden daarom nooit opgeteld (§3.3).
 
 Ten opzichte van een model zonder rapportageperiode zijn er vier sleutelonderdelen bij gekomen: het Rapportage ID, de verkooprelatie, de functie en de functiecategorie. Daarmee kan dezelfde arbeidsverhouding één of meer vensterregels hebben en later ook kalenderjaarregels.
 
@@ -1007,7 +889,7 @@ Ten opzichte van een model zonder rapportageperiode zijn er vier sleutelonderdel
 | Functiecategorie | Verwijzing | 1 | Onderdeel van de unieke sleutel. De categorie waarin de tijdvakken op deze regel vallen, op de laatste dag van de rapportageperiode. Bij een eigen medewerker volgt die uit de functie; bij een uitzendkracht komt ze van de plaatsing en kan ze daarvan afwijken (§4.5). Leeg als er geen categorie is gekoppeld. |
 | Geslacht | Code | 1 | Nodig voor de uitsplitsing in de vergelijkingscijfers. |
 | Soort inkomstenverhouding | Code | 1 | Ultimo-waarde. Legt vast waarom een regel meetelt (11, 13, 15 of 17). |
-| Aard arbeidsverhouding | Code | 1 | Ultimo-waarde. Legt vast waarom een regel meetelt (§3.2); bepaalt niet de populatie (§3.3). |
+| Aard arbeidsverhouding | Code | 1 | Ultimo-waarde. Legt vast waarom een regel meetelt (1, 18, 21, 23, 24 of 83). |
 | Populatie | Code | 1 | Codetabel Populatie loontransparantie, zie hieronder. Beide waarden komen voor. |
 
 De kenmerken onder de sleutel leggen we vast als momentopname op het einde van de rapportageperiode. De functie, de functiecategorie en de verkooprelatie horen bij de sleutel en gelden voor de tijdvakken op deze regel. Daarmee blijft de regel zelfstandig leesbaar en hoeft de KPI niet te koppelen aan andere tabellen. De keerzijde is dat een wijziging in de stamgegevens pas doorwerkt na de volgende run van de taak.
@@ -1022,8 +904,6 @@ De populatie legt vast uit welke bron een regel is opgebouwd. Het is een codetab
 | Ter beschikking gestelde arbeidskrachten | Uitzendkrachten en andere ter beschikking gestelde arbeidskrachten, opgebouwd uit de brontabellen voor uitzendkrachten en extern (§5.3) |
 
 We nemen de wettelijke term **ter beschikking gestelde arbeidskracht** over en niet het spraakgebruik *uitzendkracht*. De regeling rekent er meer onder dan alleen uitzendarbeid — payrolling en detachering horen er ook bij — en het is de term die in de rapportage terugkomt. In de lopende tekst van dit document blijven we van uitzendkracht spreken, omdat dat leesbaarder is; in de codetabel en op het scherm staat de volledige term.
-
-**Welke arbeidsverhoudingen in Profit onder die populatie vallen, volgt uit de verloningsvariant en niet uit de wettelijke omschrijving** (§3.3). Payrolling of detachering op een gewone periodeverwerking valt daardoor onder *Medewerkers*, omdat er geen loon per plaatsing is om mee te vergelijken.
 
 **Beide waarden komen in de uitlevering van dit deelproject voor.** *Medewerkers* voor de eigen medewerkers van de werkgever, *Ter beschikking gestelde arbeidskrachten* voor de uitzendkrachten die hij uitleent. Dat was eerder anders: tot 22 september 2026 vulde dit ontwerp alleen de eerste populatie en zou DP3 de tweede toevoegen.
 
@@ -1214,7 +1094,7 @@ De brontabellen worden **niet opgeschoond**. Regels blijven staan zolang de sala
 
 Dat is ruimer dan het venster nodig heeft — voor het recht op informatie volstaan de tijdvakken van één jaar — maar het levert twee voordelen op. Er is altijd een compleet afgesloten kalenderjaar aanwezig op het moment dat DP2 dat jaar wil vaststellen, en een correctie die na de jaargrens binnenkomt kan nog worden verwerkt.
 
-We bouwen dus bewust **geen opruimroutine**. Dat zou een parameter vragen, een geplande taak en een afweging over wat er met een lopend rapportagejaar gebeurt, terwijl de winst alleen in schijfruimte zit. De omvang is bovendien voorspelbaar: per inkomstenverhouding of plaatsing komen er per jaar zoveel regels bij als de periodetabel tijdvakken kent — twaalf bij maandverloning, drieënvijftig bij weekverloning (§4.3, §10).
+We bouwen dus bewust **geen opruimroutine**. Dat zou een parameter vragen, een geplande taak en een afweging over wat er met een lopend rapportagejaar gebeurt, terwijl de winst alleen in schijfruimte zit. De omvang is bovendien voorspelbaar: per dienstverband komen er per jaar zoveel regels bij als de periodetabel tijdvakken kent — twaalf bij maandverloning, drieënvijftig bij weekverloning (§4.3, §10).
 De twee tabellen erboven bewaren voor de **vensterregels** geen historie. Bij elke run stelt de taak ze opnieuw samen en overschrijft de vorige waarde. Dat past bij het doel: de medewerker wil weten hoe het er nu voor staat, niet hoe het er een jaar geleden voor stond.
 
 In fase 2 komen daar kalenderjaarregels bij. Die blijven staan zolang de bijbehorende rapportageperiode bestaat, en dat is het rapportagejaar plus vier voorgaande jaren. Dat volgt uit de verplichting om ook over de vier voorgaande jaren informatie te kunnen verstrekken.
@@ -1283,7 +1163,7 @@ Dat scheelt bovendien onderhoud. Een gegevensverzameling op laag 1 zou alleen do
 | Filterautorisatie | Medewerkerautorisatie bij het lezen |
 | Velden | Alle kenmerken, berekende waarden en verklarende bedragen uit §5.4, aangevuld met de kenmerken van de rapportageperiode |
 | Sortering | Medewerker, inkomstenverhouding |
-| Gebruik | De tegels *Hoeveel verdien ik per uur?*, *Gemiddeld uurloon binnen functiecategorie* en *Verdien ik meer of minder dan mijn collega's?* (§8.2), het pagina-onderdeel *Functie* (§8.3), het rapport Loontransparantie medewerker en de gegevensverzameling van DP4 – Vraag aan HR |
+| Gebruik | De tegels *Gemiddeld uurloon*, *Gemiddeld uurloon binnen functiecategorie* en *Individueel verschil uurloon* (§8.2), het pagina-onderdeel *Functie* (§8.3), het rapport Loontransparantie medewerker en de gegevensverzameling van DP4 – Vraag aan HR |
 
 Deze verzameling kent drie standaardfilters. Ze doen elk iets anders en ze zijn geen van drieën te missen.
 
@@ -1301,7 +1181,7 @@ We nemen de **actuele** functie en niet de functie op de laatste dag van het ven
 
 Dat betekent ook dat een recente functiewijziging tot een lege uitkomst kan leiden. Is er nog geen salarisverwerking geaccordeerd waarin de nieuwe functie valt, dan bestaat er nog geen regel voor die functie. Wat de medewerker dan ziet, staat in §8.5 en §8.6.
 
-**Het filter op populatie** houdt de twee populaties uit elkaar. Beide staan in dezelfde tabel (§5.4), en één persoon kan in beide voorkomen. Een uitzendbureau kan iemand in dienst hebben als eigen medewerker en diezelfde persoon daarnaast via declaratieverwerking ter beschikking stellen. En bij *Plaatsingen verwerken in periodeverloning* staat dezelfde inkomstenverhouding met het totaal bij de medewerkers en met het plaatsingsdeel bij de uitzendkrachten (§3.3). Zonder filter zou de stamkaart er willekeurig één van tonen.
+**Het filter op populatie** houdt de twee populaties uit elkaar. Beide staan in dezelfde tabel (§5.4), en één persoon kan in beide voorkomen: een uitzendbureau kan iemand in dienst hebben als eigen medewerker en diezelfde persoon daarnaast ter beschikking stellen. Dat zijn twee dienstverbanden met een andere aard arbeidsverhouding (§3.3), dus twee regels in twee populaties. Zonder filter zou de stamkaart er willekeurig één van tonen.
 
 De populatie volgt uit de **stamkaart**:
 
@@ -1350,7 +1230,7 @@ Wie deze verzameling gebruikt moet er rekening mee houden dat één medewerker m
 | Filterautorisatie | Niet van toepassing; de regel gaat over een groep en niet over een medewerker |
 | Velden | Alle velden uit §5.5, aangevuld met de kenmerken van de rapportageperiode |
 | Sortering | RSIN, functiecategorie |
-| Gebruik | De tegels *Gemiddeld uurloon binnen functiecategorie*, *Samenstelling functiecategorie*, *Verdien ik meer of minder dan mijn collega's?* en *Wat is het verschil tussen mannen en vrouwen?* (§8.2) |
+| Gebruik | De tegels *Gemiddeld uurloon binnen functiecategorie*, *Samenstelling functiecategorie*, *Individueel verschil uurloon* en *Verschil uurloon mannen/vrouwen* (§8.2) |
 
 Medewerkerautorisatie kan hier niet: er staat geen medewerker op de regel. De afscherming loopt dus volledig via de autorisatie op de gegevensverzameling zelf. Dat is bewust, want een gemiddelde in een kleine categorie is herleidbaar tot een individuele collega (§9.3).
 
@@ -1411,7 +1291,7 @@ Dat volgt het kader uitzendkrachten van 3 maart 2026 (hoofdstuk 12, punt W1). Zo
 
 De optellingen gebeuren op de bedragen per tijdvak, niet op de uurwaarden. Het bruto uurloon over het venster is dus het opgetelde jaarloon gedeeld door de opgetelde uren, en nadrukkelijk niet het gemiddelde van de losse periode-uurlonen. Dat laatste zou een tijdvak met weinig uren even zwaar laten wegen als een volle periode, en het zou bij weekverloning over tweeënvijftig getallen middelen en bij maandverloning over twaalf.
 
-Bij medewerkers zijn de dienstverbanden onder dezelfde inkomstenverhouding — de kapstok met zijn subdienstverbanden — al in de bronregel samengenomen (§5.3). De taak telt daarom alleen de tijdvakken op die aan dezelfde functie zijn toegekend. Zo staat op elke regel per inkomstenverhouding het volledige loon van die arbeidsverhouding over de tijdvakken waarin de medewerker die functie had.
+De volgorde van optellen is daarbij: eerst binnen één tijdvak alle dienstverbanden die onder dezelfde inkomstenverhouding vallen — de kapstok met zijn subdienstverbanden — en daarna alleen de tijdvakken die aan dezelfde functie zijn toegekend. Zo staat op elke regel per inkomstenverhouding het volledige loon van die arbeidsverhouding over de tijdvakken waarin de medewerker die functie had.
 
 Deze opbouw volgt het begrippenkader loontransparantie. Daarin is het brutoloon gedefinieerd als het loon verminderd met de waarde variabele componenten, met als toelichting dat dit in de Europese richtlijn het loonniveau of basisloon heet. Het bruto jaarloon is dus het basisloon; de variabele componenten staan er los naast en zijn er niet in begrepen. Het begrippenkader spreekt voluit van "aanvullende of variabele componenten"; in dit ontwerp korten we dat af tot **variabele componenten**, zodat de veldnamen en de schermteksten werkbaar blijven.
 
@@ -1446,7 +1326,7 @@ We passen geen deeltijdcorrectie toe op het bruto jaarloon. Het bruto uurloon va
 
 Alle waarden komen uit de **berekende salarisgegevens**, ontsloten via **lijstbegrippen** die AFAS standaard meelevert en vult (§5.3). De klant hoeft niets in te richten om de cijfers te krijgen. Hij **kan** wel intellen: beide sets staan open, bij medewerkers voor correctie-looncomponenten en bij uitzendkrachten als uitwijkmogelijkheid (§5.3). De negen verklarende bedragen uit §5.3 volgen een eigen regel, onderaan deze paragraaf.
 
-**Voor medewerkers en uitzendkrachten zijn dat verschillende lijstbegrippen.** Beide populaties hebben een **eigen set**. Voor **medewerkers** is dat sinds 7 oktober 2026 zo: zeven begrippen met Profit Id 6.821 t/m 6.827, per inkomstenverhouding, waarvan er één twee grootheden levert. Daarvóór werden de bestaande begrippen van de loonaangifte gebruikt. Voor **uitzendkrachten** was een eigen set altijd al nodig, want de loonaangifte kent de plaatsing niet; die set is op 29 september 2026 opgeleverd en telt zeven begrippen. De Profit Id's staan in de tabel hieronder en in §5.3.
+**Voor medewerkers en uitzendkrachten zijn dat verschillende lijstbegrippen.** Beide populaties hebben een **eigen set**. Voor **medewerkers** is dat sinds 7 oktober 2026 zo: zeven begrippen met Profit Id 6.821 t/m 6.827, per dienstverband, waarvan er één twee grootheden levert. Daarvóór werden de bestaande begrippen van de loonaangifte gebruikt. Voor **uitzendkrachten** was een eigen set altijd al nodig, want de loonaangifte kent de plaatsing niet; die set is op 29 september 2026 opgeleverd en telt zeven begrippen. De Profit Id's staan in de tabel hieronder en in §5.3.
 
 **De definitie verschilt per populatie, en dat mag.** De set voor uitzendkrachten is geen kopie van de bestaande op een ander niveau: wat er voor een uitzendkracht in het loonbegrip hoort te zitten wijkt inhoudelijk af van wat er voor een eigen medewerker in hoort. Dat is juist de reden dat er twee sets zijn en niet één — zo blijft de looninrichting van beide populaties uit elkaar te houden.
 
@@ -1454,9 +1334,9 @@ Alle waarden komen uit de **berekende salarisgegevens**, ontsloten via **lijstbe
 
 Daarmee vervalt de eis dat de twee sets identiek moeten zijn. Wat wél moet: **binnen** één populatie is de definitie overal gelijk, want daar wordt wél onderling vergeleken.
 
-De twee laatste kolommen geven per grootheid het lijstbegrip dat hem levert: voor **medewerkers** het begrip uit de eigen set, per inkomstenverhouding, en voor **uitzendkrachten** het begrip uit de eigen set, per plaatsing. De begripsnamen komen uit het begrippenkader loontransparantie en de wettelijke bronnen verwijzen ernaar; dat staat los van de vraag waar de bedragen vandaan komen, want die komen uit de berekende salarisgegevens en niet uit de loonaangifte (§5.3).
+De twee laatste kolommen geven per grootheid het lijstbegrip dat hem levert: voor **medewerkers** het bestaande begrip uit de loonaangifte, per dienstverband, en voor **uitzendkrachten** het begrip uit de eigen set, per plaatsing. De begripsnamen komen uit het begrippenkader loontransparantie en de wettelijke bronnen verwijzen ernaar; dat staat los van de vraag waar de bedragen vandaan komen, want die komen uit de berekende salarisgegevens en niet uit de loonaangifte (§5.3).
 
-**Vijf grootheden leveren hetzelfde gegeven, het loon niet.** De verloonde uren, de vakantiebijslag, het opgebouwde recht vakantiebijslag en de twee arbeidsvoorwaardenbedragen betekenen in beide populaties hetzelfde; alleen het niveau verschilt — per inkomstenverhouding tegenover per plaatsing. Bij het **loon** ligt het anders, en WrdLn bestaat alleen bij medewerkers. Daar staan in de tabel hieronder dan ook geen gedeelde rijen met twee Profit Id's, maar aparte rijen per populatie.
+**Vijf grootheden leveren hetzelfde gegeven, het loon niet.** De verloonde uren, de vakantiebijslag, het opgebouwde recht vakantiebijslag en de twee arbeidsvoorwaardenbedragen betekenen in beide populaties hetzelfde; alleen het niveau verschilt — per dienstverband tegenover per plaatsing. Bij het **loon** ligt het anders, en WrdLn bestaat alleen bij medewerkers. Daar staan in de tabel hieronder dan ook geen gedeelde rijen met twee Profit Id's, maar aparte rijen per populatie.
 
 | Begrip | Omschrijving | Profit Id medewerkers | Profit Id uitzendkrachten |
 | --- | --- | --- | --- |
@@ -1497,7 +1377,7 @@ Vakantiebijslag en arbeidsvoorwaardenbedrag, inclusief een dertiende maand, hore
 **Negen verklarende bedragen staan hier los van.** Naast de acht grootheden hierboven leggen de brontabellen negen verklarende bedragen vast (§5.3). Die komen langs dezelfde route binnen — berekende salarisgegevens via lijstbegrippen — maar ze verschillen op drie punten van de acht:
 
 - ze komen in **geen enkele formule** voor: niet in het bruto jaarloon, niet in de variabele componenten en niet in een percentage of gemiddelde;
-- het is **één set voor beide populaties**, bij medewerkers opgehaald per inkomstenverhouding en bij uitzendkrachten per plaatsing;
+- het is **één set voor beide populaties**, beschikbaar per dienstverband én per plaatsing;
 - AFAS onderhoudt ze, maar ze **staan open** voor eigen intellingen van de klant.
 
 Die drie hangen samen. Omdat de klant de inhoud kan aanvullen, kan de betekenis per omgeving verschillen — en dan valt er niets meer op te vergelijken. Juist daarom blijven ze buiten de berekening en dienen ze alleen als duiding bij de cijfers van één medewerker.
@@ -1515,8 +1395,6 @@ De groep loopt over alle werkgevers binnen dezelfde **rapportage-eenheid**: alle
 **Elke functieregel telt als volwaardige arbeidsverhouding.** Wisselde een arbeidsverhouding binnen het venster van functie, dan levert dat meerdere regels op (§5.4). Elk van die regels telt in zijn eigen functiecategorie mee als één arbeidsverhouding, met het loon over de tijdvakken die aan die functie zijn toegekend. Ook hier is er geen dubbeltelling van bedragen: elk tijdvak zit in precies één regel.
 
 Hetzelfde geldt voor een uitzendkracht die bij dezelfde inlener in twee functiecategorieën is geplaatst. Ook dat zijn twee regels, en ook die tellen elk in hun eigen categorie mee (§5.4).
-
-**De vergelijkingsgroep ligt altijd binnen één populatie.** Een detacheerder met *Plaatsingen verwerken in periodeverloning* heeft een regel bij de medewerkers en regels bij de uitzendkrachten (§5.4). Elke regel telt mee in de functiecategorie van zijn eigen populatie, en de twee populaties worden nergens samen genomen. Voor het recht op informatie is dat geen dubbeltelling: de medewerker wordt in het ene bakje vergeleken met de collega's in zijn eigen functiecategorie, in het andere met de uitzendkrachten bij dezelfde inlener. Voor de wettelijke rapportage ligt dat anders (hoofdstuk 11, DP2).
 
 Het gevolg is wél dat zo'n medewerker in twee functiecategorieën als deelnemer meetelt, met in beide een bruto jaarloon over een deel van het venster. Dat drukt het gemiddelde jaarloon van die categorieën. We corrigeren daar niet voor, om dezelfde reden als bij medewerkers die niet het hele venster in dienst waren: het uurloon vangt het effect op, en dat is de grondslag waarop we het loonverschil tonen (§6.8).
 
@@ -1660,9 +1538,9 @@ Het totaal bevat dus ook de arbeidsverhoudingen met geslacht X en die zonder ing
 
 Hoeveel arbeidsverhoudingen dat verschil vormen, leggen we niet apart vast; dat is het verschil tussen het totaal en de som van de twee.
 
-**We tellen regels, niet medewerkers.** Een medewerker die binnen het venster van functie wisselde heeft meerdere regels en telt dus in meerdere functiecategorieën mee (§6.3). Hetzelfde geldt voor een medewerker met twee inkomstenverhoudingen, en voor een detacheerder met *Plaatsingen verwerken in periodeverloning*, die in beide populaties een regel heeft (§5.4). Het aantal arbeidsverhoudingen is daarmee geen telling van personen, en de som over alle functiecategorieën kan hoger uitkomen dan het aantal medewerkers in de organisatie.
+**We tellen regels, niet medewerkers.** Een medewerker die binnen het venster van functie wisselde heeft meerdere regels en telt dus in meerdere functiecategorieën mee (§6.3). Hetzelfde geldt voor een medewerker met twee inkomstenverhoudingen. Het aantal arbeidsverhoudingen is daarmee geen telling van personen, en de som over alle functiecategorieën kan hoger uitkomen dan het aantal medewerkers in de organisatie.
 
-**Op de rapportageperiode (laag 0)** staat één aantal: het aantal arbeidsverhoudingen totaal. Dat is de telling van **alle** regels per inkomstenverhouding in deze rapportageperiode, over beide populaties; een detacheerder die in beide populaties een regel heeft, telt hier dus ook twee keer.
+**Op de rapportageperiode (laag 0)** staat één aantal: het aantal arbeidsverhoudingen totaal. Dat is de telling van **alle** regels per inkomstenverhouding in deze rapportageperiode.
 
 Dat getal is groter dan of gelijk aan de som van de totalen op laag 3. Medewerkers zonder functiecategorie krijgen namelijk wel een regel per inkomstenverhouding, maar komen in geen enkele functiecategorie terecht (§3.7). Wie de twee lagen naast elkaar legt en een verschil ziet, kijkt dus naar het aantal arbeidsverhoudingen waarvan de functie nog niet aan een categorie is gekoppeld. Dat is bruikbare stuurinformatie voor het dashboard.
 
@@ -1809,11 +1687,11 @@ De taak Bijwerken gegevens loontransparantie werkt alle lagen bij:
 
 1. leest de triggertabel en bepaalt de werkgevers waarvoor een regel openstaat;
 2. bepaalt per werkgever en periodetabel het laatste geaccordeerde tijdvak, zoekt bij die periodetabel het aantal tijdvakken van een jaar op (§4.3) en telt dat aantal terug tot het begin van het venster (§6.1);
-3. schrijft de bronregels opnieuw weg uit de berekende salarisgegevens (§5.3), of verwijdert ze als de salarisverwerking is teruggedraaid. Bij soort trigger *Salarisgegevens* gaat het om het tijdvak op de triggerregel; bij *Stamgegevens* om **alle tijdvakken binnen het venster** van die werkgever en periodetabel. Hier past de taak de **filters op soort inkomstenverhouding, aard arbeidsverhouding en soort medewerker** toe (§3.2) — een tijdvak dat niet meer kwalificeert verliest zijn bronregel — en bepaalt ze per berekening de **brontabel** (§3.3): een berekening die aan een plaatsing hangt naar bron uitzendkrachten, een periodeverwerking naar bron medewerkers, en bij *Plaatsingen verwerken in periodeverloning* naar allebei;
+3. schrijft de bronregels opnieuw weg uit de berekende salarisgegevens (§5.3), of verwijdert ze als de salarisverwerking is teruggedraaid. Bij soort trigger *Salarisgegevens* gaat het om het tijdvak op de triggerregel; bij *Stamgegevens* om **alle tijdvakken binnen het venster** van die werkgever en periodetabel;
 4. toetst per triggerregel of het tijdvak binnen dat venster valt; werkgevers waarvoor geen enkele regel binnen het venster valt, worden niet opnieuw doorgerekend;
 5. bepaalt per werkgever en periodetabel het RSIN uit het loonheffingsnummer (§5.2) en werkt de bijbehorende rapportageperiode met soort Recht op informatie bij;
-6. selecteert de arbeidsverhoudingen uit de brontabellen — de filters uit §3.2 zijn in stap 3 al toegepast — en laat daarbij medewerkers weg die niet onder Nederlandse wetgeving vallen (§9.6);
-7. leest per arbeidsverhouding de tijdvakken binnen het venster uit de bijbehorende brontabel, zo nodig over twee kalenderjaren. Subdienstverbanden zijn daarin bij medewerkers al samengenomen (§5.3);
+6. selecteert de arbeidsverhoudingen die aan het populatiefilter voldoen, en laat daarbij medewerkers weg die niet onder Nederlandse wetgeving vallen (§9.6);
+7. leest per arbeidsverhouding de tijdvakken binnen het venster uit de bijbehorende brontabel, zo nodig over twee kalenderjaren, en telt daarbij de dienstverbanden onder dezelfde inkomstenverhouding per tijdvak op;
 8. berekent per tijdvak het brutoloon en de waarde variabele componenten, telt die op per functie, per functiecategorie en per verkooprelatie, bepaalt de kenmerken en schrijft de regel per inkomstenverhouding;
 9. stelt de tabel per functiecategorie opnieuw samen voor de geraakte rapportage-eenheden, inclusief de tien loonverschilpercentages in de rekenrichting die bij de soort rapportage hoort (§6.5);
 10. gaat **terug naar laag 2** en vult per regel het individuele loonverschil, nu de groepsgemiddelden bekend zijn;
@@ -1824,10 +1702,6 @@ De taak Bijwerken gegevens loontransparantie werkt alle lagen bij:
 Het alternatief — het percentage bij het openen van de pagina berekenen — valt af op uitgangspunt 1: de KPI rekent niet. Het op laag 3 zetten kan niet, want laag 3 heeft één regel per functiecategorie en geen regel per medewerker.
 
 **Het venster wordt nu vóór het bijwerken bepaald.** In een eerdere opzet gebeurde dat erna: de bronregels werden per triggerregel weggeschreven en pas daarna werd het venster vastgesteld. Dat kan niet meer, omdat stap 3 bij een stamgegeven-trigger moet weten welke tijdvakken in het venster vallen. De vensterbepaling is daarom van stap 3 naar stap 2 verplaatst; aan de bepaling zelf verandert niets.
-
-**Stap 3 bevat de drie filters en de keuze van de brontabel.** Ze horen bij het vullen en niet bij het samenstellen erboven. Een tijdvak dat op soort inkomstenverhouding, aard of soort medewerker afvalt, krijgt geen bronregel, zodat de brontabellen — die het dashboard rechtstreeks leest — alleen bevatten wat meetelt (§3.2). Bestond er al een bronregel en kwalificeert het tijdvak niet meer, dan verwijdert stap 3 die. En welke tabel een berekening krijgt, is een eigenschap van die berekening: hangt ze aan een plaatsing of niet. Dat is alleen bij het lezen van de salarisgegevens te zien.
-
-**De gebouwde taak deelt nog in op het type periodetabel.** Periodeverwerking gaat daar naar bron medewerkers, declaratieverwerking naar bron uitzendkrachten. Voor alle varianten behalve *Plaatsingen verwerken in periodeverloning* levert dat dezelfde uitkomst op. Die variant draait op een periodetabel van het type periodeverwerking, en zou dus alleen in bron medewerkers belanden. De aanpassing staat als punt AN-b in hoofdstuk 12.
 
 **Stap 3 kent geen venstertoets.** De brontabel wordt bijgewerkt voor elke openstaande triggerregel, ook als het tijdvak ver buiten het venster ligt. Dat is nodig omdat de brontabellen niet worden opgeschoond (§5.6): DP2 moet later een compleet afgesloten kalenderjaar kunnen vaststellen, en een late correctie hoort ook dan nog in de feiten terecht te komen.
 
@@ -1929,13 +1803,6 @@ Dat kan omdat de taak de brontabel sowieso al uit de berekende salarisgegevens o
 
 **Nieuwe klanten hebben geen conversie.** Die beginnen leeg en lopen vol vanaf de eerste geaccordeerde salarisverwerking: elk geaccordeerd tijdvak voegt er één toe, en na ongeveer een jaar is het venster volledig gevuld.
 
-**De overstap naar Plaatsingen verwerken in periodeverloning.** Deze variant wordt ondersteund vanaf loonjaar 2027. Een detacheerder die hem aanzet, verloont in 2026 nog op gewone periodeverwerking en vanaf 2027 ook per plaatsing. Het venster van een jaar loopt over die grens heen. Voor de twee populaties pakt dat verschillend uit:
-
-- **Bron medewerkers loopt zonder breuk door.** Daarin staat zowel vóór als na de overstap het totale loon van de inkomstenverhouding (§3.3). Het venster blijft vol en de vergelijking binnen de eigen functiecategorie verandert niet van grondslag.
-- **Bron uitzendkrachten begint pas in 2027.** Over 2026 is er geen loon per plaatsing, dus het venster voor deze populatie loopt vanaf de overstap vol, net als bij een nieuwe klant. Dat aanvaarden we, om dezelfde reden als bij de uitzendkrachten in de conversie (hoofdstuk 10): eerst de opslag, dan een volledig venster.
-
-Er is daarom geen aparte conversie voor deze overstap nodig.
-
 Wat de medewerker ziet zolang er nog weinig tijdvakken zijn, staat in §8.6. Het uurloon en de loonverschilpercentages op uurbasis zijn vanaf het eerste tijdvak zinvol, omdat ze loon en uren tegen elkaar afzetten. Het bruto jaarloon en de jaarwaarde zijn dat pas als het venster vol is; die komen niet op het scherm (§8.2).
 
 Dat een venster tijdelijk niet vol is, is ook wettelijk geen probleem. De werkgever moet een informatieverzoek beantwoorden binnen een redelijke termijn en uiterlijk binnen **twee maanden** na de datum van het verzoek. Dat staat in artikel 10b, derde lid van het wetsvoorstel en volgt artikel 7, vierde lid van de richtlijn.
@@ -1977,10 +1844,6 @@ Er komt een sectie **Loontransparantie** op de **standaard** stamkaarten in InSi
 | Medewerker stamkaart MSS | De leidinggevende of HR, kijkend naar een medewerker |
 | Plaatsing stamkaart | De intercedent of HR bij de uitlener, kijkend naar een ter beschikking gestelde arbeidskracht |
 
-**Welke stamkaart cijfers toont, volgt uit de populatie** (§3.3, §5.9). De medewerker-stamkaarten tonen de populatie *Medewerkers*, de plaatsing-stamkaart de populatie *Ter beschikking gestelde arbeidskrachten*. Bij declaratieverwerking staan er dus alleen cijfers op de plaatsing, bij gewone periodeverwerking alleen op de medewerker.
-
-**Een detacheerder met Plaatsingen verwerken in periodeverloning heeft cijfers op beide.** Op de stamkaart van de medewerker staan zijn totale loon en de vergelijking met zijn eigen functiecategorie; op de stamkaart van de plaatsing het deel dat aan die plaatsing is toegerekend, vergeleken met de uitzendkrachten bij dezelfde inlener. Die twee sets verschillen per definitie: ze gaan over een ander loon en over een andere vergelijkingsgroep. Dat moet in de help en in de uitleg bij de tegels te volgen zijn, zodat niemand het verschil voor een fout aanziet (hoofdstuk 12, punt AN-e).
-
 **Alleen op de standaard stamkaart.** We maken de KPI's niet beschikbaar op vrije stamkaarten die een klant zelf heeft ingericht. Zo houden we één plek waar deze cijfers staan, met één set teksten en één autorisatie erop. Het gaat om gevoelige beloningsinformatie; die willen we niet op onbekende plekken laten opduiken.
 
 **Het tabblad staat onder Salaris, als laatste.** *Loontransparantie* komt op de onderste plek in die groep, onder de bestaande tabbladen zoals Salaris, Voorschot, Declaratie en Loonbeslag. Onder Salaris omdat het over beloning gaat; onderaan omdat het geen tabblad is dat een medewerker dagelijks nodig heeft. De tabbladen erboven horen bij lopende zaken — een declaratie, een voorschot, de loonstrook — en die wil je niet naar beneden duwen voor een pagina die een paar keer per jaar wordt geopend.
@@ -1995,12 +1858,6 @@ Er komt een sectie **Loontransparantie** op de **standaard** stamkaarten in InSi
 **De tegels staan bovenaan omdat het niet anders kan.** Op de standaard stamkaart staan de KPI's altijd boven aan de pagina; daarboven is geen titel of tekst te plaatsen. De omschrijving van de functiecategorie en de toelichting daarop komen daarom als **pagina-onderdeel** erónder te staan.
 
 Dat is de omgekeerde volgorde van wat inhoudelijk het prettigst leest. Zonder te weten met wíe hij wordt vergeleken, is een percentage voor de medewerker betekenisloos. We vangen dat op in de **subtitel van de tegels**: die noemt de functiecategorie bij naam (§8.2). Wat daar niet in past is de toelichting bij die categorie; die staat pas onder de tegels. Dat is de prijs van deze beperking.
-
-**De sectie krijgt een vaste toelichting.** Naast de toelichting die de werkgever bij de functiecategorie vastlegt (§8.3), krijgt de sectie zelf een vaste tekst. Die zegt waar de pagina over gaat: de medewerker heeft vanuit de richtlijn recht op inzicht, zijn salaris wordt vergeleken met dat van collega's in dezelfde functiecategorie, en de werkgever bepaalt welke functies daarin vallen. De tekst verschilt per stamkaart. Op ESS staat hij in de je-vorm, op MSS in de de-medewerkervorm. Op de plaatsing-stamkaart noemt hij de **opdrachtgever** in plaats van de werkgever, omdat de vergelijkingsgroep daar de functiecategorie binnen één inlener is (§6.3). De teksten staan in §8.7.
-
-De twee toelichtingen zijn verschillende dingen. Die van de sectie is een vaste tekst van AFAS, gelijk voor iedere klant. Die in het pagina-onderdeel *Functie* is een vrije tekst van de werkgever over één functiecategorie.
-
-**De toelichting wordt met een script geleverd.** De tekst is nog niet als metagegeven in te checken. Daarom zet een script hem op de drie standaard stamkaarten. Op welk record hij landt, stemmen we af met de programmeur (punt AO-a, actie 46).
 
 **De actieknop Vraag aan HR** start de **profielkeuzepagina** van het type dossieritem Vraag aan HR (DP4). De medewerker kiest daar zelf welk profiel hij nodig heeft.
 
@@ -2018,15 +1875,13 @@ In de praktijk worden de gegevens dus bijgewerkt na het **accorderen van een sal
 
 De tegels staan in twee rijen, in deze volgorde:
 
-| Rij | Nr. | Titel ESS | Titel MSS en plaatsing | Type | Wat de tegel toont |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 1 | Hoeveel verdien ik per uur? | Hoeveel verdient de medewerker per uur? | Value | Het eigen totaal uurloon |
-| 1 | 2 | Gemiddeld uurloon binnen functiecategorie | Gelijk aan ESS | Chart, gestapelde horizontale staaf | Het eigen uurloon naast dat van de mannen en de vrouwen, elk gesplitst in basisloon en extra's |
-| 1 | 3 | Samenstelling functiecategorie | Gelijk aan ESS | Chart, donut | Het aantal mannen en vrouwen in de functiecategorie |
-| 2 | 4 | Verdien ik meer of minder dan mijn collega's? | Verdient de medewerker meer of minder dan collega's? | Value | Het individuele loonverschil ten opzichte van het gemiddelde van de functiecategorie |
-| 2 | 5 | Wat is het verschil tussen mannen en vrouwen? | Gelijk aan ESS | Value | Het loonverschilpercentage op het gemiddelde totaal uurloon |
-
-**De titel stelt de vraag die de tegel beantwoordt.** Tegel 1 en 4 gaan over de medewerker zelf en hebben daarom twee vormen, net als de teksten (§8.7). De tegels 2, 3 en 5 gaan over een groep en heten op elke stamkaart hetzelfde.
+| Rij | Nr. | Titel | Type | Wat de tegel toont |
+| --- | --- | --- | --- | --- |
+| 1 | 1 | Gemiddeld uurloon | Value | Het eigen totaal uurloon |
+| 1 | 2 | Gemiddeld uurloon binnen functiecategorie | Chart, gestapelde horizontale staaf | Het eigen uurloon naast dat van de mannen en de vrouwen, elk gesplitst in basisloon en extra's |
+| 1 | 3 | Samenstelling functiecategorie | Chart, donut | Het aantal mannen en vrouwen in de functiecategorie |
+| 2 | 4 | Individueel verschil uurloon | Value | Het individuele loonverschil ten opzichte van het gemiddelde van de functiecategorie |
+| 2 | 5 | Verschil uurloon mannen/vrouwen | Value | Het loonverschilpercentage op het gemiddelde totaal uurloon |
 
 **Eerst de feiten, dan de conclusies.** De bovenste rij beantwoordt drie feitelijke vragen: *wat verdien ik* (1), *hoe verhoudt zich dat tot mijn functiecategorie* (2) en *hoe groot is die groep* (3). De onderste rij trekt daar twee conclusies uit, van persoonlijk naar collectief: *hoe sta ik ervoor binnen mijn functiecategorie* (4) en *is er een verschil tussen mannen en vrouwen* (5).
 
@@ -2038,20 +1893,21 @@ Die volgorde is bewust. Een percentage zegt niets zonder de bedragen en de groep
 
 De functie in die subtitel doet nog iets: ze maakt zichtbaar wélk dienstverband de medewerker ziet. Bij meerdere gelijktijdige dienstverbanden tonen we het hoofddienstverband (§8.5), en dit is de enige plek op de pagina waar dat blijkt.
 
-**Tegel 1: Hoeveel verdien ik per uur?**
+**Tegel 1: Gemiddeld uurloon**
 
 | Kenmerk | Invulling |
 | --- | --- |
 | Type | Value |
 | Subtitel | De eigen functieomschrijving, gevolgd door *laatste 12 maanden* |
 | Waarde | Het totaal uurloon van de regel per inkomstenverhouding (§5.4) |
-| Waardetype | Currency, met het valutasymbool van de werkgever (zie *Het valutasymbool* hieronder) |
-| Bijschrift onder de waarde | *gemiddeld per uur* |
-| Info-icoon | De opbouw uit basissalaris en extra's per uur, plus het aantal verloonde uren (§8.7) |
+| Waardetype | Currency, EUR |
+| Info-icoon | De opbouw uit basisloon en extra's, plus het aantal verloonde uren |
 
 Dit is het enige bedrag op de pagina dat alleen over de medewerker zelf gaat. Het is bewust het **totaal** en niet het basisloon: wat iemand per uur verdient is voor hem één getal, niet twee. De splitsing komt in de tegel ernaast terug, als beeld in plaats van als begrip.
 
-**Het bijschrift zegt dat het om een gemiddelde gaat.** De titel stelt een vraag en noemt geen gemiddelde meer. Zonder bijschrift zou het bedrag lezen als het actuele uurtarief. Wie in de afgelopen twaalf maanden een periodiek of een promotie kreeg, ziet een bedrag dat tussen het oude en het nieuwe in ligt; *gemiddeld per uur* maakt dat verklaarbaar.
+**Deze tegel heeft geen bijschrift onder de waarde.** De titel zegt al dat het om een gemiddelde gaat en de subtitel noemt de periode; een derde regel zou dat herhalen. De tegels 4 en 5 hebben wél een bijschrift, omdat een kaal percentage niet zegt welke kant het op wijst.
+
+Dat het een **gemiddelde over twaalf maanden** is en geen actueel uurtarief, zit in de titel. Wie in die periode een periodiek of een promotie kreeg, ziet een bedrag dat tussen het oude en het nieuwe in ligt.
 
 **Tegel 2: Gemiddeld uurloon binnen functiecategorie**
 
@@ -2061,11 +1917,11 @@ Dit is het enige bedrag op de pagina dat alleen over de medewerker zelf gaat. He
 | Subtitel | De functiecategorie, gevolgd door *laatste 12 maanden* |
 | Categorieën (verticale as) | Jij of Medewerker, Mannen, Vrouwen — in die volgorde |
 | Datasets | Basisloon per uur en Extra's per uur, gestapeld |
-| Waardetype | Currency, met het valutasymbool van de werkgever |
+| Waardetype | Currency, EUR |
 | Bron | De balk Jij uit de regel per inkomstenverhouding (§5.4); de balken Mannen en Vrouwen uit de tabel per functiecategorie (§5.5) |
 | Grootte | Wide |
 | Hamburger | Klapt om naar de onderliggende gegevens: basisloon, extra's en totaal per uur voor de drie groepen |
-| Info-icoon | Geen. De legenda en de hamburger laten al zien wat er naast elkaar staat en waaruit elke balk is opgebouwd |
+| Info-icoon | Wat er naast elkaar staat en waaruit elke balk is opgebouwd |
 
 Deze tegel vervangt de vergelijkingstabel uit de eerdere versie (§6.4). Zes getallen in plaats van vijftien, en als verhouding in plaats van als cijferveld.
 
@@ -2088,7 +1944,7 @@ Ontbreekt een geslachtsgroep, dan vervalt die balk. Is er nog geen eigen regel, 
 | Categorieën | Mannen, Vrouwen |
 | Waarde | Aantal arbeidsverhoudingen mannen en vrouwen, uit de tabel per functiecategorie (§5.5) |
 | Waardetype | Number |
-| Info-icoon | Geen. Dat de donut arbeidsverhoudingen telt en geen personen, staat in de help |
+| Info-icoon | Waar de verdeling over gaat |
 
 **De donut telt alleen mannen en vrouwen.** Arbeidsverhoudingen met geslacht X of zonder ingevuld geslacht laten we buiten de grafiek, ook al tellen ze wel mee in het veld Aantal arbeidsverhoudingen totaal (§3.8, §6.7). De richtlijn splitst uit naar mannen en vrouwen, en de tegel hoort bij de percentages eronder die over diezelfde twee groepen gaan. Ook daarin is geen rekening gehouden met geslacht X; een derde partje zou de tegel als enige laten afwijken. Daar komt bij dat zo'n partje in de praktijk vaak uit één persoon bestaat en dan rechtstreeks naar een collega wijst.
 
@@ -2096,7 +1952,7 @@ Het totaal onder de donut is dus de som van mannen en vrouwen, en niet het veld 
 
 **Dit betekent dat we aantallen per geslacht tonen.** Dat deden we tot nu toe niet (§9.4). We doen het wél, omdat de percentages eronder zonder groepsgrootte niet te duiden zijn. Een verschil van acht procent in een categorie met drie arbeidsverhoudingen is iets heel anders dan hetzelfde percentage in een categorie met tweehonderd. Dat de aantallen in een kleine categorie herleidbaar zijn tot een individuele collega, is dezelfde afweging die bij de gemiddelden al is gemaakt en aanvaard (§9.3).
 
-**Tegel 4: Verdien ik meer of minder dan mijn collega's?**
+**Tegel 4: Individueel verschil uurloon**
 
 | Kenmerk | Invulling |
 | --- | --- |
@@ -2105,19 +1961,19 @@ Het totaal onder de donut is dus de som van mannen en vrouwen, en niet het veld 
 | Waarde | Het individuele loonverschil van de regel per inkomstenverhouding (§5.4, §6.5) |
 | Waardetype | Percentage |
 | Bijschrift onder de waarde | Drie varianten, één per teken: meer dan, minder dan of evenveel als het gemiddelde in de functiecategorie (§8.7) |
-| Info-icoon | Het eigen uurloon, het gemiddelde van de functiecategorie en het verschil daartussen, als bedrag en als percentage (§8.7) |
+| Info-icoon | De twee bedragen en het verschil daartussen |
 
 Deze tegel beantwoordt de vraag die de groepscijfers openlaten: *en ik dan?* Hij zet de medewerker af tegen het gemiddelde van de **hele functiecategorie**, alle geslachten samen.
 
 **Een positieve uitkomst betekent dat de medewerker méér verdient.** Het teken gaat uit van de eigen waarde: een plus staat boven het categoriegemiddelde, een min eronder (§6.5). Het bijschrift zegt hetzelfde in woorden, zodat de medewerker het teken niet hoeft te interpreteren.
 
-**Nul is een eigen geval.** Komt het percentage op 0,00 uit, dan verdient de medewerker precies het categoriegemiddelde. Een bijschrift met *meer* of *minder* is dan onjuist, dus er is een derde variant (§8.7). Dit is iets anders dan de situatie waarin de medewerker de **enige** in zijn categorie is — het percentage is dan ook nul, maar daar toont de tegel geen percentage en staat er een melding (§8.6).
+**Nul is een eigen geval.** Komt het percentage op 0,00 uit, dan verdient de medewerker precies het categoriegemiddelde. Een bijschrift met *meer* of *minder* is dan onjuist, dus er is een derde variant (§8.7). Dit is iets anders dan de situatie waarin de medewerker de **enige** in zijn categorie is — het percentage is dan ook nul, maar daar vervalt de tegel (§8.6).
 
 **Deze tegel toont het geslacht van de medewerker niet.** Dat was in een eerdere opzet wel zo, toen er tegen het eigen geslacht werd afgezet. Nu is de vergelijkingsmaat voor iedereen dezelfde, dus de tekst hoeft nergens "de mannen" of "de vrouwen" te noemen.
 
 **Iedereen ziet deze tegel.** Ook medewerkers met geslacht X of zonder ingevuld geslacht: zij tellen mee in het categoriegemiddelde (§3.8). De tegel blijft alleen leeg als er geen functiecategorie is (§8.6).
 
-**Tegel 5: Wat is het verschil tussen mannen en vrouwen?**
+**Tegel 5: Verschil uurloon mannen/vrouwen**
 
 | Kenmerk | Invulling |
 | --- | --- |
@@ -2126,7 +1982,7 @@ Deze tegel beantwoordt de vraag die de groepscijfers openlaten: *en ik dan?* Hij
 | Waarde | Het veld Loonverschil totaal uurloon, gelezen van de regel per functiecategorie (§5.5, §6.5) |
 | Waardetype | Percentage |
 | Bijschrift onder de waarde | Drie varianten, één per teken: vrouwen verdienen gemiddeld minder, meer, of evenveel als mannen (§8.7) |
-| Info-icoon | De twee gemiddelden en het verschil daartussen, als bedrag en als percentage van het gemiddelde van de mannen (§8.7) |
+| Info-icoon | De twee gemiddelden, het verschil in euro's en de herleiding naar het percentage |
 
 Dit is het wettelijke kerngetal van de pagina: het loonverschil tussen mannen en vrouwen binnen de functiecategorie. De grondslag is het **totaal uurloon**, dus basisloon en variabele componenten samen (§6.5).
 
@@ -2144,17 +2000,9 @@ Is er geen gemiddelde voor een van beide groepen, dan blijft de tegel leeg met d
 
 **De bedragen achter de percentages staan in het info-icoon**
 
-De tegels 4 en 5 zijn Value-tegels. Daar is **geen hamburger** op mogelijk: een Value-tegel toont één waarde en heeft geen onderliggende dataset om naar om te klappen. De bedragen waaruit het percentage volgt — de twee gemiddelden en het verschil, als bedrag en als percentage — staan daarom in de uitleg achter het **info-icoon**.
+De tegels 4 en 5 zijn Value-tegels. Daar is **geen hamburger** op mogelijk: een Value-tegel toont één waarde en heeft geen onderliggende dataset om naar om te klappen. De bedragen waaruit het percentage volgt — de twee gemiddelden, het verschil in euro's en de herleiding — staan daarom in de uitleg achter het **info-icoon**.
 
 Dat vraagt wel dat die uitleg per medewerker wordt samengesteld, want de bedragen verschillen. Het is dus geen vaste vertaalde zin maar een tekst met ingevulde waarden. Dat is aanvaard, omdat een percentage zonder bedrag voor de medewerker weinig betekent: 8,59% klinkt fors, maar in euro's kan het om zeventien cent per uur gaan.
-
-**Het verschil staat er met teken.** Het bedrag is het verschil tussen de twee getoonde bedragen, in dezelfde richting als het percentage: bij tegel 4 het eigen uurloon min het categoriegemiddelde, bij tegel 5 het gemiddelde van de vrouwen min dat van de mannen (§6.5). Bedrag en percentage wijzen dus dezelfde kant op, en één zin klopt bij een plus, een min en bij nul.
-
-**Het valutasymbool**
-
-Elk bedrag op de pagina krijgt het valutasymbool van de **werkgever** van het getoonde dienstverband: het veld *Valutasymbool* op de werkgever (AfasHrCurrencyId), met het symbool van die valuta. Is dat veld leeg, dan nemen we het symbool van de **basisvaluta** van de omgeving. Dat geldt voor tegel 1, tegel 2 en de uitleg achter de info-iconen van tegel 1, 4 en 5.
-
-Op de plaatsing-stamkaart is dat de werkgever van het dienstverband van de uitzendkracht, dus de uitlener. De groepsgemiddelden in tegel 2 en in de uitleg bij tegel 4 en 5 krijgen hetzelfde symbool als de eigen bedragen. We rekenen niets om: het symbool zegt in welke valuta de bedragen staan, het verandert ze niet. In de praktijk is dat de euro, want de scope is Nederland (§9.6).
 
 **De periode in de subtitel**
 
@@ -2162,7 +2010,7 @@ Na de functie of de functiecategorie volgt steeds **laatste 12 maanden**. Bij ee
 
 **We noemen bij de tegels geen begin- en einddatum.** De tegels 2 tot en met 5 lezen de tabel per functiecategorie, en die heeft geen datums: ze zijn op dat niveau niet te bepalen (§5.2). Binnen één categorie kan het venster bovendien per arbeidsverhouding op een andere datum beginnen of eindigen — bij een andere periodetabel, of bij iemand die halverwege in dienst kwam. Eén datumbereik bij een groepscijfer zou dus per definitie voor een deel van de groep onjuist zijn.
 
-De **eigen** begin- en einddatum zijn er wel: die staan op de regel per inkomstenverhouding (§5.4) en worden vermeld bij de informatie die aan de medewerker wordt verstrekt. Op de tegels gebruiken we ze ook bij tegel 1 niet. De gegevens gaan steeds over het afgelopen jaar, en één aanduiding op alle vijf de tegels leest rustiger dan één tegel met een eigen periode. Om dezelfde reden noemt de uitleg achter het info-icoon van tegel 1 vast *12 maanden* (blok AO, punt AO4).
+De **eigen** begin- en einddatum zijn er wel: die staan op de regel per inkomstenverhouding (§5.4) en worden vermeld bij de informatie die aan de medewerker wordt verstrekt.
 
 ### 8.3 Pagina-onderdeel Functie
 
@@ -2263,24 +2111,24 @@ Wat hier níét speelt is de vraag of een KPI-tegel meerdere waarden kan tonen. 
 
 ### 8.6 Als er geen gegevens zijn
 
-De medewerker kan om verschillende redenen geen volledige informatie zien. We tonen in alle gevallen een melding, zodat het scherm niet zomaar leeg is. Waar de reden voor de medewerker iets betekent — zoals een ontbrekende functiecategorie — noemen we die; anders volstaat een generieke melding:
+De medewerker kan om verschillende redenen geen volledige informatie zien. We maken in alle gevallen duidelijk waarom, zodat het scherm niet zomaar leeg is:
 
 | Situatie | Wat de medewerker ziet |
 | --- | --- |
-| Er zijn geen loongegevens: er is nog geen salarisverwerking geaccordeerd, de taak heeft nog niet gedraaid, of de arbeidsverhouding valt buiten de regeling | Eén **generieke melding** dat er (nog) geen loongegevens te tonen zijn. We maken geen onderscheid naar de reden. Buiten de regeling valt een arbeidsverhouding bij een soort inkomstenverhouding, aard arbeidsverhouding of soort medewerker die niet meetelt (§3.2), en als er over het venster geen loon of geen verloonde uren zijn (§3.4) |
-| De functie is niet aan een functiecategorie gekoppeld | Alleen tegel 1 met het eigen uurloon en de melding dat vergelijken niet mogelijk is; de tegels 2 tot en met 5 vervallen. In *Functie* blijven Functiecategorie en Toelichting leeg en de functielijst is leeg |
-| De medewerker is recent van functie gewisseld en er is nog geen salarisverwerking over die functie geaccordeerd | Tegel 1 en tegel 4 tonen geen waarde maar de melding dat de eigen gegevens nog volgen, en in tegel 2 vervalt de balk Jij; de tegels 3 en 5 en de twee gemiddelden in tegel 2 zijn er wél |
+| Er is nog geen salarisverwerking geaccordeerd, of de taak heeft nog niet gedraaid | Een melding dat de gegevens beschikbaar komen zodra de eerste salarisverwerking is geaccordeerd |
+| De arbeidsverhouding valt buiten de regeling | Een neutrale melding dat de loongegevens niet onder de regeling vallen. Geldt bij een soort inkomstenverhouding of aard arbeidsverhouding die niet meetelt, en als er over het venster geen loon of geen verloonde uren zijn (§3.4) |
+| De functie is niet aan een functiecategorie gekoppeld | Alleen tegel 1 met het eigen uurloon; de tegels 2 tot en met 5 vervallen, met de melding dat vergelijken niet mogelijk is. In *Functie* blijven Functiecategorie en Toelichting leeg en de functielijst is leeg |
+| De medewerker is recent van functie gewisseld en er is nog geen salarisverwerking over die functie geaccordeerd | Tegel 1 en tegel 4 blijven leeg en in tegel 2 vervalt de balk Jij; de tegels 3 en 5 en de twee gemiddelden in tegel 2 zijn er wél, met de melding dat de eigen gegevens nog volgen |
 | Er zijn geen mannen in de functiecategorie | Geen percentage in tegel 5, met de melding dat er niets te vergelijken valt; tegel 2 toont de eigen balk en die van de vrouwen, tegel 3 toont alleen de vrouwen. **Tegel 4 blijft gewoon staan**: die rekent tegen het categoriegemiddelde, en dat bestaat ongeacht de samenstelling |
 | Er zijn geen vrouwen in de functiecategorie | Idem, met mannen en vrouwen omgedraaid |
 | De medewerker heeft geslacht X of geen ingevuld geslacht | Alle vijf de tegels zijn er gewoon; hij telt mee in het categoriegemiddelde van tegel 4, maar niet in de gemiddelden per geslacht (§3.8) |
-| De medewerker is de enige in zijn functiecategorie | Tegel 4 toont geen percentage maar de melding dat de functiecategorie te klein is om te vergelijken. De andere tegels zijn er gewoon |
-| De medewerker valt niet onder Nederlandse wetgeving | De sectie Loontransparantie wordt niet getoond (§9.6). In Pocket ziet de medewerker een melding (§8.8) |
+| De medewerker valt niet onder Nederlandse wetgeving | De sectie Loontransparantie wordt niet getoond (§9.6) |
 
 **Een lege geslachtsgroep werkt beide kanten op.** Ontbreekt een van de twee groepen, dan blijven de **groepspercentages** leeg — ook als er wel een gemiddelde voor de andere groep is. Zo'n percentage vraagt immers twee groepen. De gevulde balk tonen we wél: die informatie is er en heeft waarde, ook zonder vergelijking. Datzelfde geldt voor de donut in tegel 3: die toont dan één segment. Dat dit segment honderd procent beslaat is geen fout, maar precies wat er aan de hand is. We tonen nooit 100% als loonverschil wanneer de ene groep ontbreekt; dat zou lezen als een maximaal loonverschil terwijl er in werkelijkheid niets te vergelijken valt.
 
 **Het individuele percentage van tegel 4 raakt dit niet.** Dat zet de eigen waarde af tegen het gemiddelde van de héle functiecategorie, en dat gemiddelde bestaat ook als er maar één geslachtsgroep in zit (§6.5). Hier stond eerder dat tegel 4 dan óók leeg bleef; dat dateerde uit de tijd dat de tegel tegen het gemiddelde van het eigen geslacht rekende.
 
-**Tegel 4 toont geen percentage als de medewerker de enige in zijn functiecategorie is.** Het categoriegemiddelde is dan gelijk aan zijn eigen uurloon en het individuele loonverschil komt op nul uit. Dat is rekenkundig juist maar nietszeggend. In plaats van de tegel te laten vervallen, toont hij de melding dat de functiecategorie te klein is om te vergelijken. Zo blijft de pagina steeds gelijk opgebouwd en ziet de medewerker waarom er geen percentage staat. Dat hij alleen staat, blijkt ook al uit tegel 3.
+**Tegel 4 vervalt als de medewerker de enige in zijn functiecategorie is.** Het categoriegemiddelde is dan gelijk aan zijn eigen uurloon en het individuele loonverschil komt op nul uit. Dat is rekenkundig juist maar nietszeggend, en het verraadt bovendien dat hij alleen staat. In dat geval tonen we de tegel niet.
 
 **Ontbrekende eigen gegevens blokkeren de vergelijking niet.** Bij een recente functiewijziging is er nog geen regel per inkomstenverhouding voor de nieuwe functie, maar de tabel per functiecategorie is er wel. De tegels 3 en 5 lezen alleen die tabel, dus die vullen we gewoon (§8.5). Zouden we het hele blok verbergen, dan zag de medewerker niets terwijl de informatie waar hij recht op heeft — het loonverschil in zijn functiecategorie — beschikbaar is.
 
@@ -2290,62 +2138,48 @@ De medewerker kan om verschillende redenen geen volledige informatie zien. We to
 
 ### 8.7 Teksten
 
-De titels, het bijschrift van tegel 1, de toelichting van de sectie, de uitleg achter de info-iconen en de meldingen liggen sinds 19 oktober 2026 vast (blok AO en AP). Alleen de bijschriften van tegel 4 en 5 zijn nog een voorstel; team Content scherpt ze aan.
+De onderstaande teksten zijn een voorstel. Team Content scherpt ze aan.
 
-**Meldingen**
+**Meldingen** [voorstel]
 
-De kolom *State* noemt de toestand die de bouw per tegel bepaalt; de Pocket-connector geeft dezelfde toestand terug als reden (§8.8).
-
-| Situatie | State | Waar | ESS-stamkaart | MSS- en plaatsing-stamkaart |
-| --- | --- | --- | --- | --- |
-| Geen loongegevens | NoPayrollYet | Tegel 1; de tegels 2 tot en met 5 vervallen | Er zijn (nog) geen salarisgegevens om te tonen. Heb je hier vragen over? Stel ze aan HR. | Gelijk aan ESS |
-| Functie niet gekoppeld aan een functiecategorie | NoJobCategory | Tegel 1 | Je salaris is nog niet vergeleken met dat van je collega's. Je functie hoort namelijk nog niet bij een functiecategorie. Vraag je werkgever hiernaar. | Het salaris is nog niet vergeleken met dat van de collega's. De functie hoort namelijk nog niet bij een functiecategorie. Vraag de werkgever hiernaar. |
-| Recent van functie gewisseld, eigen gegevens nog niet berekend | RecentFunctionChange | Tegel 1 en tegel 4 | Je hebt onlangs een andere functie gekregen. Je salaris in die functie zie je hier zodra je werkgever je salaris weer heeft verwerkt. | De medewerker heeft onlangs een andere functie gekregen. Het salaris in die functie zie je hier zodra de werkgever het salaris weer heeft verwerkt. |
-| Geen mannen in de functiecategorie | Available, geen mannen | Tegel 5 | In deze functiecategorie werken op dit moment geen mannen. Daarom is er geen vergelijking van het salaris tussen mannen en vrouwen. | Gelijk aan ESS |
-| Geen vrouwen in de functiecategorie | Available, geen vrouwen | Tegel 5 | In deze functiecategorie werken op dit moment geen vrouwen. Daarom is er geen vergelijking van het salaris tussen mannen en vrouwen. | Gelijk aan ESS |
-| De enige in de functiecategorie | Available, alleen | Tegel 4 | Je functiecategorie is te klein om je salaris met het gemiddelde te vergelijken. | De functiecategorie is te klein om het salaris met het gemiddelde te vergelijken. |
-| Binnen het jaar van functie gewisseld | Available, functie gewisseld | Alleen in Pocket | Je hebt afgelopen jaar een andere functie gekregen. Hier zie je de gegevens van je huidige functie. | De medewerker heeft afgelopen jaar een andere functie gekregen. Hier zie je de gegevens van de huidige functie. |
-| Valt niet onder Nederlandse wetgeving | NotApplicable | Alleen in Pocket; op de stamkaart wordt de sectie niet getoond | Deze cijfers gelden alleen voor werk dat onder de Nederlandse wet valt. Voor jou zijn er daarom geen cijfers. | Deze cijfers gelden alleen voor werk dat onder de Nederlandse wet valt. Voor de medewerker zijn er daarom geen cijfers. |
-| Actieknop Vraag aan HR | — | Onder de weergave | Vraag aan HR | Gelijk aan ESS |
+| Situatie | Tekst |
+| --- | --- |
+| Nog geen salarisverwerking geaccordeerd | Je ziet hier je loongegevens zodra je werkgever de eerste salarisverwerking heeft afgerond. |
+| Arbeidsverhouding valt buiten de regeling | Voor dit dienstverband kunnen we geen loonvergelijking maken. Heb je hier vragen over? Stel ze aan HR. |
+| Functie niet gekoppeld aan een functiecategorie | We kunnen je loon nog niet vergelijken. Je functie hoort nog niet bij een functiecategorie. Vraag je werkgever hiernaar. |
+| Geen mannen in de functiecategorie | We kunnen geen loonverschil berekenen. In jouw functiecategorie werken op dit moment geen mannen. |
+| Geen vrouwen in de functiecategorie | We kunnen geen loonverschil berekenen. In jouw functiecategorie werken op dit moment geen vrouwen. |
+| Binnen het jaar van functie gewisseld | Je bent dit jaar van functie gewisseld. Hier zie je de gegevens van je huidige functie, over de periode waarin je die functie had. |
+| Recent van functie gewisseld, eigen gegevens nog niet berekend | Je bent onlangs van functie gewisseld. Je eigen loongegevens over deze functie zie je zodra je werkgever de eerstvolgende salarisverwerking heeft afgerond. De vergelijking met je nieuwe functiecategorie staat er al wel. |
+| Actieknop Vraag aan HR | Vraag aan HR |
 
 **De melding over meerdere dienstverbanden is vervallen.** Die stond hier eerder wel, maar komt niet meer op het scherm (§8.5). De uitleg dat alleen het hoofddienstverband wordt getoond, hoort in de help.
 
-De melding bij "geen loongegevens" is bewust **generiek** gehouden. Of er nog geen salarisverwerking is, of de arbeidsverhouding buiten de regeling valt: de onderliggende reden — een soort inkomstenverhouding, aard arbeidsverhouding of soort medewerker die niet meetelt — zegt de medewerker niets en zou tot vragen leiden die hij zelf niet kan oplossen. Daarom maken we er ook geen onderscheid in. De tekst spreekt van **salarisgegevens** en belooft geen moment waarop ze verschijnen, zodat hij ook klopt voor een arbeidsverhouding die buiten de regeling valt en nooit cijfers krijgt. De verwijzing naar HR is er om die vraag op de juiste plek te laten landen.
+De melding bij "valt buiten de regeling" is bewust neutraal gehouden. De onderliggende reden — een soort inkomstenverhouding die niet meetelt, of een niet-ondersteunde periodetabel — zegt de medewerker niets en zou tot vragen leiden die hij zelf niet kan oplossen. De verwijzing naar HR is er om die vraag op de juiste plek te laten landen.
 
-In de meldingen spreken we van **salarisgegevens** en van het **verwerken van het salaris**, en niet van accorderen. Accorderen is een term uit de backoffice; de medewerker weet niet wat het betekent en kan er niets mee.
+In de meldingen spreken we van **salarisverwerking** en niet van accorderen. Accorderen is een term uit de backoffice; de medewerker weet niet wat het betekent en kan er niets mee.
 
-De meldingen hebben een **je-vorm** voor de ESS-stamkaart en een **de-medewerkervorm** voor de MSS- en de plaatsing-stamkaart. Dat is dezelfde splitsing als bij de eerste categorie van tegel 2, die op ESS *Jij* heet en elders *Medewerker* (§8.2). De meldingen bij geen loongegevens en bij een lege geslachtsgroep zijn overal gelijk.
+De meldingen hierboven staan in de **je-vorm**, passend bij de ESS-stamkaart. Op de MSS- en de plaatsing-stamkaart kijkt iemand anders mee; daar geldt de **de-medewerkervorm**: *je*, *jij* en *jouw* worden vervangen door *de medewerker*. Dat is dezelfde splitsing als bij de eerste categorie van tegel 2, die op ESS *Jij* heet en elders *Medewerker* (§8.2).
 
-**Twee meldingen staan alleen in Pocket.** Dat de medewerker binnen het jaar van functie wisselde, is op de stamkaart al te zien aan de functie in de subtitel van tegel 1 (§8.2). En buiten Nederland toont de stamkaart de sectie niet (§9.6); de app heeft wel een melding nodig, omdat de medewerker daar zelf naar de pagina navigeert (§8.8).
+**Titels en bijschriften** [voorstel]
 
-**Toelichting van de sectie**
-
-| Stamkaart | Tekst |
+| Onderdeel | Tekst |
 | --- | --- |
-| Medewerker ESS | Vanuit de richtlijn loontransparantie heb je recht op inzicht. Je salaris wordt vergeleken met dat van collega’s in dezelfde functiecategorie. Je werkgever heeft bepaald welke functies in de functiecategorie vallen. |
-| Medewerker MSS | Vanuit de richtlijn loontransparantie heeft de medewerker recht op inzicht. Het salaris wordt vergeleken met dat van collega’s in dezelfde functiecategorie. De werkgever heeft bepaald welke functies in de functiecategorie vallen. |
-| Plaatsing | Vanuit de richtlijn loontransparantie heeft de medewerker recht op inzicht. Het salaris wordt vergeleken met dat van collega’s in dezelfde functiecategorie bij dezelfde opdrachtgever. De opdrachtgever heeft bepaald welke functies in de functiecategorie vallen. |
+| Titel tegel 1 | Gemiddeld uurloon |
+| Subtitel tegel 1 | \[functieomschrijving\] · laatste 12 maanden |
+| Titel tegel 2 | Gemiddeld uurloon binnen functiecategorie |
+| Legenda tegel 2 | Basisloon · Extra's |
+| Titel tegel 3 | Samenstelling functiecategorie |
+| Titel tegel 4 | Individueel verschil uurloon |
+| Bijschrift tegel 4 | Zie de tabel met bijschriften hieronder |
+| Titel tegel 5 | Verschil uurloon mannen/vrouwen |
+| Bijschrift tegel 5 | Zie de tabel met bijschriften hieronder |
+| Subtitel tegel 2 tot en met 5 | \[functiecategorie\] · laatste 12 maanden |
+| Titel pagina-onderdeel | Functie |
+| Veldnamen pagina-onderdeel | Functie · Functiecategorie · Toelichting |
+| Titel weergave | Functies in functiecategorie |
 
-**Titels en bijschriften**
-
-| Onderdeel | ESS-stamkaart | MSS- en plaatsing-stamkaart |
-| --- | --- | --- |
-| Titel tegel 1 | Hoeveel verdien ik per uur? | Hoeveel verdient de medewerker per uur? |
-| Subtitel tegel 1 | \[functieomschrijving\] · laatste 12 maanden | Gelijk aan ESS |
-| Bijschrift tegel 1 | gemiddeld per uur | Gelijk aan ESS |
-| Titel tegel 2 | Gemiddeld uurloon binnen functiecategorie | Gelijk aan ESS |
-| Legenda tegel 2 | Basisloon · Extra's | Gelijk aan ESS |
-| Titel tegel 3 | Samenstelling functiecategorie | Gelijk aan ESS |
-| Titel tegel 4 | Verdien ik meer of minder dan mijn collega's? | Verdient de medewerker meer of minder dan collega's? |
-| Bijschrift tegel 4 | Zie de tabel met bijschriften hieronder | Idem |
-| Titel tegel 5 | Wat is het verschil tussen mannen en vrouwen? | Gelijk aan ESS |
-| Bijschrift tegel 5 | Zie de tabel met bijschriften hieronder | Idem |
-| Subtitel tegel 2 tot en met 5 | \[functiecategorie\] · laatste 12 maanden | Gelijk aan ESS |
-| Titel pagina-onderdeel | Functie | Gelijk aan ESS |
-| Veldnamen pagina-onderdeel | Functie · Functiecategorie · Toelichting | Gelijk aan ESS |
-| Titel weergave | Functies in functiecategorie | Gelijk aan ESS |
-
-**De tegeltitels zijn vragen, de overige koppen benoemen het onderdeel.** Een tegeltitel stelt de vraag die de medewerker heeft, en de tegel geeft het antwoord. Gaat die vraag over de medewerker zelf, zoals bij tegel 1 en 4, dan volgt de titel de aanspreekvorm van de stamkaart: *ik* op ESS, *de medewerker* op MSS en plaatsing. Het pagina-onderdeel *Functie* en de weergave *Functies in functiecategorie* houden een neutrale kop; die zijn op alle drie de stamkaarten gelijk (§8.3).
+**De koppen benoemen het onderdeel, de teksten spreken de medewerker aan.** *Functie*, *Functies in functiecategorie* en *Gemiddeld uurloon* tegenover "Jij verdient € 35,15". De koppen stonden eerder in de ik-vorm, maar dezelfde sectie staat ook op de MSS- en de plaatsing-stamkaart, waar iemand anders meekijkt (§8.3). Neutrale koppen werken op alle drie de stamkaarten; de aansprekende vorm blijft voorbehouden aan de teksten, en die verschilt per stamkaart.
 
 **De bijschriften van tegel 4 en 5** [voorstel]
 
@@ -2362,48 +2196,33 @@ Elke tegel heeft **drie varianten**, één per teken. De kolom ESS is de je-vorm
 
 **Tegel 5 kent maar één vorm.** Dat bijschrift gaat over twee groepen en spreekt niemand aan, dus er valt geen je- of de-medewerkervorm van te maken. Alleen tegel 4 gaat over een persoon en heeft daarom twee vormen.
 
-**Nul komt zelden voor, maar moet kloppen.** Zonder derde variant zou er bij 0,00% in tegel 5 *Vrouwen verdienen gemiddeld minder dan mannen* staan, en in tegel 4 dat de medewerker meer of minder verdient terwijl hij precies op het gemiddelde zit. Bij tegel 4 is dit iets anders dan de medewerker die alleen in zijn categorie staat; daar staat geen percentage maar een melding (§8.6).
+**Nul komt zelden voor, maar moet kloppen.** Zonder derde variant zou er bij 0,00% in tegel 5 *Vrouwen verdienen gemiddeld minder dan mannen* staan, en in tegel 4 dat de medewerker meer of minder verdient terwijl hij precies op het gemiddelde zit. Bij tegel 4 is dit iets anders dan de medewerker die alleen in zijn categorie staat; daar vervalt de tegel (§8.6).
 
 **De bijschriften trekken de conclusie.** "Vrouwen verdienen gemiddeld minder dan mannen" is stelliger dan een neutrale beschrijving, en dat is de bedoeling: een kaal percentage laat de medewerker zelf raden welke kant het op wijst. De nuance dat een verschil verklaarbaar kan zijn, hoort in de help en bij het gesprek met HR.
 
 **Het bijschrift wijst dezelfde kant op als het teken.** Een min hoort bij "minder", een plus bij "meer" (§6.5). Daarbij verschillen de twee tegels in onderwerp, en dat moet in elke herformulering overeind blijven: tegel 4 gaat over de medewerker **zelf** en noemt daarom geen geslacht, tegel 5 gaat over de **vrouwen als groep** en benoemt beide groepen. Verdwijnt dat onderscheid uit de tekst, dan leest de medewerker het teken van tegel 5 als een uitspraak over zichzelf.
 
-**Uitleg achter de info-iconen**
+**Uitleg achter de info-iconen** [voorstel]
 
-De waarden tussen vierkante haken worden per medewerker ingevuld; de getallen zijn een voorbeeld. Elk bedrag krijgt het valutasymbool uit §8.2.
+De waarden tussen vierkante haken worden per medewerker ingevuld.
 
-| Tegel | ESS-stamkaart | MSS- en plaatsing-stamkaart |
-| --- | --- | --- |
-| 1 | Dit is wat je gemiddeld per uur hebt verdiend in de afgelopen 12 maanden (berekend over \[2.080\] uur). Je basissalaris is \[€ 33,21\] per uur. Daar komen de extra's bij die bestaan uit bijzondere beloningen en loon in natura: \[€ 1,94\] per uur. | Dit is wat de medewerker gemiddeld per uur heeft verdiend in de afgelopen 12 maanden (berekend over \[2.080\] uur). Het basissalaris is \[€ 33,21\] per uur. Daar komen de extra's bij die bestaan uit bijzondere beloningen en loon in natura: \[€ 1,94\] per uur. |
-| 4 | Hoe je uurloon zich verhoudt tot het gemiddelde uurloon van iedereen in de functiecategorie \[Leidinggevend\], ongeacht het geslacht. Jij verdient \[€ 38,31\] per uur, het gemiddelde is \[€ 41,02\]. Het verschil is \[€ -2,71\] per uur (\[-6,61%\]). | Hoe het uurloon van de medewerker zich verhoudt tot het gemiddelde uurloon van iedereen in de functiecategorie \[Specialistisch uitvoerend\], ongeacht het geslacht. De medewerker verdient \[€ 23,83\] per uur, het gemiddelde is \[€ 38,98\]. Het verschil is \[€ -15,15\] per uur (\[-38,87%\]). |
-| 5 | Vrouwen verdienen gemiddeld \[€ 37,87\] per uur, mannen gemiddeld \[€ 41,65\] per uur. Het verschil is \[€ -3,78\] per uur (\[-9,08%\] ten opzichte van het gemiddelde van de mannen). | Gelijk aan ESS |
-
-De ingevulde waarden komen uit de voorberekende velden; de tegel rekent alleen het verschil in euro's uit, als aftrekking van de twee getoonde bedragen (§8.2).
-
-| Waarde | Veld |
+| Tegel | Tekst |
 | --- | --- |
-| Uren bij tegel 1 | Jaaruren van de regel per inkomstenverhouding (§5.4), op hele uren |
-| Basissalaris per uur | Bruto uurloon van die regel |
-| Extra's per uur | Uurwaarde variabele componenten van die regel |
-| Eigen uurloon bij tegel 4 | Totaal uurloon van die regel |
-| Gemiddelde bij tegel 4 | Gemiddeld totaal uurloon categorie (§5.5) |
-| Percentage bij tegel 4 | Individueel loonverschil (§5.4) |
-| Vrouwen en mannen bij tegel 5 | Gemiddeld totaal uurloon vrouwen en Gemiddeld totaal uurloon mannen (§5.5) |
-| Percentage bij tegel 5 | Loonverschil totaal uurloon (§5.5) |
+| Gemiddeld uurloon | Dit is wat je gemiddeld per verloond uur hebt verdiend in de afgelopen 12 maanden. Je basisloon is \[€ 33,21\] per uur en de extra's daarbovenop — je bijzondere beloningen en loon in natura — \[€ 1,94\]. Samen \[€ 35,15\]. We rekenen met \[2.080\] verloonde uren over die periode. |
+| Gemiddeld uurloon binnen functiecategorie | Je eigen uurloon naast het gemiddelde van de mannen en van de vrouwen in de functiecategorie \[Management\]. Elke balk bestaat uit twee delen: het basisloon en de extra's die daarbovenop komen. |
+| Samenstelling functiecategorie | Zo ziet de samenstelling van de mannen en vrouwen binnen de functiecategorie \[Management\] eruit. |
+| Individueel verschil uurloon | Hoe jouw uurloon zich verhoudt tot het gemiddelde van iedereen in de functiecategorie \[Management\], ongeacht geslacht. Jij verdient \[€ 35,15\] per uur, het gemiddelde is \[€ 34,51\]. Dat is \[€ 0,64\] per uur meer, oftewel \[+ 1,85%\]. |
+| Verschil uurloon mannen/vrouwen | Hoeveel vrouwen in de functiecategorie \[Management\] gemiddeld meer of minder per uur verdienen dan mannen, gerekend over het totale loon. Mannen verdienen gemiddeld \[€ 35,85\] per uur, vrouwen \[€ 32,70\]. Dat is \[€ 3,15\] per uur verschil, oftewel \[− 8,79%\] van het gemiddelde van de mannen. Het minteken betekent dat vrouwen minder verdienen. |
 
-**Tegel 2 en 3 hebben geen info-icoon.** De gestapelde balk heeft een legenda en een hamburger die de bedragen toont; de donut toont de aantallen zelf. Een uitleg daarachter zou herhalen wat er al staat.
+**De teksten worden samengesteld en zijn geen vaste zin.** Vier van de vijf bevatten bedragen die per medewerker verschillen (§8.2). Dat is aanvaard omdat een percentage zonder bedrag voor de medewerker weinig betekent.
 
-**Eén zin voor elke uitkomst.** De uitleg bij tegel 4 en 5 noemt het verschil als bedrag én als percentage, beide met teken. Daardoor klopt dezelfde zin bij een plus, een min en bij nul, en zijn er geen varianten met *meer* of *minder* nodig. Het bijschrift onder de waarde houdt zijn drie varianten wel: daar staat het percentage zonder bedrag, en dan moet de tekst zeggen welke kant het op wijst.
-
-**De aanspreekvorm volgt de stamkaart.** Op de MSS- en de plaatsing-stamkaart worden *je*, *jij* en *jouw* vervangen door **de medewerker**. Dat raakt de uitleg bij tegel 1 en 4; die bij tegel 5 gaat over een groep en is overal gelijk.
-
-**De teksten worden samengesteld en zijn geen vaste zin.** Alle drie bevatten bedragen die per medewerker verschillen (§8.2). Dat is aanvaard omdat een percentage zonder bedrag voor de medewerker weinig betekent.
+**De teksten hierboven staan in de je-vorm, voor de ESS-stamkaart.** Op de MSS- en de plaatsing-stamkaart worden *je*, *jij* en *jouw* vervangen door **de medewerker**. Dat raakt de info-teksten van tegel 1, 2 en 4; die van tegel 3 en 5 gaan over een groep en blijven ongewijzigd. In de tekst van tegel 4 varieert bovendien het woord **meer** of **minder** mee met het teken, en bij een uitkomst van nul vervalt het slot van de zin: er is dan geen verschil om te benoemen.
 
 **Hover bestaat niet op elk apparaat.** Op Pocket en op een tablet moet het info-icoon op tik openen, anders zijn de bedragen daar onbereikbaar. Te bevestigen bij de bouw.
 
 **Een tooltip is niet te kopiëren.** Wie het bedrag wil bewaren of doorsturen, moet het overtypen. Voor dat gebruik blijft het document *Loontransparantie medewerker* de aangewezen route (hoofdstuk 11).
 
-**"Extra's" dekt meer dan alleen bijzondere beloningen.** Er zit ook waarde niet in geld uitgekeerd loon in, zoals een auto van de zaak. De uitleg bij tegel 1 noemt daarom "bijzondere beloningen en loon in natura".
+**"Extra's" dekt meer dan alleen bijzondere beloningen.** Er zit ook waarde niet in geld uitgekeerd loon in, zoals een auto van de zaak. De tekst noemt daarom "bijzondere beloningen en loon in natura". Team Content bepaalt de definitieve term.
 
 ### 8.8 Pocket
 
@@ -2427,13 +2246,11 @@ Er komen vier modi:
 | Modus | Wat hij teruggeeft | Bron |
 | --- | --- | --- |
 | Dienstverbanden | De arbeidsverhoudingen van de ingelogde medewerker waarvoor een regel bestaat, met de functieomschrijving en de functiecategorie. Hiermee bouwt Pocket de navigatie tussen dienstverbanden op | Laag 2 |
-| Eigen loongegevens | Voor één dienstverband: basisloon per uur, extra's per uur, totaal uurloon, jaaruren, het individuele loonverschil, het aantal toegekende tijdvakken, de einddatum van het venster, de datum van de laatste berekening en het valutasymbool. Voedt tegel 1 en tegel 4 | Laag 2 (§5.4) |
-| Vergelijkingscijfers | Voor de functiecategorie van dat dienstverband: de gemiddelden van mannen en vrouwen, elk gesplitst in basisloon en extra's, het gemiddeld totaal uurloon categorie, de aantallen mannen, vrouwen en totaal, het loonverschil totaal uurloon en het valutasymbool. Voedt tegel 2, 3 en 5 | Laag 3 (§5.5) |
+| Eigen loongegevens | Voor één dienstverband: basisloon per uur, extra's per uur, totaal uurloon, jaaruren, het individuele loonverschil, het aantal toegekende tijdvakken, de einddatum van het venster en de datum van de laatste berekening. Voedt tegel 1 en tegel 4 | Laag 2 (§5.4) |
+| Vergelijkingscijfers | Voor de functiecategorie van dat dienstverband: de gemiddelden van mannen en vrouwen, elk gesplitst in basisloon en extra's, het gemiddeld totaal uurloon categorie, de aantallen mannen, vrouwen en totaal, en het loonverschil totaal uurloon. Voedt tegel 2, 3 en 5 | Laag 3 (§5.5) |
 | Functies in de functiecategorie | De lijst functies die binnen het venster in de categorie bezet zijn, zonder aantallen (§8.4) | Laag 3 met laag 2 |
 
 **De connector rekent niet.** Hij leest de voorberekende velden, net als de tegels op de stamkaart (uitgangspunt 1). Zou Pocket zelf een percentage uitrekenen, dan ontstaat er een tweede waarheid naast de taak en kunnen app en stamkaart verschillende getallen tonen.
-
-**Het valutasymbool komt uit de connector.** Hij bepaalt het zoals in §8.2: dat van de werkgever, en anders dat van de basisvaluta. Pocket zoekt het niet zelf op.
 
 Dat geldt ook voor het **teken**. De omkering uit §6.5 zit al in de opgeslagen waarde, dus Pocket draait er niets aan om en toont dezelfde percentages als de stamkaart, inclusief het minteken bij tegel 5. De connector levert uitsluitend regels met soort rapportage *Recht op informatie* (§5.9).
 
@@ -2449,9 +2266,9 @@ De connector moet daarom bij **elke** modus die het dienstverband als parameter 
 
 **De connector geeft niets terug wat niet getoond mag worden.** De regels uit §8.6 over het verbergen van tegels moeten in de connector zitten, niet in de app. Ontbreekt een geslachtsgroep, of is de medewerker de enige in zijn categorie, dan laat de connector de betreffende waarden weg. Zou de app dat beslissen, dan reizen de gegevens alsnog naar het apparaat en is de afweging over herleidbaarheid uit §9.3 te omzeilen door mee te kijken op de verbinding.
 
-**Elke modus geeft ook een reden terug als er niets is.** De toestanden uit §8.7 — NoPayrollYet, NoJobCategory, RecentFunctionChange, NotApplicable, en bij Available de kenmerken geen mannen, geen vrouwen, alleen en functie gewisseld — moeten als reden meekomen, zodat Pocket dezelfde melding kan tonen als de stamkaart. Anders moet de app de logica overdoen, of ziet de medewerker een leeg scherm zonder uitleg. De melding over een functiewissel binnen het jaar toont alleen Pocket (§8.7).
+**Elke modus geeft ook een reden terug als er niets is.** De situaties uit §8.6 — nog geen salarisverwerking, buiten de regeling, geen functiecategorie — moeten als reden meekomen, zodat Pocket dezelfde melding kan tonen als de stamkaart. Anders moet de app de logica overdoen, of ziet de medewerker een leeg scherm zonder uitleg.
 
-**De landtoets geldt ook hier.** Valt de medewerker niet onder Nederlandse wetgeving, dan geeft de connector geen gegevens maar de reden NotApplicable, en toont Pocket de melding uit §8.7 in plaats van cijfers (§9.6). Zonder die toets ziet een Belgische medewerker in de app een melding die voor hem onjuist is.
+**De landtoets geldt ook hier.** Valt de medewerker niet onder Nederlandse wetgeving, dan geeft de connector geen gegevens en toont Pocket de pagina niet (§9.6). Zonder die toets ziet een Belgische medewerker in de app een melding die voor hem onjuist is.
 
 **De connector is niet klant-zichtbaar.** Hij wordt intern geregistreerd, net als de andere Pocket-connectors, en komt niet als GetConnector beschikbaar voor klanten. Dat is bewust: de klant kan deze gegevens niet via de connector ontsluiten, net zomin als via een gegevensverzameling (§9.2).
 
@@ -2525,7 +2342,7 @@ Het gaat daarbij om een aantal per groep, nooit om een aantal per persoon, per f
 
 **De functielijst toont wélke functies bezet zijn, niet hoeveel.** Sinds 23 september 2026 komt die lijst uit de regels per inkomstenverhouding en niet meer uit de functiecategorie-inrichting (§8.4). Daarmee is zichtbaar welke functies in het venster daadwerkelijk meetellen. Er staan geen aantallen bij: hoeveel collega's op een functie zitten blijft onbekend. De groepsgrootte als geheel stond al op het scherm, in de tegel hierboven.
 
-**Het individuele loonverschil toont geen gegevens van een collega.** De tegel *Verdien ik meer of minder dan mijn collega's?* zet de medewerker af tegen het gemiddelde van de hele functiecategorie. Is hij de enige in die categorie, dan is dat gemiddelde zijn eigen loon en is het percentage nul; in dat geval toont de tegel geen percentage maar een melding (§8.6).
+**Het individuele loonverschil toont geen gegevens van een collega.** De tegel *Individueel verschil uurloon* zet de medewerker af tegen het gemiddelde van de hele functiecategorie. Is hij de enige in die categorie, dan is dat gemiddelde zijn eigen loon en is het percentage nul; in dat geval tonen we de tegel niet (§8.6).
 
 ### 9.5 Uitlevering
 
@@ -2547,7 +2364,7 @@ De begrippen waarmee we rekenen zijn Nederlands: loon LB/PH, vakantiebijslag, ar
 
 **De taak heeft wél een landtoets nodig.** In de opzet op de loonaangifte was dat niet zo: de brontabel werd uitsluitend gevuld bij het klaarzetten van de Nederlandse loonaangifte, dus medewerkers buiten die wetgeving kregen vanzelf geen regel. De gegevens filterden zichzelf. Nu de brontabellen uit de salarisverwerking worden gevuld (§7.1), gaat dat niet meer op en moet de taak het land van wetgeving expliciet toetsen bij het selecteren van de arbeidsverhoudingen (§7.3, stap 6).
 
-**Daarnaast blijft de toets bij het tonen staan.** Zonder die toets ziet een Belgische medewerker een sectie met de melding dat er (nog) geen salarisgegevens zijn (§8.6, §8.7). Die melding is voor hem onjuist en wekt een verwachting die nooit wordt ingelost. In Pocket, waar de medewerker zelf naar de pagina navigeert, ziet hij in plaats daarvan een melding dat de cijfers alleen gelden voor werk onder de Nederlandse wet (§8.7, §8.8).
+**Daarnaast blijft de toets bij het tonen staan.** Zonder die toets ziet een Belgische medewerker een sectie met de melding dat zijn gegevens beschikbaar komen zodra de salarisverwerking is geaccordeerd (§8.6). Die melding is voor hem onjuist en wekt een verwachting die nooit wordt ingelost.
 
 Beide toetsen gebruiken hetzelfde gegeven: het **land van wetgeving van de medewerker**.
 
@@ -2581,9 +2398,7 @@ Dit is een bestaand patroon en niet iets nieuws. HR gebruikt dit veld op tiental
 - **De taak mag nergens een vast aantal tijdvakken aannemen.** Het venster loopt per periodetabel over een ander aantal tijdvakken, inclusief een restperiode in een jaar met een 53e week (§6.1). Een hard gecodeerde twaalf of dertien levert een te kort of te lang venster op en werkt door in laag 2 én laag 3.
 - **De eerste dagovergang na de conversie is zwaar.** De conversie vult de triggertabel over heel 2026, dus die run bouwt voor alle werkgevers de brontabel en de lagen erboven op (§7.7). Dat is een eenmalige piek, maar wel de zwaarste run die de taak ooit draait.
 - **De lijstbegrippen worden door AFAS meegeleverd en gevuld.** De klant hoeft niets in te richten om de cijfers te krijgen. **Beide sets staan wél open** voor eigen intellingen: bij medewerkers om correctie-looncomponenten te laten meetellen, bij uitzendkrachten als uitwijkmogelijkheid voor een looninrichting die niet in de standaarddefinitie past (§5.3). Dat betekent dat de inhoud per omgeving kan verschillen; binnen één omgeving — en dus binnen een vergelijkingsgroep — blijft de definitie gelijk.
-- **Medewerkers en uitzendkrachten hebben elk een eigen set lijstbegrippen.** Voor medewerkers Profit Id 6.821 t/m 6.827 per inkomstenverhouding, voor uitzendkrachten 6.782 t/m 6.788 per plaatsing, met een eigen definitie (§5.3, §6.2). Die scheiding houdt de looninrichting van beide populaties uit elkaar en is toegestaan, omdat de uitkomsten van beide populaties nooit met elkaar worden vergeleken. De set voor uitzendkrachten is op 29 september 2026 opgeleverd (§12, punt W1 en actie 26); de set voor medewerkers is op 7 oktober 2026 besloten en moet nog worden bevestigd (§12, punt AL-a en actie 35).
-- **Bij Plaatsingen verwerken in periodeverloning wordt het vaste loon toegerekend aan de plaatsing.** Dat is een uitgangspunt: het cao-team levert een aanvullende looninrichting waarmee een deel van het vaste loon wordt toegerekend aan een plaatsing, met een rekencomponent die het salaris terugverdeelt naar het plaatsingsdienstverband (§3.3, actie 39). De lijstbegrippen voor uitzendkrachten lezen dat toegerekende deel en de projecttoeslag; zonder die toerekening zou het loon per plaatsing vrijwel alleen uit de projecttoeslag bestaan.
-- **Bij die variant groeien beide brontabellen.** Dezelfde inkomstenverhouding staat in bron medewerkers en, per plaatsing, in bron uitzendkrachten (§5.3). Dat geldt ook voor laag 2. Het gaat om een kleine doelgroep — detacheerders, meestal met één lopende plaatsing — maar de taak moet er bij het bouwen en testen van uitgaan dat één persoon in beide tabellen voorkomt.
+- **Medewerkers en uitzendkrachten hebben elk een eigen set lijstbegrippen.** Voor medewerkers Profit Id 6.821 t/m 6.827 per dienstverband, voor uitzendkrachten 6.782 t/m 6.788 per plaatsing, met een eigen definitie (§5.3, §6.2). Die scheiding houdt de looninrichting van beide populaties uit elkaar en is toegestaan, omdat de uitkomsten van beide populaties nooit met elkaar worden vergeleken. De set voor uitzendkrachten is op 29 september 2026 opgeleverd (§12, punt W1 en actie 26); de set voor medewerkers is op 7 oktober 2026 besloten en moet nog worden bevestigd (§12, punt AL-a en actie 35).
 - **De conversie levert voor uitzendkrachten geen volledig venster op, en dat is aanvaard.** Ze zet triggerregels klaar per verloonde werkgever en periodetabel (§7.7), dus de plaatsingen van 2026 komen mee voor zover de gegevens er zijn. Maar de functiecategorie bij plaatsing wordt pas in DP5 vastgelegd. Voor tijdvakken uit 2026 ontbreekt die indeling daardoor vaak, en zonder functiecategorie valt de regel in geen vergelijkingsgroep (§3.7). **De cijfers voor deze populatie worden dus pas bruikbaar na DP5** (besluit 99). Dat is bewust zo gekozen: eerst de opslag en de berekening, dan de indeling die ze betekenis geeft. De brontabel loopt intussen gewoon vol; alleen de vergelijking volgt later.
 - **De verdichting kijkt breder dan één werkgever.** De tabel per functiecategorie gaat per rapportage-eenheid. Een run raakt daardoor ook regels van werkgevers die zelf niet zijn doorgerekend (§7.4).
 - **Een wijziging in de functiecategorie-inrichting rekent de hele omgeving door.** Dat is de zwaarste run (§7.2). Hij past binnen het tijdvenster van de dagovergang en komt weinig voor, maar het is wel het geval waarmee bij het bouwen rekening moet worden gehouden — en het ongunstigste geval is die wijziging bij een uitzendbureau met weekverloning (§7.4). Omdat het een stamgegeven-trigger is, herbouwt hij voor elke werkgever ook het hele venster aan bronregels.
@@ -2600,9 +2415,7 @@ Dit is een bestaand patroon en niet iets nieuws. HR gebruikt dit veld op tiental
 
 | Onderwerp | Raakvlak |
 | --- | --- |
-| DP2 – Rapportage | Gebruikt dezelfde vier lagen met een rapportageperiode met **soort Rapportage** en een gevuld jaar (§5.2). Fase 2 voegt alleen regels en velden toe; er komt geen nieuwe tabel bij, op het stamgegeven arbeidsjaareenheid na (§5.7). De sleutel van laag 0 en laag 2 wijzigt niet; laag 3 krijgt het kwartiel erbij zodra DP2 de kwartielverdeling uitwerkt. **DP2 moet dezelfde functietoekenning per loontijdvak aanhouden** (§4.5), anders wijken de vergelijkingscijfers en de wettelijke rapportage van elkaar af en telt een medewerker die van functie wisselde in beide een andere categorie mee. DP2 hergebruikt ook de definities, de lijstbegrippen en de rekenwijze uit hoofdstuk 6; die moeten identiek zijn, anders leggen de KPI en de wettelijke rapportage verschillende uitkomsten naast elkaar. **DP2 moet er ook rekening mee houden dat het bruto jaarloon niet de wettelijk voorgeschreven maat is** (§6.5); welke grondslag de rapportage wél voorschrijft moet daar opnieuw worden vastgesteld. **De rekenrichting van de percentages verschilt per soort rapportage** (§6.5): op regels met soort *Rapportage* geldt onverkort de wettelijke richting uit het begrippenkader, op regels met soort *Recht op informatie* is het teken omgekeerd. DP2 moet daarom een **eigen ontsluiting** meeleveren met een filter op soort Rapportage en mag de verzamelingen uit §5.9 niet hergebruiken. De kwartielverdeling en de 5%-signalering worden in DP2 uitgewerkt. De medianen en de mediane loonverschilpercentages zitten al in het model, maar worden in fase 1 alleen **per functiecategorie** gevuld; het begrippenkader kent de mediaan uitsluitend organisatiebreed (§6.9). DP2 hoeft er dus geen velden voor toe te voegen, maar moet ze wél zelf vullen op de regels met een lege functiecategorie. **Geslacht X en niet ingevuld vragen in DP2 om extra aandacht:** deze arbeidsverhoudingen blijven buiten de berekening van het loonverschil (§3.8), maar tellen volgens de memorie van toelichting en de ministeriële regeling wél mee bij het aantal werknemers dat de rapportageplicht bepaalt, én in de noemer van het aandeel ontvangers van variabele componenten en van de kwartielverdeling. Teller en noemer lopen daar dus niet over dezelfde populatie. **De rapportage-eenheid wordt in DP2 op dezelfde manier bepaald** als hier (§5.2): uit de eerste negen posities van het loonheffingsnummer per werkgever en periodetabel. Daarmee is het RSIN altijd gevuld en hoeft DP2 het vullen van een veld nergens af te dwingen. Twee punten vragen daar wél aandacht. Bij een **eenmanszaak** staat er feitelijk een BSN in dat veld (§5.2); voor de rapportage speelt dat naar verwachting niet, omdat zo'n organisatie de grens van honderd werknemers niet haalt, maar DP2 moet vaststellen wat er gebeurt als die aanname niet opgaat. En DP2 moet bepalen of het **loonheffingsnummer zelf** bij de aanlevering moet worden meegegeven; dit ontwerp legt dat nummer niet vast. **De rapportage over uitzendkrachten hoort in haar geheel ook hier**, en niet bij de uitlener: het begrippenkader legt die verplichting bij de inlener (§3.3). Dat geldt zowel voor de rapportage die uit de brontabel *Loontransparantie bron extern* wordt gevoed — geparkeerd tot het ministerie en ABU/NBBU duidelijkheid geven over het aanleverformaat — als voor de scheiding tussen de populaties *Medewerkers* en *Ter beschikking gestelde arbeidskrachten* binnen de rapportage, die leunt op laag 2 en laag 3 zoals dit ontwerp ze vult. **Bij Plaatsingen verwerken in periodeverloning staat dezelfde inkomstenverhouding in beide populaties** (§3.3, §5.4): bij de medewerkers met het totale loon, bij de uitzendkrachten met het deel per plaatsing. Voor het recht op informatie is dat juist, maar in de rapportage mag deze arbeidsverhouding niet twee keer meetellen — niet in de aantallen en niet in de bedragen. DP2 moet bepalen in welke populatie zo iemand voor de rapportage telt. **De aard arbeidsverhouding bepaalt niet meer de populatie** (§3.3). Ze blijft een filter op de codes uit het begrippenkader en staat op laag 1 en laag 2, zodat de rapportage er zo nodig alsnog op kan indelen. **De drie filters uit §3.2 werken bij het vullen**: arbeidsverhoudingen buiten die filters staan niet in de brontabellen. DP2 moet bevestigen dat de rapportage ze nergens voor nodig heeft, ook niet voor de drempel van de rapportageplicht (punt AN-g). |
-| RHR02179 – Plaatsingen verwerken in periodeverloning | Levert de verloningsvariant waarbij het loon van een gedetacheerde vanaf loonjaar 2027 zowel op het hoofddienstverband als per plaatsing wordt berekend. Deze variant gaat als enige naar **beide** brontabellen (§3.3, §5.3). Drie punten moeten daar kloppen: de taak moet een berekening op een **plaatsingsdienstverband** kunnen herkennen en aan de plaatsing kunnen koppelen; de plaatsingsdienstverbanden vallen onder dezelfde **inkomstenverhouding** als het hoofddienstverband, zodat het totaal in bron medewerkers compleet is; en de **looninrichting** van het cao-team rekent een deel van het vaste loon toe aan de plaatsing (hoofdstuk 10). Binnen één werkgever sluit deze variant declaratieverwerking en zichtbare neven- en subdienstverbanden uit, dus de combinaties blijven beperkt. |
-| Cao-team | Levert de lijstbegrippen voor beide populaties (§5.3, §6.2) en, voor *Plaatsingen verwerken in periodeverloning*, een standaard looninrichting voor de projecttoeslag met een rekencomponent die het vaste loon terugverdeelt naar de plaatsing. De looninrichting voor de Basis CAO StiPP Algemeen is daarvoor al aangevuld. |
+| DP2 – Rapportage | Gebruikt dezelfde vier lagen met een rapportageperiode met **soort Rapportage** en een gevuld jaar (§5.2). Fase 2 voegt alleen regels en velden toe; er komt geen nieuwe tabel bij, op het stamgegeven arbeidsjaareenheid na (§5.7). De sleutel van laag 0 en laag 2 wijzigt niet; laag 3 krijgt het kwartiel erbij zodra DP2 de kwartielverdeling uitwerkt. **DP2 moet dezelfde functietoekenning per loontijdvak aanhouden** (§4.5), anders wijken de vergelijkingscijfers en de wettelijke rapportage van elkaar af en telt een medewerker die van functie wisselde in beide een andere categorie mee. DP2 hergebruikt ook de definities, de lijstbegrippen en de rekenwijze uit hoofdstuk 6; die moeten identiek zijn, anders leggen de KPI en de wettelijke rapportage verschillende uitkomsten naast elkaar. **DP2 moet er ook rekening mee houden dat het bruto jaarloon niet de wettelijk voorgeschreven maat is** (§6.5); welke grondslag de rapportage wél voorschrijft moet daar opnieuw worden vastgesteld. **De rekenrichting van de percentages verschilt per soort rapportage** (§6.5): op regels met soort *Rapportage* geldt onverkort de wettelijke richting uit het begrippenkader, op regels met soort *Recht op informatie* is het teken omgekeerd. DP2 moet daarom een **eigen ontsluiting** meeleveren met een filter op soort Rapportage en mag de verzamelingen uit §5.9 niet hergebruiken. De kwartielverdeling en de 5%-signalering worden in DP2 uitgewerkt. De medianen en de mediane loonverschilpercentages zitten al in het model, maar worden in fase 1 alleen **per functiecategorie** gevuld; het begrippenkader kent de mediaan uitsluitend organisatiebreed (§6.9). DP2 hoeft er dus geen velden voor toe te voegen, maar moet ze wél zelf vullen op de regels met een lege functiecategorie. **Geslacht X en niet ingevuld vragen in DP2 om extra aandacht:** deze arbeidsverhoudingen blijven buiten de berekening van het loonverschil (§3.8), maar tellen volgens de memorie van toelichting en de ministeriële regeling wél mee bij het aantal werknemers dat de rapportageplicht bepaalt, én in de noemer van het aandeel ontvangers van variabele componenten en van de kwartielverdeling. Teller en noemer lopen daar dus niet over dezelfde populatie. **De rapportage-eenheid wordt in DP2 op dezelfde manier bepaald** als hier (§5.2): uit de eerste negen posities van het loonheffingsnummer per werkgever en periodetabel. Daarmee is het RSIN altijd gevuld en hoeft DP2 het vullen van een veld nergens af te dwingen. Twee punten vragen daar wél aandacht. Bij een **eenmanszaak** staat er feitelijk een BSN in dat veld (§5.2); voor de rapportage speelt dat naar verwachting niet, omdat zo'n organisatie de grens van honderd werknemers niet haalt, maar DP2 moet vaststellen wat er gebeurt als die aanname niet opgaat. En DP2 moet bepalen of het **loonheffingsnummer zelf** bij de aanlevering moet worden meegegeven; dit ontwerp legt dat nummer niet vast. **De rapportage over uitzendkrachten hoort in haar geheel ook hier**, en niet bij de uitlener: het begrippenkader legt die verplichting bij de inlener (§3.3). Dat geldt zowel voor de rapportage die uit de brontabel *Loontransparantie bron extern* wordt gevoed — geparkeerd tot het ministerie en ABU/NBBU duidelijkheid geven over het aanleverformaat — als voor de scheiding tussen de populaties *Medewerkers* en *Ter beschikking gestelde arbeidskrachten* binnen de rapportage, die leunt op laag 2 en laag 3 zoals dit ontwerp ze vult. |
 | DP3 – Uitzendkrachten | Alleen de **uitwisseling tussen in- en uitlener** blijft hier. Het ontwerpen **én** het vullen van de brontabel *Loontransparantie bron uitzendkrachten* horen sinds 22 september 2026 bij dit deelproject (§5.3), net als het vullen van laag 2 en laag 3 met populatie *Ter beschikking gestelde arbeidskrachten*; de rapportage hoort sinds 23 september in haar geheel bij DP2. Twee punten om voor DP3 vast te houden: de functie komt uit de **plaatsing** en niet van het dienstverband, en het recht op informatie wordt afgebakend per **verkooprelatie** — dat is de reden dat verkooprelatie in de sleutel van laag 2 en laag 3 zit (§5.4, §5.5). Wat DP3 toevoegt is de route waarlangs de uitlener zijn gegevens bij de inlener krijgt: formaat, frequentie en de anonimisering die het begrippenkader vraagt. |
 | DP5 – Functiecategorie en flex | Levert de inrichting die dit ontwerp als gegeven aanneemt maar die nog niet compleet is: het **functiegroepen-model**, het **uitvraagformulier gelijkwaardige beloning** richting de inlener en de resterende **gegevens op de plaatsing**. Dat laatste raakt dit ontwerp rechtstreeks: de brontabel voor uitzendkrachten leest de functie van de plaatsing (§5.3), en zonder vastgelegde functiecategorie bij plaatsing valt een uitzendkracht in geen enkele vergelijkingsgroep (§3.7). **Tijdkritisch:** die vastlegging moet staan vóór de gegevens over 2027 worden opgebouwd, anders mist het eerste rapportagejaar de indeling. DP5 komt daarom tussen DP1 en DP2. DP5 levert daarnaast de gegevensverzameling **Functies per functiecategorie (klantovereenkomst)**, die de weergave en het rapport uit §8.4 bij een uitzendkracht van de inrichtingskant voorzien (DP5, US18). |
 | DP4 – Vraag aan HR | Het type dossieritem Vraag aan HR is de route voor medewerkers die meer willen weten of meerdere dienstverbanden hebben. De **actieknop Vraag aan HR** op de stamkaart start de **profielkeuzepagina**, zodat de medewerker zelf het passende profiel kiest en niet automatisch in *Recht op informatie* belandt (§8.1). DP4 gebruikt twee gegevensverzamelingen uit dit ontwerp: **Loontransparantie per inkomstenverhouding (actuele functie)** — de variant van de populatie waar de medewerker in valt — en **Loontransparantie per functiecategorie** (§5.9). Daarmee is de gegevensverzameling die DP4 eerder alleen had gereserveerd concreet ingevuld. **DP4 moet de extra velden van het type vaststellen vóór wij de Pocket-pagina's kunnen bouwen** (§8.8): welke velden het type heeft, welke de medewerker zelf invult en welke alleen ter inzage zijn. Ook de vraag hoe de medewerker in Pocket bij het juiste profiel komt — er is daar geen profielkeuzepagina zoals in InSite — hoort bij DP4 en team Pocket samen. |
@@ -2638,13 +2451,13 @@ Dit is een bestaand patroon en niet iets nieuws. HR gebruikt dit veld op tiental
 | R1 | Meerdere actuele dienstverbanden op de stamkaart (§8.5) | **Afgesloten op 23 september 2026** · wisselen tussen dienstverbanden is technisch niet mogelijk op de standaard stamkaart, dus de uitwerking met tabbladen vervalt. We tonen het **hoofddienstverband**, zonder melding op het scherm: de activering *Meerdere dienstverbanden* geldt maar voor een deel van de klanten en de functieomschrijving in de subtitel van tegel 1 maakt al zichtbaar welk dienstverband wordt getoond. De uitleg komt in de help. Zie blok AC, punt AC8. |
 | R2 | Vrije velden van de functiecategorie op de stamkaart (§8.3) | Open · we tonen geen vrije velden van de functiecategorie, omdat de klant naar verwachting niet kan sturen wélke daarvan worden getoond. Die aanname is niet geverifieerd. Blijkt sturing wél mogelijk, dan is het tonen van geselecteerde vrije velden in het pagina-onderdeel *Functie* alsnog een optie. Zie actie 23. |
 | AC-a | Lengte van de functiecategorie in de subtitel (§8.2) | Open · de subtitel van de tegels bestaat uit de functiecategorie of de functie, gevolgd door *laatste 12 maanden*. Bij een lange omschrijving kan die tekst afbreken in een smalle tegel. Te bevestigen bij de bouw; anders is een kortere periodeaanduiding nodig. |
-| AC-b | Info-icoon op een aanraakscherm (§8.2, §8.7) | Open · de drie uitlegteksten bevatten alle drie bedragen; sinds blok AO hebben tegel 2 en 3 geen info-icoon meer. Op Pocket en op een tablet bestaat hover niet. Controleren of het info-icoon daar op tik opent; zo niet, dan zijn die bedragen op mobiel onbereikbaar en is een andere route nodig. |
+| AC-b | Info-icoon op een aanraakscherm (§8.2, §8.7) | Open · vier van de vijf uitlegteksten bevatten de bedragen waaruit een percentage volgt. Op Pocket en op een tablet bestaat hover niet. Controleren of het info-icoon daar op tik opent; zo niet, dan zijn die bedragen op mobiel onbereikbaar en is een andere route nodig. |
 | AC-c | Vorm van het filter op de actuele functie (§5.9) | Open · het filter vergelijkt het veld Functie op de regel met de actuele functie uit de stamgegevens van het dienstverband. Dat is geen vergelijking met een vaste waarde, dus er is een koppeling of een berekend veld voor nodig. Welke vorm dat wordt, hoort bij het technisch ontwerp. Let daarbij op subdienstverbanden: het filter moet de functie van het **kapstokdienstverband** volgen, net als de taak bij het samenstellen van de regel (§5.4). |
 | AD-a | Verschil tussen Pocket en de stamkaart bij meerdere dienstverbanden (§8.5, §8.8) | Open · Pocket kan tussen dienstverbanden navigeren, de standaard stamkaart niet (punt R1). Een medewerker met twee dienstverbanden ziet in de app dus beide en op de stamkaart één. Inhoudelijk aanvaard — Pocket vult het recht voller in, niet beperkter — maar het raakt de help en de communicatie: de uitleg "je ziet alleen je hoofddienstverband" geldt niet voor Pocket. Voorleggen aan PM en team Content. |
 | AD-b | Extra velden van Vraag aan HR in Pocket (§8.8) | Open en **blokkerend** · de pagina's *tonen* en *aanpassen* zijn pas te bouwen als DP4 heeft vastgesteld welke extra velden het type heeft, welke de medewerker zelf invult en welke alleen ter inzage zijn. Uit te vragen bij DP4, met een datum. |
 | AD-c | Profielkeuze in Pocket (§8.1, §8.8) | Open · op de stamkaart start de actieknop de profielkeuzepagina (punt AD6). Of Pocket zo'n keuzepagina kent is niet bekend. Zo niet, dan moet worden bepaald hoe de medewerker daar bij het juiste profiel komt — en of hij in Pocket überhaupt meer dan één profiel te kiezen krijgt. Af te stemmen met team Pocket en DP4. |
 | AD-d | Veldsoorten die Pocket aankan (§8.8) | Open · Pocket rendert de schermdefinitie die ook de InSite-webform voedt. Wat de app kan tonen is daarmee begrensd door dat model. Of alle velden die DP4 op het type zet in Pocket te tonen zijn, is niet geverifieerd. Te controleren zodra de velden bekend zijn (punt AD-b). |
-| T9 | Populatiefilter voor uitzendkrachten (§3.2, §3.3, §5.3) | **Besloten op 22 september 2026** · overgenomen uit het begrippenkader: **soort inkomstenverhouding 11, 13, 15 of 17** — dezelfde vier als bij eigen medewerkers, want §3.7.3 maakt op dat punt geen onderscheid — en **aard arbeidsverhouding 11, 22 of 82** uit §3.7.2. De toevoeging bij code 11 dat die *alleen bij de inlener* meetelt, geldt voor de **rapportage** en niet voor de brontabel: de uitlener heeft die loongegevens wél en heeft ze nodig voor het recht op informatie (§3.3). Punt afgesloten; zie blok AA, punt AA1. · **Herzien op 13 oktober 2026**: de aard arbeidsverhouding bepaalt niet meer de populatie; de indeling volgt de verloningsvariant. Het filter op aard blijft, met de codes van beide populaties samen. Zie blok AN, punten AN1 en AN2. |
+| T9 | Populatiefilter voor uitzendkrachten (§3.2, §3.3, §5.3) | **Besloten op 22 september 2026** · overgenomen uit het begrippenkader: **soort inkomstenverhouding 11, 13, 15 of 17** — dezelfde vier als bij eigen medewerkers, want §3.7.3 maakt op dat punt geen onderscheid — en **aard arbeidsverhouding 11, 22 of 82** uit §3.7.2. De toevoeging bij code 11 dat die *alleen bij de inlener* meetelt, geldt voor de **rapportage** en niet voor de brontabel: de uitlener heeft die loongegevens wél en heeft ze nodig voor het recht op informatie (§3.3). Punt afgesloten; zie blok AA, punt AA1. |
 | Q1 | Functiecategorie op het uitvraagformulier gelijkwaardige beloning richting de inlener (hoofdstuk 11, raakvlak DP5) | Open · bespreekpunt voor PM, **uitwerking verhuisd naar DP5** (blok AA, punt AA4). Bij een terbeschikkingstelling geeft de inlener het pakket aan arbeidsvoorwaarden door aan de uitlener via het uitvraagformulier gelijkwaardige beloning. De functiecategorie staat daar nu niet op, terwijl de uitlener die nodig heeft om de uitzendkracht in de juiste vergelijkingsgroep te plaatsen. Zonder dat veld is bij plaatsing niet vastgelegd in welke categorie de functie valt en is dat achteraf niet meer te herleiden. De vraag aan PM is of het veld aan het formulier wordt toegevoegd, wie daarvan eigenaar is (AFAS, ABU/NBBU of de klant) en per wanneer. **Tijdkritisch:** de vastlegging moet staan vóór de gegevens over 2027 worden opgebouwd, anders mist het eerste rapportagejaar de indeling. Hier geregistreerd omdat dit ontwerp dezelfde functiecategorie-indeling gebruikt. Zie actie 21. |
 | W1 | Lijstbegrippen voor uitzendkrachten (§5.3, §6.2) | **Afgesloten op 29 september 2026** · het cao-team heeft de set opgeleverd: **zeven** begrippen met Profit Id **6.782 tot en met 6.788**, per plaatsing, door AFAS meegeleverd en dichtgezet. Daarmee vervalt de blokkade die er sinds 22 september 2026 op dit deelproject lag (blok AA, punt AA2). Voor eigen medewerkers golden toen nog de bestaande lijstbegrippen van de loonaangifte; die leveren de acht grootheden per dienstverband. De set voor uitzendkrachten telt er zeven: *waarde niet in geld uitgekeerd loon* ontbreekt, omdat dat bedrag niet naar een plaatsing te herleiden is. De definitie volgt het kader uitzendkrachten van 3 maart 2026: bruto per opdracht is de som van de looncomponenten onder het reguliere tarief plus de reserveringen vakantiegeld en arbeidsvoorwaardenbedrag, zonder het werknemersdeel pensioen en de bijtelling auto; de variabele componenten zijn de componenten onder het bijzondere tarief minus vakantiebijslag en opname arbeidsvoorwaardenbedrag. Onbelaste componenten en componenten onder nultarief tellen niet mee. Punt afgesloten; zie blok AF en actie 26. · **Aangevuld op 7 oktober 2026**: die definitie stond alleen hier en niet in de hoofdstukken zelf. Ze is nu verwerkt in §5.3, §6.1 en §6.2, en daarbij bleek de gedeelde formule voor het bruto jaarloon niet te kloppen voor deze populatie. Zie blok AJ en punt AJ-a. · **Medewerkers krijgen op 7 oktober 2026 ook een eigen set**, Profit Id 6.821 t/m 6.827; zie blok AL en punt AL-a. Op diezelfde datum vervalt het dichtzetten: **beide** sets staan voortaan open voor eigen intellingen van de klant (blok AL, punten AL2 en AL4). |
 | X6 | Moment en reikwijdte van de uitlevering (§9.5) | Open · voorstel uit het voortgangsoverleg van 22 september 2026: de functionaliteit wél uitleveren, met een duidelijke disclaimer dat het functionaliteit in ontwikkeling is, maar de standaard autorisatierollen voor ESS en MSS nog niet openzetten, zodat in eerste instantie alleen functioneel beheer meekijkt. Aanleiding is de onzekere wetgeving (§1.1) in combinatie met de aard van de gegevens: loongegevens wil je niet openzetten voordat vaststaat dat ze gezien mogen worden. Daar staat tegenover dat vroeg uitleveren klantfeedback oplevert die nog in Profit 9 kan worden verwerkt. **Nog niet besloten**; §9.5 gaat vooralsnog uit van generiek uitleveren onder de HR-conditie. Te bevestigen door PM. Zie actie 29. |
@@ -2655,16 +2468,8 @@ Dit is een bestaand patroon en niet iets nieuws. HR gebruikt dit veld op tiental
 | AI-b | Prestatie van een stamgegeven-trigger bij een uitlener (§7.3, §7.4, hoofdstuk 10) | Open · de zwaarste run herbouwt voortaan voor alle werkgevers het hele venster aan bronregels, bij weekverloning drieënvijftig tijdvakken per plaatsing. Punt N2 stelde vast dat de run binnen het tijdvenster van de dagovergang past, maar dat was vóór deze verzwaring en zonder de uitzendkrachtpopulatie. Opnieuw te toetsen bij het technisch ontwerp, met een uitzendbureau met weekverloning als maatgevend geval. Zie actie 32. |
 | AJ-a | **De gebouwde formule voor het bruto jaarloon van een uitzendkracht moet worden hersteld** (§6.1) | Open en **urgent** · de bouw is uitgegaan van één gedeelde formule, waarin het bruto jaarloon ontstaat door de variabele componenten van het totaalloon af te trekken. Dat werkt alleen als het loonbegrip het bijzondere deel ál bevat, en bij lijstbegrip 6.783 is dat niet zo (blok AJ, punt AJ1). De gebouwde routine trekt daardoor een bedrag af dat er nooit bij is opgeteld: het bruto jaarloon van **elke** uitzendkracht valt te laag uit, precies met de waarde van zijn variabele componenten. Het werkt door in het bruto uurloon, het totaal uurloon, de groepsgemiddelden, de medianen en alle loonverschilpercentages van de populatie *Ter beschikking gestelde arbeidskrachten*. Te melden bij de programmeur en te herstellen vóór de uitlevering; daarna de bestaande gegevens opnieuw laten opbouwen. Zie actie 33. |
 | AK-a | **Controleren wat de bouw in het veld Loon LB/PH heeft gezet** (§5.3, §6.1) | Open en **urgent** · het veld heette *Loon LB/PH normaal tarief* en §6.2 schreef voor dat de twee velden samen LnLbPh vormen. Volgt de bouw die tekst, dan telt de routine beide velden op terwijl het eerste al het totaal bevat (blok AK, punt AK1), en telt het bijzondere tarief dubbel in het loon terwijl het er maar één keer af gaat. Het bruto jaarloon van **elke eigen medewerker** valt dan te **hoog** uit, met precies het bedrag onder bijzonder tarief. Dat is de spiegelbeeldige fout van punt AJ-a en raakt de grootste populatie. Eerst vaststellen wát er gebouwd is — het kan ook goed staan — en pas daarna bepalen of er hersteld moet worden. Zie actie 34. |
-| AL-a | **Oplevering van de set lijstbegrippen voor medewerkers** (§5.3, §6.2) | Open en **blokkerend** · de set met Profit Id 6.821 t/m 6.827 is op 7 oktober 2026 besloten (blok AL) maar nog niet bevestigd opgeleverd door het cao-team. Zolang die er niet is, kan de brontabel voor medewerkers niet langs de nieuwe weg worden gevuld. Te bevestigen zijn: de zeven nummers, dat 6.822 zowel zonder als met het tarieffilter uitleesbaar is, dat alle zeven **per dienstverband** beschikbaar zijn (*sinds blok AN: per inkomstenverhouding*), en dat de klant er eigen intellingen aan kan toevoegen. Zie actie 35. |
+| AL-a | **Oplevering van de set lijstbegrippen voor medewerkers** (§5.3, §6.2) | Open en **blokkerend** · de set met Profit Id 6.821 t/m 6.827 is op 7 oktober 2026 besloten (blok AL) maar nog niet bevestigd opgeleverd door het cao-team. Zolang die er niet is, kan de brontabel voor medewerkers niet langs de nieuwe weg worden gevuld. Te bevestigen zijn: de zeven nummers, dat 6.822 zowel zonder als met het tarieffilter uitleesbaar is, dat alle zeven **per dienstverband** beschikbaar zijn, en dat de klant er eigen intellingen aan kan toevoegen. Zie actie 35. |
 | AL-b | Staat de set voor uitzendkrachten ook open? (§5.3) | **Afgesloten op 7 oktober 2026** · ja. De aanleiding is daar een andere dan bij medewerkers: klanten moeten in bepaalde situaties een **uitwijkmogelijkheid** hebben, omdat de looninrichting van een uitzendorganisatie zich niet altijd in de standaarddefinitie laat vangen. Daarmee staan beide sets open en herziet dit besluit 108. Zie blok AL, punt AL4. |
-| AN-a | Soort inkomstenverhouding bij een UMC met afwijkende afspraken (§3.2) | Open · een UMC heeft mogelijk met de Belastingdienst afgesproken een andere soort inkomstenverhouding te gebruiken, vermoedelijk 35. Die medewerkers vallen dan buiten het filter. Uitzoeken of dat zo is en of het filter daarvoor moet worden verruimd. Zie actie 40. |
-| AN-b | **De gebouwde indeling op type periodetabel aanpassen** (§3.3, §7.3) | Open en **blokkerend vanaf loonjaar 2027** · de bouw deelt in op het type periodetabel. Voor *Plaatsingen verwerken in periodeverloning* levert dat alleen regels in bron medewerkers op, en nooit het loon per plaatsing. De indeling moet worden aangepast naar blok AN; daarvoor komt een nieuwe POA. Daarbij ook nagaan of de filters op soort inkomstenverhouding, aard arbeidsverhouding en soort medewerker erin zitten, en of bron medewerkers per inkomstenverhouding wordt gevuld. Zie actie 41. |
-| AN-c | Herkenbaarheid van het plaatsingsdienstverband (§5.3, hoofdstuk 11) | Open · de taak moet bij *Plaatsingen verwerken in periodeverloning* een berekening op een plaatsingsdienstverband kunnen herkennen en aan de plaatsing en de verkooprelatie kunnen koppelen. Af te stemmen met de ontwerper van RHR02179. Zie actie 42. |
-| AN-d | Juridische status van gedetacheerden (§3.3) | Open, **niet blokkerend** · of een gedetacheerde met een gewone arbeidsovereenkomst als eigen personeel of als ter beschikking gestelde arbeidskracht telt, zeggen wet- en regelgeving niet. De gekozen indeling is de best uitlegbare op dit moment. Brengen de Kamerbehandeling of latere specificaties duidelijkheid, dan is de indeling bij te sturen zonder het datamodel te wijzigen. |
-| AN-e | Uitleg bij twee sets cijfers voor één detacheerder (§8.1, §8.7) | Open · een detacheerder met *Plaatsingen verwerken in periodeverloning* ziet op de medewerker-stamkaart en op de plaatsing-stamkaart verschillende cijfers. Hoe dat in de help en in de info-iconen wordt uitgelegd, hoort bij team Content. Zie actie 43. · **Deels opgevangen op 19 oktober 2026**: de toelichting op de plaatsing-stamkaart noemt dat de vergelijking binnen dezelfde opdrachtgever plaatsvindt (blok AO, punt AO9). De uitleg in de help blijft nodig. |
-| AN-f | Fictieve dienstbetrekkingen in de populatie medewerkers (§3.2) | **Afgesloten op 13 oktober 2026** · het filter op aard arbeidsverhouding blijft, op de codes uit het begrippenkader. Musicus, deelvisser, thuiswerker en andere fictieve dienstbetrekkingen vallen daarmee af. Alleen de indeling in populaties volgt de aard niet meer. Zie blok AN, punt AN1; actie 44 vervalt. |
-| AN-g | Arbeidsverhoudingen buiten de filters en DP2 (§3.2, hoofdstuk 11) | Open · sinds AN13 staan arbeidsverhoudingen met een soort inkomstenverhouding, aard of soort medewerker die niet meetelt niet in de brontabellen. DP2 moet bevestigen dat de rapportage ze nergens voor nodig heeft, ook niet voor de drempel van de rapportageplicht. Is dat wel zo, dan moet DP2 ze uit de salarisgegevens halen of moet een filter worden verruimd, met een eenmalige vulling van de triggertabel. Zie actie 45. |
-| AO-a | Toelichting van de sectie via een script (§8.1, §8.7) | Open · de vaste toelichting per stamkaart is nog niet als metagegeven in te checken en wordt met een SQL-script geleverd. Met de programmeur vaststellen op welke tabel, welk veld en welke records van de drie standaard stamkaarten de tekst landt, en hoe de vertaling verloopt (punt L12). Zie actie 46. |
 
 Alle punten die als PM1 tot en met PM8 bij PM voorlagen, zijn op 3 september 2026 besloten. De uitkomsten staan hieronder in blok E.
 
@@ -2673,7 +2478,7 @@ Afgehandeld in blok A:
 | Nr. | Onderwerp | Besluit |
 | --- | --- | --- |
 | A2 | Populatiefilter op soort inkomstenverhouding (§3.2) | Voor eigen medewerkers 11, 13, 15 en 17 |
-| A5 | Populatiefilter op aard arbeidsverhouding (§3.3) | Voor eigen medewerkers 1, 18, 21, 23, 24 en 83 · **herzien op 13 oktober 2026**: één filter voor beide populaties met de codes 1, 11, 18, 21, 22, 23, 24, 82 en 83, dat niet de populatie bepaalt. Zie blok AN, punt AN1 |
+| A5 | Populatiefilter op aard arbeidsverhouding (§3.3) | Voor eigen medewerkers 1, 18, 21, 23, 24 en 83 |
 | A6 | Aanvullende selectiecriteria (§3.4) | Loon groter dan nul en verloonde uren groter dan nul, getoetst over het venster |
 | A3 | Medewerkers uit dienst binnen het venster (§3.6) | Meenemen zolang er loon in het venster valt |
 | A4 | Medewerkers zonder functiecategorie (§3.7) | Wel in de tabel, zonder vergelijkingscijfers; de KPI's tonen niets en we signaleren het niet aan de klant |
@@ -2751,7 +2556,7 @@ Aanleiding was de vraag om het datamodel in één keer met de juiste gelaagdheid
 | --- | --- | --- | --- |
 | F3 | Aantal lagen (§5.1) | Drie lagen: brontabel, standregel en verdichte tabel | Vier lagen; er komt een peilperiode boven, die de afbakening, de status en de definitieversie vastlegt |
 | F4 | Sleutel van de standregel en de verdichte tabel (§5.4, §5.5) | Eén stand per dienstverband, respectievelijk per rapportagenummer en functiecategorie | De peilperiode zit in de sleutel, zodat een venster en een kalenderjaar naast elkaar bestaan |
-| F5 | Aard arbeidsverhouding en soort inkomstenverhouding (§5.3) | Alleen op de standregel, als momentopname | Ook per periode in de brontabel; het zijn per tijdvak vastgelegde loonaangiftegegevens die binnen een jaar kunnen wijzigen · sinds blok AN bepaalt de aard niet meer de populatie |
+| F5 | Aard arbeidsverhouding en soort inkomstenverhouding (§5.3) | Alleen op de standregel, als momentopname | Ook per periode in de brontabel; het zijn per tijdvak vastgelegde loonaangiftegegevens die binnen een jaar kunnen wijzigen |
 | F6 | Loonkloofpercentages (§5.5, §6.5) | Niet vastleggen; de KPI rekent ze uit twee regels | Vastleggen op de totaalregel. De KPI leest en rekent niet, en een vastgestelde rapportage bevat het percentage dat destijds is verstrekt · de totaalregel is met I7 vervangen door de regel per functiecategorie |
 | F7 | Mediaan (§5.5) | Valt buiten het model | Blijft buiten de stamkaart, maar het model heeft er velden voor · **herzien met K1: die worden vanaf fase 1 gevuld** |
 | F8 | Bewaartermijn brontabel (§5.6) | Twaalf of dertien perioden | Het lopende en het voorgaande kalenderjaar, als parameter · **opnieuw herzien op 8 september 2026, zie blok G** |
@@ -2847,7 +2652,7 @@ Aanleiding was een doorlichting op onduidelijkheden, aannames en gaten. Vier bev
 | L1 | Periodetabellen (§4.3, §5.4) | Maand, vier weken, dertien perioden of week | Profit kent er acht; dertien perioden is er géén van, maar het aantal tijdvakken dat de vierwekentabel oplevert. We ondersteunen **maand, vier weken en week**. Jaar, halfjaar, kwartaal, twee weken en halve maand vallen buiten scope: elke variant vraagt een eigen omrekenregel terwijl ze zeldzaam zijn |
 | L2 | De 53e week (§4.3) | Genegeerd; altijd dertien tijdvakken | Profit kent een restperiode met het veld Week53Processing. Valt die binnen het venster, dan telt hij mee als veertiende tijdvak. Anders mist een weekverloner in zo'n jaar één week loon in de wettelijke grondslag |
 | L3 | Meerdere periodetabellen bij één werkgever (§4.3, §5.2) | Aangenomen dat het eindpunt per werkgever geldt | Komt voor: maandbetaalden naast weekbetaalden. Het eindpunt wordt per werkgever **en periodetabel** bepaald. De begin- en einddatum op laag 0 zijn daarom indicatief; de exacte grenzen staan per arbeidsverhouding |
-| L4 | Peilmoment van het populatiefilter (§3.5) | Niet belegd; §5.3 en §5.4 noemden verschillende peilmomenten | Soort inkomstenverhouding en aard arbeidsverhouding toetsen we **per tijdvak**; alleen kwalificerende tijdvakken tellen mee. Loon en uren toetsen we over het venster als geheel. De ultimo-waarde op de regel is een kenmerk, niet de filterwaarde · sinds blok AN komt daar de **soort medewerker** bij, getoetst bij het vullen van de brontabellen · sinds AN13 worden alle drie de filters per tijdvak bij het vullen van de brontabellen getoetst |
+| L4 | Peilmoment van het populatiefilter (§3.5) | Niet belegd; §5.3 en §5.4 noemden verschillende peilmomenten | Soort inkomstenverhouding en aard arbeidsverhouding toetsen we **per tijdvak**; alleen kwalificerende tijdvakken tellen mee. Loon en uren toetsen we over het venster als geheel. De ultimo-waarde op de regel is een kenmerk, niet de filterwaarde |
 | L5 | Nul verloonde uren (§6.1, §8.6, §8.7) | Zowel selectiecriterium als schermmelding | De melding vervalt. Uren groter dan nul blijft selectiecriterium, dus het geval kan zich op de regel niet voordoen. Per tijdvak mag het aantal wel nul zijn |
 | L6 | Lege geslachtsgroep (§6.5, §8.6) | Alleen het geval zonder mannen was belegd | Symmetrisch: ontbreekt een van beide groepen, dan blijven alle acht percentages leeg en tonen we de gevulde kolom wél. Nooit 100%, want dat leest als een maximale loonkloof terwijl er niets te vergelijken valt |
 | L7 | Buiten de populatie vallen (§8.6, §8.7) | Geen schermsituatie | Eigen situatie met een neutrale melding, die ook de niet-ondersteunde periodetabellen en het ontbreken van loon of uren afdekt. De onderliggende reden noemen we niet: die zegt de medewerker niets en is voor hem niet op te lossen |
@@ -3044,7 +2849,7 @@ Aangevuld in blok AA, op 22 september 2026:
 | Nr. | Onderwerp | Was | Is |
 | --- | --- | --- | --- |
 | AA1 | Individu in *Loontransparantie bron extern* (§2, §5.3) | Geen veld voor het individu; de sleutel bestond uit groepskenmerken plus het nummer van de inkomstenverhouding | Er komt een sleutelveld **Kenmerk arbeidskracht**. Zonder dat veld zijn de regels van verschillende personen niet te onderscheiden: het nummer van de inkomstenverhouding begint bij elke arbeidskracht opnieuw bij één, en de overige velden zijn groepskenmerken. Twee mannen in dezelfde functiecategorie zouden dan op één regel vallen, terwijl de gemiddelden, de medianen en de tellingen per arbeidsverhouding gaan. Het kenmerk moet **niet herleidbaar** zijn tot een persoon en **stabiel** over de tijdvakken heen, anders valt één arbeidsverhouding in laag 2 uiteen in losse regels per tijdvak. Hoe de uitlener het bepaalt en uitwisselt hoort bij DP2 |
-| AA2 | Populatiefilter voor uitzendkrachten (§3.2, §3.3, §5.3); sluit T9 | Open punt: welke waarden meetellen lag nog niet vast | **Soort inkomstenverhouding 11, 13, 15 of 17** — dezelfde vier als bij eigen medewerkers, want §3.7.3 van het begrippenkader maakt op dat punt geen onderscheid — en **aard arbeidsverhouding 11** (uitzendkracht), **22** (WSW-detachering) of **82** (payrolling) uit §3.7.2. De toevoeging bij code 11 dat die *alleen bij de inlener* meetelt, slaat op de **rapportage** en niet op de brontabel: de uitlener beschikt over die loongegevens en heeft ze nodig voor het recht op informatie van zijn eigen uitzendkracht (§3.3) · **herzien op 13 oktober 2026 in blok AN**: de filters blijven, maar de aard bepaalt niet meer de populatie; de codes van beide populaties vormen samen één filter |
+| AA2 | Populatiefilter voor uitzendkrachten (§3.2, §3.3, §5.3); sluit T9 | Open punt: welke waarden meetellen lag nog niet vast | **Soort inkomstenverhouding 11, 13, 15 of 17** — dezelfde vier als bij eigen medewerkers, want §3.7.3 van het begrippenkader maakt op dat punt geen onderscheid — en **aard arbeidsverhouding 11** (uitzendkracht), **22** (WSW-detachering) of **82** (payrolling) uit §3.7.2. De toevoeging bij code 11 dat die *alleen bij de inlener* meetelt, slaat op de **rapportage** en niet op de brontabel: de uitlener beschikt over die loongegevens en heeft ze nodig voor het recht op informatie van zijn eigen uitzendkracht (§3.3) |
 | AA3 | Vullen van *Loontransparantie bron uitzendkrachten* en van laag 2 en 3 voor die populatie (§1.4, §5.3, §5.4, §5.5, §7.4, hoofdstuk 10 en 11); herziet Z1 en Z2 | Ontwerpen in DP1, vullen in DP3 | **Alles in DP1.** Het datamodel en het berekenen van de gegevens zijn voor beide populaties hetzelfde werk: hetzelfde venster, dezelfde acht grootheden, dezelfde gemiddelden en medianen. Door het te splitsen zou de berekening twee keer worden geraakt en twee keer getest. De basis komt daarom in één keer, en DP3 houdt over wat echt anders is: de **uitwisseling tussen uitlener en inlener** |
 | AA4 | Nieuw deelproject DP5 – Functiecategorie en flex (hoofdstuk 11); herplaatst Q1 | Functiegroepen-model, uitvraagformulier en plaatsinggegevens hoorden bij DP3 | Die drie onderwerpen vormen **DP5**. Ze gaan niet over uitwisseling maar over **inrichting**, en ze zijn nodig vóórdat de rapportage over 2027 wordt opgebouwd. DP5 komt daarom **tussen DP1 en DP2**; de volgorde wordt DP1 → DP5 → DP2 → DP3, met DP4 parallel |
 | AA5 | Triggerregel bij een mutatie op de plaatsing (§7.2) | Niet uitgewerkt | **Geen triggerregel.** De plaatsing zelf verandert de loongegevens niet; die komen uit de salarisverwerking, en die schrijft al een triggerregel. Een wijziging in de functie of de functiecategorie op de plaatsing werkt door via dezelfde route als bij een eigen medewerker: de eerstvolgende verwerking neemt de nieuwe indeling mee. Een eigen triggerregel zou de zwaarste run onnodig vaak starten · **herzien op 6 oktober 2026 in blok AI, punt AI2**: de afwijkende functiecategorie op de plaatsing schrijft wél een triggerregel weg. Voor de overige plaatsingmutaties blijft dit besluit gelden |
@@ -3087,9 +2892,9 @@ Besloten in blok AD, bij het nalopen van de sectie op 24 september 2026:
 
 | Nr. | Onderwerp | Was | Is |
 | --- | --- | --- | --- |
-| AD1 | Titel van tegel 1 (§8.2, §8.7) | *Mijn uurloon* | **Gemiddeld uurloon**. Het bedrag is een gemiddelde over twaalf maanden en geen actueel uurtarief; dat hoort in de titel te staan en niet pas in de uitleg · **herzien op 19 oktober 2026**: de titel wordt een vraag, het gemiddelde verhuist naar het bijschrift. Zie blok AO, punten AO1 en AO2 |
+| AD1 | Titel van tegel 1 (§8.2, §8.7) | *Mijn uurloon* | **Gemiddeld uurloon**. Het bedrag is een gemiddelde over twaalf maanden en geen actueel uurtarief; dat hoort in de titel te staan en niet pas in de uitleg |
 | AD2 | Titel van tegel 2 (§8.2, §8.7) | *Uurloon vergeleken* | **Gemiddeld uurloon binnen functiecategorie**. Maakt in de titel zelf duidelijk over welke groep het gaat. *Vergeleken* is er op 24 september weer uit gehaald: dat de staven naast elkaar staan zie je al, en de titel werd er alleen langer van |
-| AD3 | Bijschrift onder tegel 1 (§8.2, §8.7); volgt uit AD1 | *Gemiddeld uurloon* | **Vervalt.** Na AD1 zou het de titel woordelijk herhalen. De tegel bestaat nu uit titel, subtitel en bedrag · **herzien op 19 oktober 2026**: het bijschrift wordt *gemiddeld per uur*. Zie blok AO, punt AO2 |
+| AD3 | Bijschrift onder tegel 1 (§8.2, §8.7); volgt uit AD1 | *Gemiddeld uurloon* | **Vervalt.** Na AD1 zou het de titel woordelijk herhalen. De tegel bestaat nu uit titel, subtitel en bedrag |
 | AD4 | Plaats van het tabblad (§8.1) | Alleen vastgelegd dat het een sectie op de standaard stamkaart is | Het tabblad **Loontransparantie** komt op de **onderste plek** in de groep *Salaris*. De tabbladen erboven horen bij lopende zaken — declaratie, voorschot, loonstrook — en die wil je niet naar beneden duwen voor een pagina die een paar keer per jaar wordt geopend |
 | AD5 | Grondslag van het individueel loonverschil (§2, §3.8, §5.4, §5.5, §6.3, §6.4, §6.5, §7.3, §8.2, §8.6, §8.7, §9.4); herziet AC5 en laat AC11 vervallen | Het gemiddelde totaal uurloon van het **eigen geslacht** binnen de functiecategorie | Het gemiddelde totaal uurloon van de **hele functiecategorie**, alle geslachten samen. Afzetten tegen het eigen geslacht draait de wettelijke norm om: de richtlijn gaat juist over gelijke beloning **ongeacht** geslacht, en dan is "wat mannen gemiddeld verdienen" of "wat vrouwen gemiddeld verdienen" de verkeerde maatstaf. Gevolgen: er komt een veld **Gemiddeld totaal uurloon categorie** op laag 3, medewerkers met geslacht X of zonder ingevuld geslacht zien de tegel nu **wél**, en de schermtekst noemt geen geslacht meer |
 | AD6 | Wat de actieknop Vraag aan HR start (§8.1, hoofdstuk 11); herziet S7 | Direct het profiel **Recht op informatie** van het type dossieritem Vraag aan HR | De **profielkeuzepagina**, zodat de medewerker zelf kiest. Dat profiel levert dezelfde cijfers op als de pagina waar hij net vandaan komt, alleen in een rapport — terwijl wie hier klikt juist vaak een andere vraag heeft |
@@ -3208,56 +3013,6 @@ Aanleiding is het gedrag van de tegels 4 en 5 op het scherm. Een positief loonve
 | AM7 | Grondslag van het individuele loonverschil in de lopende tekst van §6.5 | §6.5 schreef nog dat de medewerker wordt afgezet tegen "het gemiddelde van de **eigen** geslachtsgroep" | **Hersteld.** Dat was blijven staan na de wijziging van 24 september 2026 (punt AD5) en sprak de rest van het ontwerp tegen: de noemer is het gemiddelde van de **hele** functiecategorie, alle geslachten samen. Een losse correctie, geen nieuwe keuze |
 | AM8 | Conversie van reeds berekende percentages (§7.7) | Niet aan de orde | **Geen conversie.** Deze wijziging landt vóór de eerste uitlevering van Profit 9, en de conversie vult de triggertabel over heel 2026 (besluit 86), dus de eerste dagovergang rekent alles met de nieuwe formule door. Er bestaat geen gegeven met het oude teken. Expliciet vastgelegd omdat de taak alleen rekent waarvoor een triggerregel openstaat (§7.3): zonder dat conversiemechanisme zou een werkgever zonder salarisverwerking op de oude waarden blijven staan |
 | AM9 | Onderwerp van tegel 5 (§8.2, §8.7) | Niet benoemd; het bijschrift wisselde bij een positieve uitkomst van onderwerp naar de mannen | Het percentage van tegel 5 beschrijft de **vrouwen als groep** en niet de lezer: een man in een categorie waar vrouwen minder verdienen ziet een min, terwijl hij zelf meer verdient. Het bijschrift benoemt daarom altijd beide groepen en het percentage staat nooit zonder bijschrift op het scherm. De vrouwen blijven daarbij in **alle drie** de varianten het onderwerp — bij een plus staat er *Vrouwen verdienen gemiddeld meer dan mannen* en niet *Mannen verdienen gemiddeld minder dan vrouwen* — zodat het bijschrift in dezelfde volgorde leest als de teller van de formule (§6.5). Bij tegel 4 is het onderwerp juist de medewerker zelf en blijft geslacht eruit. De titel *Verschil uurloon mannen/vrouwen* blijft ongewijzigd; het bijschrift draagt de richting |
-| AM10 | Bijschrift bij een uitkomst van nul (§8.2, §8.7) | Twee varianten per tegel: meer of minder | **Drie varianten per tegel.** Komt het percentage op 0,00 uit, dan is een bijschrift met *meer* of *minder* onjuist. Tegel 4 krijgt *evenveel als het gemiddelde*, tegel 5 krijgt *Mannen en vrouwen verdienen gemiddeld evenveel*. Zonder die derde variant zou er bij 0,00% in tegel 5 staan dat vrouwen minder verdienen. Bij tegel 4 staat dit los van de medewerker die als enige in zijn categorie zit; daar vervalt de tegel (§8.6) · **herzien op 19 oktober 2026**: de tegel blijft staan met een melding, zie blok AP, punt AP4 |
+| AM10 | Bijschrift bij een uitkomst van nul (§8.2, §8.7) | Twee varianten per tegel: meer of minder | **Drie varianten per tegel.** Komt het percentage op 0,00 uit, dan is een bijschrift met *meer* of *minder* onjuist. Tegel 4 krijgt *evenveel als het gemiddelde*, tegel 5 krijgt *Mannen en vrouwen verdienen gemiddeld evenveel*. Zonder die derde variant zou er bij 0,00% in tegel 5 staan dat vrouwen minder verdienen. Bij tegel 4 staat dit los van de medewerker die als enige in zijn categorie zit; daar vervalt de tegel (§8.6) |
 | AM11 | Aanspreekvorm van de schermteksten (§8.7); scherpt de taalkeuze uit blok AC aan | De je-vorm met de aantekening dat team Content bepaalt of de MSS- en plaatsing-stamkaart een eigen formulering krijgen | **Vastgelegd in plaats van opengelaten.** Op de **ESS**-stamkaart geldt de **je-vorm**, op de **MSS**- en de plaatsing-stamkaart de **de-medewerkervorm**: *je*, *jij* en *jouw* worden *de medewerker*. Dat raakt de meldingen, het bijschrift van tegel 4 en de info-teksten van tegel 1, 2 en 4. De teksten van tegel 3 en 5 gaan over een groep en blijven gelijk. Het volgt de splitsing die tegel 2 al kende met *Jij* tegenover *Medewerker*. Blok AC noteerde "overal de je-vorm"; dat gold voor de ESS-stamkaart |
 | AM12 | Tegel 4 bij een lege geslachtsgroep (§8.6) | §8.6 liet tegel 4 én tegel 5 leeg als er geen mannen of geen vrouwen in de functiecategorie zijn | **Alleen tegel 5 blijft leeg.** Tegel 4 rekent sinds blok AD, punt AD5 tegen het gemiddelde van de héle functiecategorie, en dat bestaat ongeacht de samenstelling. De oude regel dateerde uit de tijd dat de tegel tegen het eigen geslacht rekende. Een losse correctie, net als AM7 |
-
-Besloten in blok AN, de indeling in medewerkers en uitzendkrachten, op 13 oktober 2026:
-
-Aanleiding is onderzoek ON-10, dat de aard arbeidsverhouding op AFAS Online naast de verloningsvariant heeft gelegd, en de nieuwe verloningsvariant *Plaatsingen verwerken in periodeverloning* uit RHR02179. De aard blijkt niet consequent te worden vastgelegd, en de bouw deelde al niet in op de aard maar op het type periodetabel. In de brainstorm van 13 oktober 2026 is gekozen voor de best uitlegbare regel, met de aantekening dat latere wet- en regelgeving tot bijsturing kan leiden. Het raakt hoofdstuk 2, §3.1, §3.2, §3.3, §3.5, §5.3, §5.4, §5.6, §5.9, §6.1, §6.2, §6.3, §6.7, §7.3, §7.7, §8.1, §8.6, §8.7, §8.8 en hoofdstuk 10 en 11; de sleutels, de formules en de lijstbegrippen wijzigen niet.
-
-| Nr. | Onderwerp | Was | Is |
-| --- | --- | --- | --- |
-| AN1 | Aard arbeidsverhouding (§2, §3.2, §3.3, §5.3, §5.4); herziet A5, AA2 en T9 | Twee populatiefilters: aard 1, 18, 21, 23, 24 en 83 voor medewerkers, aard 11, 22 en 82 voor uitzendkrachten | De aard **bepaalt niet meer de populatie**. ON-10 laat zien dat ze daarvoor niet bruikbaar is: uitzendkrachten bij declaratieverwerking op aard 1 komen bij de medewerkers, en aard 11, 22 en 82 zonder loon per plaatsing komen in een brontabel die niet te vullen is. De aard **blijft wel een filter**, met de negen codes uit het begrippenkader samen — 1, 11, 18, 21, 22, 23, 24, 82 en 83 — voor beide populaties. Zo blijven fictieve dienstbetrekkingen buiten de dataset. Het veld staat op laag 1 en laag 2 |
-| AN2 | Indeling in de brontabellen (§3.3, §5.3, §7.3) | Op aard arbeidsverhouding; de bouw deelde in op het type periodetabel | Op de **verloningsvariant**. Declaratieverwerking gaat **altijd** naar bron uitzendkrachten en nooit naar bron medewerkers. Periodeverwerking gaat naar bron medewerkers, ook als er plaatsingen administratief zijn vastgelegd. *Plaatsingen verwerken in periodeverloning* gaat naar **beide**. Het criterium is of de berekening aan een plaatsing hangt; daarmee kan er nooit een regel ontstaan in een tabel die niet te vullen is |
-| AN3 | Bron medewerkers bij Plaatsingen verwerken in periodeverloning (§3.3, §5.3) | Niet aan de orde | Bron medewerkers bevat **altijd het totaal**, conform de set lijstbegrippen voor medewerkers. Die leveren hun waarde per inkomstenverhouding, en de plaatsingsdienstverbanden vallen onder dezelfde inkomstenverhouding als het hoofddienstverband. Naast het vaste loon zitten daar dus ook de projecttoeslagen van de plaatsingen in. Het alternatief — alleen het restloon na toerekening — valt af: de gedetacheerde wil zich in de eerste plaats vergelijken met de collega's in zijn eigen functiecategorie, op zijn volledige loon |
-| AN4 | Bron uitzendkrachten bij Plaatsingen verwerken in periodeverloning (§3.3, §5.3) | Niet aan de orde | Per plaatsing het **toegerekende deel** van het vaste loon **plus de projecttoeslag**. De projecttoeslag laten we niet weg: die hoort bij wat de gedetacheerde voor zijn werk bij die inlener ontvangt. Het bedrag is een deel van het totaal in bron medewerkers; de twee worden **nooit opgeteld** |
-| AN5 | Payrolling en detacheren op gewone periodeverwerking (§3.3) | Volgens het aard-filter bij de uitzendkrachten, maar daar niet te vullen; in de bouw stilzwijgend bij de medewerkers | **Bewust bij de medewerkers.** Er is wel een plaatsing maar geen loon per plaatsing. Detacheren voelt bovendien meer als eigen organisatie dan als uitzenden. Wie per inlener wil vergelijken, zet de nieuwe variant aan |
-| AN6 | Filter op soort medewerker (§3.2, §3.5, §5.3, §7.3) | Niet aanwezig; het filter in ON-10 telde alleen de soorten die Profit verloont | Een **filter bij het vullen van de brontabellen**. Personeelslid, Ondernemer met salaris en Expat tellen mee. Stagiair met salaris valt af, omdat de stagevergoeding het gemiddelde van de functie drukt waarin de stagiair meeloopt. Nabetaling na uitdienst valt af, wit én groen, omdat eindafrekeningen en vaststellingsovereenkomsten niets zeggen over het loonniveau. De soort medewerker wordt **niet opgeslagen** in de brontabellen: wat erin staat, telt mee |
-| AN7 | Filter op soort inkomstenverhouding (§3.2) | Soort 11, 13, 15 en 17, voor beide populaties | **Ongewijzigd en hard.** Het is het kenmerk waarmee uitkeringen en transitievergoedingen buiten de dataset blijven. Eén uitzondering wordt nog uitgezocht: een UMC met afwijkende afspraken (punt AN-a) |
-| AN8 | Toerekening van het vaste loon aan de plaatsing (§3.3, hoofdstuk 10 en 11) | Niet beschreven | **Uitgangspunt.** Het cao-team levert een aanvullende looninrichting waarmee een deel van het vaste loon aan de plaatsing wordt toegerekend, met een rekencomponent die het salaris terugverdeelt naar het plaatsingsdienstverband. Zonder die toerekening bestaat het loon per plaatsing vrijwel alleen uit de projecttoeslag |
-| AN9 | Eén persoon in twee populaties (§5.4, §5.9, §6.3, §6.7, §8.1, hoofdstuk 11) | Alleen mogelijk bij twee dienstverbanden met een verschillende aard | Ook bij **één inkomstenverhouding** in de nieuwe variant. Voor het recht op informatie is dat juist: elke vergelijking blijft binnen één populatie en één functiecategorie, en de stamkaart toont per populatie de eigen cijfers. Voor de **rapportage** mag de arbeidsverhouding niet twee keer meetellen; dat lost DP2 op |
-| AN10 | Overgang naar de nieuwe variant in 2027 (§7.7) | Niet beschreven | **Geen conversie.** Bron medewerkers loopt zonder breuk door, omdat daar vóór en na de overstap het totaal staat. Bron uitzendkrachten loopt pas vanaf de overstap vol; dat aanvaarden we, net als bij AB1 |
-| AN11 | Melding bij ontbrekende gegevens (§8.6, §8.7, §8.8) | Twee meldingen: één als er nog geen salarisverwerking is, één als de arbeidsverhouding buiten de regeling valt | **Eén generieke melding.** We maken geen onderscheid tussen "(nog) geen loongegevens" en "valt buiten de regeling". De reden zegt de medewerker niets, en een dienstverband dat op soort medewerker afvalt heeft bovendien geen bronregel, zodat het onderscheid alleen met een extra toets op de stamgegevens te maken zou zijn. De melding verwijst naar HR |
-| AN12 | Niveau van bron medewerkers (§3.1, §5.3, §5.4, §6.1, §6.2, §7.3); verduidelijkt L10, L11 en AL1 | Een regel per dienstverband; laag 2 telde de dienstverbanden onder dezelfde inkomstenverhouding op | De lijstbegrippen voor medewerkers leveren hun waarde **per inkomstenverhouding**, dus de brontabel heeft één regel per inkomstenverhouding en tijdvak. Effectief is elk dienstverband een eigen inkomstenverhouding, behalve bij subdienstverbanden: die zijn daardoor **al in de brontabel gegroepeerd**, onder het kapstokdienstverband. Dat geldt ook voor de **negen verklarende bedragen**: die halen we bij medewerkers eveneens per inkomstenverhouding op. De sleutel wijzigt niet; laag 2 hoeft geen dienstverbanden meer op te tellen. Hetzelfde mechanisme neemt bij Plaatsingen verwerken in periodeverloning de plaatsingsdienstverbanden mee in het totaal (AN3) |
-| AN13 | Plaats van de filters (§3.2, §3.5, §5.3, §7.3); herziet de plaats uit L4 en AN6 | Soort medewerker bij het vullen van de brontabellen (stap 3); soort inkomstenverhouding en aard bij het samenstellen van laag 2 (stap 6) | **Alle drie bij het vullen** (stap 3). In de brontabellen staat alleen wat meetelt. Doorslaggevend is dat het Power BI-dashboard laag 1 rechtstreeks leest en de filters anders zelf zou moeten nabouwen: een tweede waarheid naast de taak. De uitkomsten op laag 2 en 3 wijzigen niet, want ook in stap 6 werd per tijdvak getoetst. Kwalificeert een tijdvak bij het opnieuw wegschrijven niet meer, dan verwijdert stap 3 de bronregel. Aanvaard: een latere verruiming van een filter vraagt een eenmalige vulling van de triggertabel, en DP2 moet bevestigen dat het de afgevallen arbeidsverhoudingen niet nodig heeft (punt AN-g). Stap 6 houdt alleen de landtoets over; de toets op loon en uren over het venster (§3.4) blijft op laag 2 |
-
-Besloten in blok AO, de teksten van de tegels, op 19 oktober 2026:
-
-Aanleiding is een wijzigingsverzoek op de tegels uit §8.2 en de teksten uit §8.7, met een verduidelijking over het valutasymbool en de periode op dezelfde dag. De titels worden vragen, de uitleg achter de info-iconen ligt vast en de sectie krijgt een vaste toelichting. Het raakt §3.8, §5.9, §8.1, §8.2, §8.7, §8.8, §9.4 en hoofdstuk 12; de velden, de formules, het vulproces en de bijschriften van tegel 4 en 5 wijzigen niet.
-
-| Nr. | Onderwerp | Was | Is |
-| --- | --- | --- | --- |
-| AO1 | Titels van de tegels (§3.8, §5.9, §8.2, §8.7, §9.4); herziet AD1 en de neutrale koppen uit blok AC | *Gemiddeld uurloon*, *Gemiddeld uurloon binnen functiecategorie*, *Samenstelling functiecategorie*, *Individueel verschil uurloon* en *Verschil uurloon mannen/vrouwen*, op elke stamkaart gelijk | De titel is de **vraag** die de tegel beantwoordt. Tegel 1: *Hoeveel verdien ik per uur?* op ESS, *Hoeveel verdient de medewerker per uur?* op MSS en plaatsing. Tegel 4: *Verdien ik meer of minder dan mijn collega's?* op ESS, *Verdient de medewerker meer of minder dan collega's?* op MSS en plaatsing. Tegel 2 en 3 houden hun titel; tegel 5 heet overal *Wat is het verschil tussen mannen en vrouwen?*. Het pagina-onderdeel en de weergave houden een neutrale kop |
-| AO2 | Bijschrift onder tegel 1 (§8.2, §8.7); herziet AD3 | Geen bijschrift; de titel zei al dat het om een gemiddelde ging | **gemiddeld per uur.** De vraagtitel noemt geen gemiddelde meer, en zonder bijschrift leest het bedrag als het actuele uurtarief |
-| AO3 | Valutasymbool (§8.2, §8.7, §8.8) | Currency, EUR, vast | Het symbool van de valuta in het veld *Valutasymbool* op de **werkgever** van het getoonde dienstverband (AfasHrCurrencyId); is dat leeg, dan dat van de **basisvaluta** van de omgeving. Geldt voor elk bedrag: tegel 1, tegel 2 en de uitleg bij tegel 1, 4 en 5. Er wordt niets omgerekend. De Pocket-connector levert het symbool mee |
-| AO4 | Periodeaanduiding (§8.2, §8.7); bevestigt D1 | *laatste 12 maanden* op alle tegels; verzocht werd die tekst dynamisch te maken op basis van de begin- en einddatum | **Blijft ongewijzigd.** De gegevens gaan steeds over het afgelopen jaar; voor vier weken en week maken we geen eigen tekst. Ook tegel 1, die wel een eigen begin- en einddatum heeft, noemt geen eigen periode, en de uitleg achter het info-icoon noemt vast *12 maanden* |
-| AO5 | Uitleg bij tegel 1 (§8.7) | De opbouw uit basisloon en extra's met het totaal en de verloonde uren | Vastgesteld, in twee vormen: het gemiddelde per uur over de afgelopen 12 maanden, de verloonde uren, het basissalaris per uur en de extra's per uur. Het totaal staat er niet meer in; dat is de waarde van de tegel zelf |
-| AO6 | Info-icoon van tegel 2 en 3 (§8.2, §8.7); herziet de verwijzing in X3 | Een uitleg wat er naast elkaar staat en waar de verdeling over gaat | **Vervalt.** Legenda, hamburger en de aantallen in de donut tonen het al. Dat de donut arbeidsverhoudingen telt en geen personen, gaat naar de help |
-| AO7 | Uitleg bij tegel 4 (§8.2, §8.7); herziet de varianten uit AM11 | Het verschil als bedrag met *meer* of *minder* en het percentage; bij nul viel het slot van de zin weg | Eigen uurloon, het categoriegemiddelde en het verschil als **bedrag en percentage, beide met teken**. Eén zin dekt plus, min en nul, dus er zijn geen varianten meer. Twee vormen: ESS en MSS/plaatsing |
-| AO8 | Uitleg bij tegel 5 (§8.2, §8.7) | De twee gemiddelden, het verschil zonder teken en het percentage, met de zin *Het minteken betekent dat vrouwen minder verdienen* | Het gemiddelde van de vrouwen en van de mannen en het verschil als **bedrag en percentage, beide met teken** (vrouwen min mannen, §6.5). De verklarende zin over het minteken vervalt: bedrag en percentage wijzen dezelfde kant op. Eén vorm voor alle stamkaarten |
-| AO9 | Toelichting van de sectie (§8.1, §8.7) | Niet aanwezig; alleen de toelichting van de werkgever bij de functiecategorie | Een **vaste tekst per stamkaart**: je-vorm op ESS, de-medewerkervorm op MSS, en op de plaatsing met *bij dezelfde opdrachtgever* en *De opdrachtgever heeft bepaald*. Staat naast de toelichting in het pagina-onderdeel *Functie*. Wordt met een **script** geleverd, omdat de tekst nog niet als metagegeven in te checken is (punt AO-a) |
-| AO10 | Status van de teksten (§8.7) | Alle teksten waren een voorstel van het ontwerp, aan te scherpen door team Content | Titels, het bijschrift van tegel 1, de toelichting en de uitleg achter de info-iconen liggen **vast**. De meldingen en de bijschriften van tegel 4 en 5 blijven een voorstel · **aangevuld op 19 oktober 2026**: ook de meldingen liggen vast, zie blok AP |
-
-Besloten in blok AP, de meldingen, op 19 oktober 2026:
-
-Aanleiding is een tweede wijzigingsverzoek op §8.7, dezelfde dag als blok AO. De meldingen krijgen een vaste tekst per toestand, met de tegel waar ze staan. Het raakt §8.2, §8.6, §8.7, §8.8, §9.4 en §9.6; de velden, de formules en het vulproces wijzigen niet.
-
-| Nr. | Onderwerp | Was | Is |
-| --- | --- | --- | --- |
-| AP1 | Meldingen (§8.7); vult AO10 aan | Een voorstel in de je-vorm, zonder vaste plek | Een vaste tekst per **state** — NoPayrollYet, NoJobCategory, RecentFunctionChange, NotApplicable en bij Available geen mannen, geen vrouwen, alleen en functie gewisseld — met de **tegel** waar hij staat en een je-vorm en een de-medewerkervorm. De Pocket-connector geeft dezelfde state terug als reden |
-| AP2 | Melding bij geen loongegevens (§8.6, §8.7); bevestigt AN11 | *Er zijn (nog) geen loongegevens om te tonen. Heb je hier vragen over? Stel ze aan HR.* | *Er zijn (nog) geen **salarisgegevens** om te tonen. Heb je hier vragen over? Stel ze aan HR.* Op tegel 1; de tegels 2 tot en met 5 vervallen. De tekst belooft geen moment, zodat hij ook klopt voor een arbeidsverhouding buiten de regeling. Gelijk op alle stamkaarten. Een tussenvoorstel dat de eerste salarisuitbetaling noemde, valt daarom af |
-| AP3 | Melding bij een recente functiewissel (§8.6, §8.7) | Eén melding bij de sectie | De melding staat op **tegel 1 en tegel 4**, de twee tegels die de eigen regel nodig hebben. De tegels 3 en 5 en de gemiddelden in tegel 2 tonen gewoon hun cijfers |
-| AP4 | De enige in de functiecategorie (§8.2, §8.6, §8.7, §9.4); herziet de regel in §8.6 en AM10 | Tegel 4 vervalt | Tegel 4 **blijft staan**, zonder percentage en met de melding dat de functiecategorie te klein is om te vergelijken. De pagina blijft daarmee steeds gelijk opgebouwd; dat de medewerker alleen staat, bleek al uit tegel 3 |
-| AP5 | Buiten Nederland (§8.6, §8.8, §9.6) | De stamkaart toont de sectie niet en Pocket toont de pagina niet | De stamkaart toont de sectie **nog steeds niet**. **Pocket** toont een melding dat de cijfers alleen gelden voor werk onder de Nederlandse wet; de connector geeft de reden NotApplicable terug. In de app navigeert de medewerker zelf naar de pagina en verwacht hij uitleg |
-| AP6 | Functiewissel binnen het jaar (§8.7, §8.8) | Een melding op de stamkaart | **Alleen in Pocket.** Op de stamkaart is de functie al te zien in de subtitel van tegel 1 |
