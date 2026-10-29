@@ -47,7 +47,6 @@ Controleer deze skills altijd in deze volgorde:
 - portalpagina-insite
 - profielen-en-veldcontexten
 - rapporten
-- schrijfwijzer
 - signalen
 - vertalingen
 - weergaven
