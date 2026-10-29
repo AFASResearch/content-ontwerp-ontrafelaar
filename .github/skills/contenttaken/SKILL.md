@@ -10,6 +10,8 @@ argument-hint: 'Geef het ontwerp of het te analyseren hoofdstuk mee'
 
 Maak een overkoepelend inhoudelijk overzicht van alle contenttaken die in een functioneel ontwerp relevant zijn. De analyse werkt per registrerende skill en bepaalt per skill of die wel of niet voorkomt in het ontwerp. Als er meerdere ontwerpen bij één project horen, dan worden de relevante taken over die ontwerpen heen samengevoegd in één overzicht per skill.
 
+Gebruik alleen die skills die daadwerkelijk leiden tot content- of inrichtingstaken die in het project worden opgezet, aangepast of gecontroleerd. Onderzoeks- of analysewerkzaamheden die alleen in het ontwerp zijn beschreven, maar geen concrete content- of inrichtingstaak opleveren, tellen niet mee.
+
 De output is geschreven om direct te kunnen worden geplakt in Word of OneNote. Gebruik dus geen tabellen, geen complexe markdown-structuur en geen afkortingen die alleen in het systeem werken. Gebruik duidelijke, platte koppen en bullets.
 
 ---
@@ -18,13 +20,14 @@ De output is geschreven om direct te kunnen worden geplakt in Word of OneNote. G
 
 1. Lees alle gekoppelde ontwerpen van het project volledig en controleer per geregistreerde skill of die relevant is.
 2. Als er meerdere ontwerpen in één project staan, voeg je de relevante contenttaken samen per skill en behandel je het project als één totaaloverzicht.
-3. Maak eerst een compacte Ja/Nee-lijst voor alle skills: `Ja` = komt voor in het project, `Nee` = komt niet voor in het project. Gebruik deze lijst als eerste overzicht voordat je de gedetailleerde uitwerking maakt.
-4. Geef daarna voor alle skills een samenvatting met alleen de status.
-5. Als een skill voorkomt in het project, beschrijf je concreet welke content- of inrichtingstaken nodig zijn bij dit project.
-6. Als een skill niet voorkomt, vermeld je dat expliciet en noteer je dat er voor deze skill geen contenttaken zijn vastgesteld. Je werkt deze skill dan niet verder uit.
-7. Als de informatie ontbreekt, noteer je dat expliciet als `te weinig info` en noem je wat ontbreekt.
-8. Gebruik altijd een bronverwijzing naar het relevante ontwerp, bij voorkeur met hoofdstuk/§ | pagina | anker.
-9. Houd de tekst kort, concreet en direct kopieerbaar.
+3. Beoordeel alleen of een skill leidt tot een concrete content- of inrichtingstaak die in het project moet worden opgezet, aangepast of gecontroleerd. Onderzoeks- en analysewerkzaamheden zonder concrete content- of inrichtingseffect tellen niet mee.
+4. Maak eerst een compacte Ja/Nee-lijst voor alle skills: `Ja` = komt voor in het project, `Nee` = komt niet voor in het project. Gebruik deze lijst als eerste overzicht voordat je de gedetailleerde uitwerking maakt.
+5. Geef daarna voor alle skills een samenvatting met alleen de status.
+6. Als een skill voorkomt in het project, beschrijf je concreet welke content- of inrichtingstaken nodig zijn bij dit project.
+7. Als een skill niet voorkomt, vermeld je dat expliciet en noteer je dat er voor deze skill geen contenttaken zijn vastgesteld. Je werkt deze skill dan niet verder uit.
+8. Als de informatie ontbreekt, noteer je dat expliciet als `te weinig info` en noem je wat ontbreekt.
+9. Gebruik altijd een bronverwijzing naar het relevante ontwerp, bij voorkeur met hoofdstuk/§ | pagina | anker.
+10. Houd de tekst kort, concreet en direct kopieerbaar.
 
 ---
 
